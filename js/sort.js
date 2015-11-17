@@ -48,35 +48,61 @@ var model = {
 			author: "Lawrence Kasdan/George Lucas",
 			year: 1983
 		},
-	]
+	],
+	canonBooks: [
+		{
+			title: "Tarkin",
+			author: "James Luceno",
+			year: 2014
+		},
+		{
+			title: "Dark Disciple",
+			author: "Christie Golden",
+			year: 2015
+		},
+		{
+			title: "Heir to the Jedi",
+			author: "Kevin Hearne",
+			year: 2015
+		},
+		{
+			title: "Aftermath",
+			author: "Chuck Wendig",
+			year: 2015
+		},
+	],
 	legends: [
 		{
-			title: "Book 1",
-			author: "John Doe",
-			year: 1999
+			title: "Heir to the Empire (Thrawn 1)",
+			author: "Timothy Zahn",
+			year: 1991
 		},
 		{
-			title: "Book 2",
-			author: "John Doe",
-			year: 2000
+			title: "Dark Force Rising (Thrawn 2)",
+			author: "Timothy Zahn",
+			year: 1992
 		},
 		{
-			title: "Book 3",
-			author: "John Doe",
-			year: 2001
+			title: "The Last Command (Thrawn 3)",
+			author: "Timothy Zahn",
+			year: 1993
 		},
 	],
 
 }
 
 var controller = {
+	init: function() {
+		view.init();
+	}
 
 }
 
 var view = {
 	init: function() {
 		view.renderList("MOVIES", model.movies);
-		view.renderList("BOOKS", model.books);
+		view.renderList("NOVELS", model.canonBooks);
+		view.renderList("LEGENDS", model.legends);
 	},
 	handle: "<span class='handle'>++</span>",
 	renderList: function(id, list) {
@@ -97,3 +123,5 @@ var view = {
 	},
 
 }
+
+controller.init();
