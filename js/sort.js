@@ -113,6 +113,18 @@ var model = {
 			year: 2015
 		},
 	],
+	canonTV: [
+		{
+			title: "The Clone Wars",
+			author: "Dave Filoni",
+			year: 2008
+		},
+		{
+			title: "Rebels",
+			author: "Dave Filoni",
+			year: 2014
+		}
+	],
 	legends: [
 		{
 			title: "Heir to the Empire (Thrawn 1)",
@@ -142,10 +154,11 @@ var controller = {
 
 var view = {
 	init: function() {
-		view.renderList("MOVIES", model.movies);
-		view.renderList("NOVELS", model.canonBooks);
-		view.renderList("COMICS", model.canonComics);
-		view.renderList("LEGENDS", model.legends);
+		view.renderList("Movies", model.movies);
+		view.renderList("Novels_canon", model.canonBooks);
+		view.renderList("Comics_canon", model.canonComics);
+		view.renderList("TV_canon", model.canonTV);
+		view.renderList("Novels_Legends", model.legends);
 	},
 	handle: "<span class='handle'>++</span>",
 	renderList: function(id, list) {
