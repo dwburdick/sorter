@@ -71,6 +71,48 @@ var model = {
 			year: 2015
 		},
 	],
+	canonComics: [
+		{
+			title: "Star Wars",
+			author: "Marvel",
+			year: 2015
+		},
+		{
+			title: "Darth Vader",
+			author: "Marvel",
+			year: 2015
+		},
+		{
+			title: "Princess Leia",
+			author: "Marvel",
+			year: 2015
+		},
+		{
+			title: "Kanan the Last Padawan",
+			author: "Marvel",
+			year: 2015
+		},
+		{
+			title: "Lando",
+			author: "Marvel",
+			year: 2015
+		},
+		{
+			title: "Shattered Empire",
+			author: "Marvel",
+			year: 2015
+		},
+		{
+			title: "Chewbacca",
+			author: "Marvel",
+			year: 2015
+		},
+		{
+			title: "Vader Down",
+			author: "Marvel",
+			year: 2015
+		},
+	],
 	legends: [
 		{
 			title: "Heir to the Empire (Thrawn 1)",
@@ -102,6 +144,7 @@ var view = {
 	init: function() {
 		view.renderList("MOVIES", model.movies);
 		view.renderList("NOVELS", model.canonBooks);
+		view.renderList("COMICS", model.canonComics);
 		view.renderList("LEGENDS", model.legends);
 	},
 	handle: "<span class='handle'>++</span>",
