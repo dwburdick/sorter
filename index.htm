@@ -28,7 +28,7 @@
 		<ol id="ranks" ng-sortable="{group: 'choices'}">MY RANKS
 		</ol>
 		<div><h3>OPTIONS</h3>
-			<ul id="options" ng-sortable="{group: 'choices', handle: '.handle'}">
+			<ul id="options" ng-sortable="{group: {name: 'choices',  pull: 'clone'}, handle: '.handle', sort: false}">
 				<li ng-repeat="item in stories | filter:query" class={{item.type}}>
 					<span class="handle">:: </span><span class="itemTitle">{{item.title}}</span> - ({{item.year}})
 				</li>
