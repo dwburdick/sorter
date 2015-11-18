@@ -10,6 +10,44 @@ var moviesList = Sortable.create(moviesRendered, {
 	handle: ".handle",
 });
 */
+
+var swSort = angular.module('swSort', []);
+
+swSort.controller('swSortCtrl', function ($scope) {
+	$scope.movies = [
+		{
+			title: "Episode I: The Phantom Menace",
+			author: "George Lucas",
+			year: 1999
+		},
+		{
+			title: "Episode II: Attack of the Clones",
+			author: "George Lucas/Jonathan Hales",
+			year: 2002
+		},
+		{
+			title: "Episode III: Revenge of the Sith",
+			author: "George Lucas",
+			year: 2005
+		},
+		{
+			title: "Episode IV: A New Hope",
+			author: "George Lucas",
+			year: 1977
+		},
+		{
+			title: "Episode V: The Empire Strikes Back",
+			author: "Leigh Brackett/Lawrence Kasdan",
+			year: 1980
+		},
+		{
+			title: "Episode VI: Return of the Jedi",
+			author: "Lawrence Kasdan/George Lucas",
+			year: 1983
+		},
+	];
+});
+
 var ranksRendered = document.getElementById('ranks');
 var ranksList = Sortable.create(ranksRendered, {
 	group: "choices",
