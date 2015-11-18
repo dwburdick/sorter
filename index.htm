@@ -16,13 +16,21 @@
 	<title>Sort</title>
 </head>
 <body ng-controller="swSortCtrl">
+	<div>
+		Search: <input ng-model="query">
+	</div>
 	<ol id="ranks">MY RANKS
 	</ol>
-	<ul ng-sortable="{group: 'choices'}">
-		<li ng-repeat="movie in movies">
-			{{movie.title}}
-		</li>
-	</ul>
+	<div><h3>OPTIONS</h3>
+		<ul ng-sortable="{group: 'choices'}">
+			<li ng-repeat="item in stories | filter:query" class={{item.type}}>
+				<span class="itemTitle">{{item.title}}</span> - ({{item.year}})
+			</li>
+		</ul>
+	</div>
+
+
+
 	<script src="js/sort.js"></script>
 </body>
 </html>
