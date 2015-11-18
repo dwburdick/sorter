@@ -19,18 +19,22 @@
 	<div>
 		<div>
 			Search: <input ng-model="query">
+			<button type="button" id="movieButton">movies</button>
+			<button type="button" id="booksCanonButton">books (canon)</button>
+			<button type="button" id="booksLegendsButton">books (legends)</button>
+			<button type="button" id="comicsCanonButton">comics (canon)</button>
+			<button type="button" id="tvButton">tv</button>
 		</div>
 		<ol id="ranks" ng-sortable="{group: 'choices'}">MY RANKS
 		</ol>
 		<div><h3>OPTIONS</h3>
-			<ul ng-sortable="{group: 'choices', handle: '.handle'}">
+			<ul id="options" ng-sortable="{group: 'choices', handle: '.handle'}">
 				<li ng-repeat="item in stories | filter:query" class={{item.type}}>
 					<span class="handle">:: </span><span class="itemTitle">{{item.title}}</span> - ({{item.year}})
 				</li>
 			</ul>
 		</div>
 	</div>
-
 
 	<script src="js/sort.js"></script>
 </body>

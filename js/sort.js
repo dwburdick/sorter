@@ -155,3 +155,29 @@ swSort.controller('swSortCtrl', function ($scope) {
 		}
 	];
 });
+
+$(document).ready(function(){
+	$("#movieButton").click(function(){
+		$("#options .movie").toggle();
+	})
+});
+$(document).ready(function(){
+	$("#booksCanonButton").click(function(){
+		$("#options .booksCanon").toggle();
+	})
+});
+$(document).ready(function(){
+	$("#booksLegendsButton").click(function(){
+		$("#options .booksLegends").toggle();
+	})
+});
+$(document).ready(function(){
+	$("#comicsCanonButton").click(function(){
+		$("#options .comicsCanon").toggle();
+	})
+});
+$(document).ready(function(){
+	$("#tvButton").click(function(){
+		$("#options .tv").toggle();
+	})
+});
