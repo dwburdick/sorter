@@ -1,3 +1,18 @@
 .ghostclass {
 	opacity: 0.4;
 }
+.movie {
+	background-color: #ffcccc;
+}
+.booksCanon {
+	background-color: #d6d6f5;
+}
+.booksLegends {
+	background-color: #f2ffcc;
+}
+.comicsCanon {
+	background-color: #ffccff;
+}
+.tv {
+	background-color: #ffffcc;
+}

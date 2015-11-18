@@ -17,18 +17,19 @@
 </head>
 <body ng-controller="swSortCtrl">
 	<div>
-		Search: <input ng-model="query">
+		<div>
+			Search: <input ng-model="query">
+		</div>
+		<ol id="ranks" ng-sortable="{group: 'choices'}">MY RANKS
+		</ol>
+		<div><h3>OPTIONS</h3>
+			<ul ng-sortable="{group: 'choices', handle: '.handle'}">
+				<li ng-repeat="item in stories | filter:query" class={{item.type}}>
+					<span class="handle">:: </span><span class="itemTitle">{{item.title}}</span> - ({{item.year}})
+				</li>
+			</ul>
+		</div>
 	</div>
-	<ol id="ranks" ng-sortable="{group: 'choices'}">MY RANKS
-	</ol>
-	<div><h3>OPTIONS</h3>
-		<ul ng-sortable="{group: 'choices'}">
-			<li ng-repeat="item in stories | filter:query" class={{item.type}}>
-				<span class="itemTitle">{{item.title}}</span> - ({{item.year}})
-			</li>
-		</ul>
-	</div>
-
 
 
 	<script src="js/sort.js"></script>
