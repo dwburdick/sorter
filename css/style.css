@@ -6,13 +6,17 @@
 }
 .booksCanon {
 	background-color: #d6d6f5;
+	display: none;
 }
 .booksLegends {
 	background-color: #f2ffcc;
+	display: none;
 }
 .comicsCanon {
 	background-color: #ffccff;
+	display: none;
 }
 .tv {
 	background-color: #ffffcc;
+	display: none;
 }
