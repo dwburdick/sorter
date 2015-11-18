@@ -11,16 +11,16 @@
 	<script src="https://cdn.firebase.com/libs/angularfire/1.1.3/angularfire.min.js"></script>
 
 	<script src="js/sortable.min.js"></script>
+	<script src="js/ng-sortable.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<title>Sort</title>
 </head>
 <body ng-controller="swSortCtrl">
 	<ol id="ranks">MY RANKS
 	</ol>
-	<ul>
+	<ul ng-sortable="{group: 'choices'}">
 		<li ng-repeat="movie in movies">
-			<span>{{movie.year}}</span>
-			<p>{{movie.title}} - {{movie.author}}</p>
+			{{movie.title}}
 		</li>
 	</ul>
 	<script src="js/sort.js"></script>

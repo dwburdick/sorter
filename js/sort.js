@@ -11,7 +11,7 @@ var moviesList = Sortable.create(moviesRendered, {
 });
 */
 
-var swSort = angular.module('swSort', []);
+var swSort = angular.module('swSort', ['ng-sortable']);
 
 swSort.controller('swSortCtrl', function ($scope) {
 	$scope.movies = [
