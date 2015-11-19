@@ -13,6 +13,14 @@ var moviesList = Sortable.create(moviesRendered, {
 
 var swSort = angular.module('swSort', ['ng-sortable']);
 
+/* can replace controller with this to call json externally once online
+swSort.controller('swSortCtrl', function ($scope, $http) {
+	$http.get('js/stories.json').success(function(data) {
+    	$scope.stories = data;
+	})
+});
+*/
+
 swSort.controller('swSortCtrl', function ($scope) {
 	$scope.stories = [
 		{
