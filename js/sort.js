@@ -21,6 +21,13 @@ swSort.controller('swSortCtrl', function ($scope, $http) {
 });
 */
 
+Model = {
+	save: function() {
+		myRanks = $("#ranks");
+		saveList = myRanks.stringify();
+	}
+}
+
 swSort.controller('swSortCtrl', function ($scope) {
 	$scope.stories = [
 		{
@@ -162,6 +169,25 @@ swSort.controller('swSortCtrl', function ($scope) {
 			type: "tv"
 		}
 	];
+	$scope.mine = [];
+	saveChoices = function() {
+		console.log($scope.mine);
+		var saveMine = angular.toJson($scope.mine);
+		localStorage.setItem('myChoices', saveMine);
+	};
+	loadChoices = function() {
+		$scope.$apply(function(){
+			var loadMine = angular.fromJson(localStorage.myChoices);
+			console.log(loadMine);
+			$scope.mine = loadMine;
+			console.log($scope.mine);
+		});
+	};
+	clearChoices = function() {
+		$scope.$apply(function(){
+			$scope.mine = [];
+		});
+	};
 });
 
 $(document).ready(function(){

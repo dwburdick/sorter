@@ -26,6 +26,9 @@
 			<button type="button" id="tvButton">tv</button>
 		</div>
 		<ol id="ranks" ng-sortable="{group: 'choices'}">MY RANKS
+			<li ng-repeat="item in mine" class={{item.type}}>
+				<span class="handle">:: </span><span class="itemTitle">{{item.title}}</span> - ({{item.year}})
+			</li>
 		</ol>
 		<div><h3>OPTIONS</h3>
 			<ul id="options" ng-sortable="{group: {name: 'choices',  pull: 'clone'}, handle: '.handle', sort: false}">
