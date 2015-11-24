@@ -25,6 +25,11 @@
 			<button type="button" id="comicsCanonButton">comics (canon)</button>
 			<button type="button" id="tvButton">tv</button>
 		</div>
+		<div>
+			<button type="button" id="loadChoices" onClick="loadChoices()">Load</button>
+			<button type="button" id="saveChoices" onClick="saveChoices()">Save</button>
+			<button type="button" id="clearChoices" onClick="clearChoices()">Clear</button>
+		</div>
 		<ol id="ranks" ng-sortable="{group: 'choices'}">MY RANKS
 			<li ng-repeat="item in mine" class={{item.type}}>
 				<span class="handle">:: </span><span class="itemTitle">{{item.title}}</span> - ({{item.year}})

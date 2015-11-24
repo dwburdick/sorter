@@ -1,32 +1,4 @@
-/*
-var booksRendered = document.getElementById('books');
-var booksList = Sortable.create(booksRendered, {
-	group: "choices",
-	handle: ".handle",
-});
-var moviesRendered = document.getElementById('movies');
-var moviesList = Sortable.create(moviesRendered, {
-	group: "choices",
-	handle: ".handle",
-});
-*/
-
 var swSort = angular.module('swSort', ['ng-sortable']);
-
-/* can replace controller with this to call json externally once online
-swSort.controller('swSortCtrl', function ($scope, $http) {
-	$http.get('js/stories.json').success(function(data) {
-    	$scope.stories = data;
-	})
-});
-*/
-
-Model = {
-	save: function() {
-		myRanks = $("#ranks");
-		saveList = myRanks.stringify();
-	}
-}
 
 swSort.controller('swSortCtrl', function ($scope) {
 	$scope.stories = [
@@ -171,16 +143,13 @@ swSort.controller('swSortCtrl', function ($scope) {
 	];
 	$scope.mine = [];
 	saveChoices = function() {
-		console.log($scope.mine);
 		var saveMine = angular.toJson($scope.mine);
 		localStorage.setItem('myChoices', saveMine);
 	};
 	loadChoices = function() {
 		$scope.$apply(function(){
 			var loadMine = angular.fromJson(localStorage.myChoices);
-			console.log(loadMine);
 			$scope.mine = loadMine;
-			console.log($scope.mine);
 		});
 	};
 	clearChoices = function() {
@@ -190,28 +159,30 @@ swSort.controller('swSortCtrl', function ($scope) {
 	};
 });
 
+var View = {
+	init: function() {
+		$(".booksCanon").css('display', 'none');
+		$(".booksLegends").css('display', 'none');
+		$(".comicsCanon").css('display', 'none');
+		$(".tv").css('display', 'none');
+	}
+}
+
 $(document).ready(function(){
 	$("#movieButton").click(function(){
 		$("#options .movie").toggle();
-	})
-});
-$(document).ready(function(){
+	});
 	$("#booksCanonButton").click(function(){
 		$("#options .booksCanon").toggle();
-	})
-});
-$(document).ready(function(){
+	});
 	$("#booksLegendsButton").click(function(){
 		$("#options .booksLegends").toggle();
-	})
-});
-$(document).ready(function(){
+	});
 	$("#comicsCanonButton").click(function(){
 		$("#options .comicsCanon").toggle();
-	})
-});
-$(document).ready(function(){
+	});
 	$("#tvButton").click(function(){
 		$("#options .tv").toggle();
-	})
+	});
+	View.init();
 });
