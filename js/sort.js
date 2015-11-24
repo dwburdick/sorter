@@ -1,5 +1,23 @@
 var swSort = angular.module('swSort', ['ng-sortable']);
 
+var Model = {
+	saveChoices: function() {
+		var saveMine = angular.toJson(self.mine);
+		localStorage.setItem('myChoices', saveMine);
+	},
+	loadChoices: function() {
+		self.$apply(function(){
+			var loadMine = angular.fromJson(localStorage.myChoices);
+			self.mine = loadMine;
+		});
+	},
+	clearChoices: function() {
+		self.$apply(function(){
+			self.mine = [];
+		});
+	}
+}
+
 swSort.controller('swSortCtrl', function ($scope) {
 	$scope.stories = [
 		{
@@ -142,21 +160,7 @@ swSort.controller('swSortCtrl', function ($scope) {
 		}
 	];
 	$scope.mine = [];
-	saveChoices = function() {
-		var saveMine = angular.toJson($scope.mine);
-		localStorage.setItem('myChoices', saveMine);
-	};
-	loadChoices = function() {
-		$scope.$apply(function(){
-			var loadMine = angular.fromJson(localStorage.myChoices);
-			$scope.mine = loadMine;
-		});
-	};
-	clearChoices = function() {
-		$scope.$apply(function(){
-			$scope.mine = [];
-		});
-	};
+	self = $scope;
 });
 
 var View = {
