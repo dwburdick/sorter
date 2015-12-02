@@ -51,6 +51,9 @@ var Model = {
 }
 
 swSort.controller('swSortCtrl', function ($scope) {
+    $scope.storiesConfig = {
+        ghostClass: "ghostclass",
+    };
 	$scope.stories = [
   {
     "id": 1,
