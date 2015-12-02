@@ -64,6 +64,10 @@ angular.module('swSort', ['ng-sortable'])
         };
         self.mine[self.mine.length] = toAdd;
     };
+    $scope.removeSingle = function(item) {
+        var toRemove = self.mine.indexOf(item);
+        self.mine.splice(toRemove, 1);
+    };
 	$scope.stories = [
   {
     "id": 1,

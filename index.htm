@@ -38,7 +38,7 @@
 				<li class="list-group-item">Drag items to this column </li>
 				<li ng-repeat="item in mine" class="{{item.type + ' ' + item.canon}} list-group-item">
 					<span class="handle"><span class="glyphicon glyphicon-unchecked" aria-hidden="true"></span> </span><span class="itemTitle"><a href="{{item.url}}">{{item.title}}</a></span> - ({{item.year}}) <span class="glyphicon glyphicon-{{item.type}}" aria-hidden="true"></span>
-					<div class="addItem"><span class="glyphicon glyphicon-minus" aria-hidden="true"></div>
+					<div class="addItem"><span class="glyphicon glyphicon-minus" aria-hidden="true" ng-click="removeSingle(item.id)"></div>
 				</li>
 			</ol>
 		</div>
