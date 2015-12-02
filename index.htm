@@ -20,7 +20,6 @@
 		<h1>SWSort <small>Rank Star Wars movies, books, comics and TV</small></h1>
 		</div>
 		<div>
-			<span class="glyphicon glyphicon-search" aria-hidden="true"></span> <input ng-model="query">
 			<button type="button" id="movieButton">movies</button>
 			<button type="button" id="booksCanonButton">books (canon)</button>
 			<button type="button" id="booksLegendsButton">books (legends)</button>
@@ -41,6 +40,7 @@
 		</div>
 		<div class="col-sm-12 col-md-6 list-group"><h3>OPTIONS</h3>
 			<ul id="options" ng-sortable="{group: {name: 'choices',  pull: 'clone', put: 'false'}, handle: '.handle', sort: false}">
+				<li class="list-group-item"><input ng-model="query" class="form-control" placeholder="Filter"></li>
 				<li ng-repeat="item in stories | filter:query" class="{{item.type + ' ' + item.canon}} list-group-item">
 					<span class="handle"><span class="glyphicon glyphicon-unchecked" aria-hidden="true"></span> </span><span class="itemTitle">{{item.title}}</span> - ({{item.year}}) <span class="glyphicon glyphicon-{{item.type}}" aria-hidden="true"></span>
 				</li>
