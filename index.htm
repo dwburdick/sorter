@@ -5,16 +5,18 @@
 
 	<!-- AngularJS -->
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha256-KXn5puMvxCw+dAYznun+drMdG1IFl3agK0p/pqT9KAo= sha512-2e8qq0ETcfWRI4HJBzQiA3UoyFk6tbNyG+qSaIBZLyW9Xf3sWZHN/lxe9fTh1U45DpPf07yj94KsUHHWe4Yk1A==" crossorigin="anonymous"></script>
 
 	<script src="js/sortable.min.js"></script>
 	<script src="js/ng-sortable.js"></script>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-7s5uDGW3AHqw6xtJmNNtr+OBRJUlgkNJEo78P4b0yRw= sha512-nNo+yCHEyn0smMxSswnf/OnX6/KwJuZTlNZBjauKhTK0c+zT+q5JOCx0UFhXQ6rJR9jg6Es8gPuD2uZcYDLqSw==" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<title>Sort</title>
 </head>
 <body ng-controller="swSortCtrl">
 	<div>
 		<div>
-			Search: <input ng-model="query">
+			<span class="glyphicon glyphicon-search" aria-hidden="true"></span> <input ng-model="query">
 			<button type="button" id="movieButton">movies</button>
 			<button type="button" id="booksCanonButton">books (canon)</button>
 			<button type="button" id="booksLegendsButton">books (legends)</button>
@@ -22,8 +24,7 @@
 			<button type="button" id="tvButton">tv</button>
 		</div>
 		<div>
-			<button type="button" id="loadChoices" onClick="Model.loadChoices()">Load</button>
-			<button type="button" id="saveChoices" onClick="Model.saveChoices()">Save</button>
+			<button type="button" id="saveChoices" onClick="Model.saveChoices()"><span class="glyphicon glyphicon-saved" aria-hidden="true"></span></button>
 			<button type="button" id="clearChoices" onClick="Model.clearChoices()">Clear</button>
 		</div>
 		<div id="shareInput">Your URL: <input id="shareUrl"></div>
