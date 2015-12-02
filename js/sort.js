@@ -434,28 +434,25 @@ swSort.controller('swSortCtrl', function ($scope) {
 
 var View = {
 	init: function() {
-		$(".booksCanon").css('display', 'none');
-		$(".booksLegends").css('display', 'none');
-		$(".comicsCanon").css('display', 'none');
-		$(".tv").css('display', 'none');
+		$("#options .book, #options .video, #options .comment").css('display', 'none');
 	}
 }
 
 $(document).ready(function(){
 	$("#movieButton").click(function(){
-		$(".film").toggle()
+		$("#options .film").toggle()
 	});
 	$("#booksCanonButton").click(function(){
-		$(".book.canon").toggle()
+		$("#options .book.canon").toggle()
 	});
 	$("#booksLegendsButton").click(function(){
-		$(".book.legends").toggle()
+		$("#options .book.legends").toggle()
 	});
 	$("#comicsCanonButton").click(function(){
-		$(".comics.canon").toggle()
+		$("#options .comment.canon").toggle()
 	});
 	$("#tvButton").click(function(){
-		$(".tv").toggle();
+		$("#options .video").toggle();
 	});
 	View.init();
     Model.loadChoices();
