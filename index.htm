@@ -30,13 +30,13 @@
 		<div id="shareInput">Your URL: <input id="shareUrl"></div>
 		<ol id="ranks" ng-sortable="{group: 'choices'}">MY RANKS
 			<li ng-repeat="item in mine" class={{item.type}}>
-				<span class="handle">:: </span><span class="itemTitle">{{item.title}}</span> - ({{item.year}})
+				<span class="handle"><span class="glyphicon glyphicon-unchecked" aria-hidden="true"></span> </span><span class="itemTitle">{{item.title}}</span> - ({{item.year}}) <span class="glyphicon glyphicon-{{item.type}}" aria-hidden="true"></span>
 			</li>
 		</ol>
 		<div><h3>OPTIONS</h3>
 			<ul id="options" ng-sortable="{group: {name: 'choices',  pull: 'clone', put: 'false'}, handle: '.handle', sort: false}">
 				<li ng-repeat="item in stories | filter:query" class="{{item.type + ' ' + item.canon}}">
-					<span class="handle">:: </span><span class="itemTitle">{{item.title}}</span> - ({{item.year}})
+					<span class="handle"><span class="glyphicon glyphicon-unchecked" aria-hidden="true"></span> </span><span class="itemTitle">{{item.title}}</span> - ({{item.year}}) <span class="glyphicon glyphicon-{{item.type}}" aria-hidden="true"></span>
 				</li>
 			</ul>
 		</div>
