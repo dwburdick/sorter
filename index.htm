@@ -19,20 +19,12 @@
 		<div class="page-header">
 		<h1>SWSort <small>Rank Star Wars movies, books, comics and TV</small></h1>
 		</div>
-		<div>
-			<button type="button" id="movieButton">movies</button>
-			<button type="button" id="booksCanonButton">books (canon)</button>
-			<button type="button" id="booksLegendsButton">books (legends)</button>
-			<button type="button" id="comicsCanonButton">comics (canon)</button>
-			<button type="button" id="tvButton">tv</button>
-		</div>
-		<div id="shareInput">Your URL: <input id="shareUrl"></div>
 		<div class="col-sm-12 col-md-6  list-group">
 			<div class="ranksHead">
 				<h3>MY RANKS</h3>
 			</div>
 			<div class="ranksButtons">
-				<button type="button" id="saveChoices" onClick="Model.saveChoices()"><span class="glyphicon glyphicon-saved" aria-hidden="true"></span> Save </button><button type="button" id="clearChoices" onClick="Model.clearChoices()"><span class="glyphicon glyphicon-trash" aria-hidden="true"></span> Clear </button>
+				<button type="button" id="saveChoices" onClick="Model.saveChoices()"><span class="glyphicon glyphicon-saved" aria-hidden="true"></span> Save </button><button type="button" id="clearChoices" onClick="Model.clearChoices()"><span class="glyphicon glyphicon-trash" aria-hidden="true"></span> Clear </button><div id="shareInput">Your URL: <input id="shareUrl"></div>
 			</div>
 			<ol id="ranks" ng-sortable="{group: 'choices'}">
 				<li class="list-group-item">Drag items to this column </li>
@@ -42,7 +34,15 @@
 				</li>
 			</ol>
 		</div>
-		<div class="col-sm-12 col-md-6 list-group"><h3>OPTIONS</h3>
+		<div class="col-sm-12 col-md-6 list-group">
+			<div class="optionsHead"><h3>OPTIONS</h3></div>
+			<div class="optionsButtons">
+				<button type="button" id="movieButton">movies</button>
+				<button type="button" id="booksCanonButton">books (canon)</button>
+				<button type="button" id="booksLegendsButton">books (legends)</button>
+				<button type="button" id="comicsCanonButton">comics (canon)</button>
+				<button type="button" id="tvButton">tv</button>
+			</div>
 			<ul id="options" ng-sortable="{group: {name: 'choices',  pull: 'clone', put: 'false'}, handle: '.handle', sort: false}">
 				<li class="list-group-item"><input ng-model="query" class="form-control" placeholder="Filter"></li>
 				<li ng-repeat="item in stories | filter:query" class="{{item.type + ' ' + item.canon}} list-group-item">
