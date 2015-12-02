@@ -11,14 +11,24 @@ var Model = {
         };
         var saveStr = JSON.stringify(saveIDs);
         var urlStr = Base64.encode(saveStr);
-        $("#shareInput").toggle();
-        $("#shareUrl").val("index.htm?list=" + urlStr);
+        $("#shareInput").css("display", "block");
+        $("#shareUrl").val(urlStr);
 	},
 	loadChoices: function() {
-		self.$apply(function(){
-			var loadMine = angular.fromJson(localStorage.myChoices);
-			self.mine = loadMine;
-		});
+		var loadUrl = $("#shareUrl").val();
+        var loadStr = Base64.decode(loadUrl);
+        var loadIDs = JSON.parse(loadStr);
+        var loadArray = [];
+        for (var i = 0, len = loadIDs.length; i < len; i++) {
+            for (var f = 0, len = self.stories.length; f < len; f++) {
+                if (loadIDs[i] === self.stories[f].id) {
+                    loadArray.push(self.stories[f])
+                }
+            }
+        };
+        self.$apply(function(){
+            self.mine = loadArray;
+        });
 	},
 	clearChoices: function() {
 		self.$apply(function(){
