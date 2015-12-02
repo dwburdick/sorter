@@ -16,3 +16,6 @@
 .tv {
 	background-color: #ffffcc;
 }
+#shareInput {
+	display: none;
+}

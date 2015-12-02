@@ -30,6 +30,7 @@
 			<button type="button" id="saveChoices" onClick="Model.saveChoices()">Save</button>
 			<button type="button" id="clearChoices" onClick="Model.clearChoices()">Clear</button>
 		</div>
+		<div id="shareInput">Your URL: <input id="shareUrl"></div>
 		<ol id="ranks" ng-sortable="{group: 'choices'}">MY RANKS
 			<li ng-repeat="item in mine" class={{item.type}}>
 				<span class="handle">:: </span><span class="itemTitle">{{item.title}}</span> - ({{item.year}})
