@@ -17,7 +17,7 @@
 <body ng-controller="swSortCtrl">
 	<div class="container">
 		<div class="page-header">
-		<h1>SWSort <small>Rank Star Wars movies, books, comics and more</small></h1>
+		<h1>SWSort <small>Rank Star Wars movies, books, comics and TV</small></h1>
 		</div>
 		<div>
 			<span class="glyphicon glyphicon-search" aria-hidden="true"></span> <input ng-model="query">
@@ -32,16 +32,16 @@
 			<button type="button" id="clearChoices" onClick="Model.clearChoices()">Clear</button>
 		</div>
 		<div id="shareInput">Your URL: <input id="shareUrl"></div>
-		<div class="col-sm-12 col-md-6">
-			<ol id="ranks" ng-sortable="{group: 'choices'}"><h3>MY RANKS</h3>
-				<li ng-repeat="item in mine" class={{item.type}}>
+		<div class="col-sm-12 col-md-6  list-group"><h3>MY RANKS</h3>
+			<ol id="ranks" ng-sortable="{group: 'choices'}">
+				<li ng-repeat="item in mine" class="{{item.type + ' ' + item.canon}} list-group-item">
 					<span class="handle"><span class="glyphicon glyphicon-unchecked" aria-hidden="true"></span> </span><span class="itemTitle">{{item.title}}</span> - ({{item.year}}) <span class="glyphicon glyphicon-{{item.type}}" aria-hidden="true"></span>
 				</li>
 			</ol>
 		</div>
-		<div class="col-sm-12 col-md-6"><h3>OPTIONS</h3>
+		<div class="col-sm-12 col-md-6 list-group"><h3>OPTIONS</h3>
 			<ul id="options" ng-sortable="{group: {name: 'choices',  pull: 'clone', put: 'false'}, handle: '.handle', sort: false}">
-				<li ng-repeat="item in stories | filter:query" class="{{item.type + ' ' + item.canon}}">
+				<li ng-repeat="item in stories | filter:query" class="{{item.type + ' ' + item.canon}} list-group-item">
 					<span class="handle"><span class="glyphicon glyphicon-unchecked" aria-hidden="true"></span> </span><span class="itemTitle">{{item.title}}</span> - ({{item.year}}) <span class="glyphicon glyphicon-{{item.type}}" aria-hidden="true"></span>
 				</li>
 			</ul>
