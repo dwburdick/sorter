@@ -11,18 +11,25 @@ var Model = {
         };
         var saveStr = JSON.stringify(saveIDs);
         var urlStr = Base64.encode(saveStr);
+        var thisUrl = window.location.href;
         $("#shareInput").css("display", "block");
-        $("#shareUrl").val(urlStr);
+        $("#shareUrl").val(thisUrl + "?" + urlStr);
 	},
 	loadChoices: function() {
-		var loadUrl = $("#shareUrl").val();
-        var loadStr = Base64.decode(loadUrl);
-        var loadIDs = JSON.parse(loadStr);
-        var loadArray = [];
-        for (var i = 0, len = loadIDs.length; i < len; i++) {
-            for (var f = 0, len = self.stories.length; f < len; f++) {
-                if (loadIDs[i] === self.stories[f].id) {
-                    loadArray.push(self.stories[f])
+        var url = window.location.href;
+        if (url.indexOf('?') === -1) {
+            return;
+        } else {
+    		var loadUrl = url.slice(window.location.href.indexOf('?') + 1).split();
+            var decodeUrl = loadUrl.toString();
+            var loadStr = Base64.decode(decodeUrl);
+            var loadIDs = JSON.parse(loadStr);
+            var loadArray = [];
+            for (var i = 0, len = loadIDs.length; i < len; i++) {
+                for (var f = 0, len = self.stories.length; f < len; f++) {
+                    if (loadIDs[i] === self.stories[f].id) {
+                        loadArray.push(self.stories[f])
+                    }
                 }
             }
         };
@@ -429,19 +436,20 @@ var View = {
 
 $(document).ready(function(){
 	$("#movieButton").click(function(){
-		$("#options .movie").toggle();
+		$(".film").toggle()
 	});
 	$("#booksCanonButton").click(function(){
-		$("#options .booksCanon").toggle();
+		$(".book.canon").toggle()
 	});
 	$("#booksLegendsButton").click(function(){
-		$("#options .booksLegends").toggle();
+		$(".book.legends").toggle()
 	});
 	$("#comicsCanonButton").click(function(){
-		$("#options .comicsCanon").toggle();
+		$(".comics.canon").toggle()
 	});
 	$("#tvButton").click(function(){
-		$("#options .tv").toggle();
+		$(".tv").toggle();
 	});
 	View.init();
+    Model.loadChoices();
 });
