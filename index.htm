@@ -34,7 +34,7 @@
 		<div class="col-sm-12 col-md-6  list-group"><h3>MY RANKS</h3>
 			<ol id="ranks" ng-sortable="{group: 'choices'}">
 				<li ng-repeat="item in mine" class="{{item.type + ' ' + item.canon}} list-group-item">
-					<span class="handle"><span class="glyphicon glyphicon-unchecked" aria-hidden="true"></span> </span><span class="itemTitle">{{item.title}}</span> - ({{item.year}}) <span class="glyphicon glyphicon-{{item.type}}" aria-hidden="true"></span>
+					<span class="handle"><span class="glyphicon glyphicon-unchecked" aria-hidden="true"></span> </span><span class="itemTitle"><a href="{{item.url}}">{{item.title}}</a></span> - ({{item.year}}) <span class="glyphicon glyphicon-{{item.type}}" aria-hidden="true"></span>
 				</li>
 			</ol>
 		</div>
@@ -42,7 +42,7 @@
 			<ul id="options" ng-sortable="{group: {name: 'choices',  pull: 'clone', put: 'false'}, handle: '.handle', sort: false}">
 				<li class="list-group-item"><input ng-model="query" class="form-control" placeholder="Filter"></li>
 				<li ng-repeat="item in stories | filter:query" class="{{item.type + ' ' + item.canon}} list-group-item">
-					<span class="handle"><span class="glyphicon glyphicon-unchecked" aria-hidden="true"></span> </span><span class="itemTitle">{{item.title}}</span> - ({{item.year}}) <span class="glyphicon glyphicon-{{item.type}}" aria-hidden="true"></span>
+					<span class="handle"><span class="glyphicon glyphicon-unchecked" aria-hidden="true"></span> </span><span class="itemTitle"><a href="{{item.url}}">{{item.title}}</a></span> - ({{item.year}}) <span class="glyphicon glyphicon-{{item.type}}" aria-hidden="true"></span>
 				</li>
 			</ul>
 		</div>
