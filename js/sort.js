@@ -50,9 +50,19 @@ var Model = {
     }
 }
 
-swSort.controller('swSortCtrl', function ($scope) {
+angular.module('swSort', ['ng-sortable'])
+.controller('swSortCtrl', ['$scope', function ($scope) {
     $scope.storiesConfig = {
         ghostClass: "ghostclass",
+    };
+    $scope.addSingle = function(id) {
+        var toAdd;
+        for (var i = 0, len = self.stories.length; i < len; i++) {
+            if (self.stories[i].id === id) {
+                toAdd = self.stories[i]
+            }
+        };
+        self.mine[self.mine.length] = toAdd;
     };
 	$scope.stories = [
   {
@@ -455,7 +465,7 @@ swSort.controller('swSortCtrl', function ($scope) {
 	$scope.mine = [];
 
 	self = $scope;
-});
+}]);
 
 var View = {
 	init: function() {
