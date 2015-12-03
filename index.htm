@@ -17,7 +17,7 @@
 <body ng-app="swSort" ng-controller="swSortCtrl">
 	<div class="container">
 		<div class="page-header">
-		<h1>SWSort <small>Rank Star Wars movies, books, comics and TV</small></h1>
+		<h1>Star Wars Ranker</h1>
 		</div>
 		<div class="col-sm-12 col-md-6  list-group">
 			<div class="ranksHead">
@@ -28,8 +28,8 @@
 			</div>
 			<ol id="ranks" ng-sortable="{group: 'choices'}">
 				<li class="list-group-item">Drag items to this column </li>
-				<li ng-repeat="item in mine" class="{{item.type + ' ' + item.canon}} list-group-item">
-					<span class="handle"><span class="glyphicon glyphicon-unchecked" aria-hidden="true"></span> </span><span class="itemTitle"><a href="{{item.url}}">{{item.title}}</a></span> - ({{item.year}}) <span class="glyphicon glyphicon-{{item.type}}" aria-hidden="true"></span>
+				<li ng-repeat="item in mine" class="{{item.type + ' ' + item.canon}} list-group-item choice">
+					<span class="handle"><span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span> </span><span class="itemTitle"><a href="{{item.url}}">{{item.title}}</a></span> - ({{item.year}}) <span class="glyphicon glyphicon-{{item.type}}" aria-hidden="true"></span>
 					<div class="addItem"><span class="glyphicon glyphicon-minus" aria-hidden="true" ng-click="removeSingle(item.id)"></div>
 				</li>
 			</ol>
@@ -45,8 +45,8 @@
 			</div>
 			<ul id="options" ng-sortable="{group: {name: 'choices',  pull: 'clone', put: 'false'}, handle: '.handle', sort: false}">
 				<li class="list-group-item"><input ng-model="query" class="form-control" placeholder="Filter"></li>
-				<li ng-repeat="item in stories | filter:query" class="{{item.type + ' ' + item.canon}} list-group-item">
-					<span class="handle"><span class="glyphicon glyphicon-unchecked" aria-hidden="true"></span> </span><span class="itemTitle"><a href="{{item.url}}">{{item.title}}</a></span> - ({{item.year}}) <span class="glyphicon glyphicon-{{item.type}}" aria-hidden="true"></span>
+				<li ng-repeat="item in stories | filter:query" class="{{item.type + ' ' + item.canon}} list-group-item choice">
+					<span class="handle"><div class="grip"><span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span></div><span class="itemTitle"><a href="{{item.url}}">{{item.title}}</a></span> - ({{item.year}}) <span class="glyphicon glyphicon-{{item.type}}" aria-hidden="true"></span>
 					<div class="addItem"><span class="glyphicon glyphicon-plus" aria-hidden="true" ng-click="addSingle(item.id)"></span></div>
 				</li>
 			</ul>
