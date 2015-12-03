@@ -29,7 +29,7 @@
 			<div>Drag items to this column </div>
 			<ul id="ranks" ng-sortable="{group: 'choices'}" style="min-height: 50px">
 				<li ng-repeat="item in mine" class="{{item.type + ' ' + item.canon}} list-group-item choice">
-					<span class="handle"><span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span> </span><span class="itemTitle"><a href="{{item.url}}">{{item.title}}</a></span> ({{item.year}})
+					<span class="handle"><div class="grip"><span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span></div></span><span class="itemTitle"><a href="{{item.url}}">{{item.title}}</a></span> ({{item.year}})
 					<div class="addItem"><span style="float: right" class="glyphicon glyphicon-minus" aria-hidden="true" ng-click="removeSingle(item.id)"></div>
 				</li>
 			</ul>
