@@ -46,8 +46,8 @@
 			</div>
 			<ul id="options" ng-sortable="{group: {name: 'choices',  pull: 'clone', put: 'false'}, handle: '.handle', sort: false}">
 				<li ng-repeat="item in stories | filter:query" class="{{item.type + ' ' + item.canon}} list-group-item choice">
-					<div class="firstRow"><span class="handle"><div class="grip"><span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span></div><span class="itemTitle"><a href="{{item.url}}">{{item.title}} </a></span></div>
-					<div class="secondRow"><div class="addItem"><span class="glyphicon glyphicon-plus" aria-hidden="true" ng-click="addSingle(item.id)"></span></div><span class="authorName">{{item.author}} </span><span class="year">({{item.year}})</span></div>
+					<div class="firstRow"><span class="handle"><div class="grip"><span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span></div><span class="itemTitle"><a href="{{item.url}}">{{item.title}} </a></span><div class="addItem"><span style="float: right" class="glyphicon glyphicon-plus" aria-hidden="true" ng-click="addSingle(item.id)"></span></div></div>
+					<div class="secondRow"><span class="authorName">{{item.author}} </span><span class="year">({{item.year}})</span></div>
 				</li>
 			</ul>
 		</div>
