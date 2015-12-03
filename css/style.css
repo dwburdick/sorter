@@ -20,6 +20,10 @@ a active {
 	color: #fff;
 }
 
+.black {
+	color: #000;
+}
+
 /* layout */
 #shareInput {
 	display: none;
