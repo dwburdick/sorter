@@ -19,6 +19,9 @@
 		<div class="page-header">
 		<h1>Star Wars Ranker</h1>
 		</div>
+		<div class="col-md-12">
+			Drag items with the <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span> or press the <span class="glyphicon glyphicon-plus" aria-hidden="true"></span> to start creating your list.
+		</div>
 		<div class="col-sm-12 col-md-6  list-group">
 			<div class="ranksHead">
 				<h3>MY RANKS</h3>
@@ -26,7 +29,7 @@
 			<div class="ranksButtons">
 				<button type="button" id="saveChoices" onClick="Model.saveChoices()"><span class="glyphicon glyphicon-saved black" aria-hidden="true"></span> Save </button><button type="button" id="clearChoices" onClick="Model.clearChoices()"><span class="glyphicon glyphicon-trash black" aria-hidden="true"></span> Clear </button><div id="shareInput">Your URL: <input id="shareUrl"></div>
 			</div>
-			<div>Drag items to this column </div>
+			<div id="dragHere"><span class="glyphicon glyphicon-arrow-down" aria-hidden="true"></span> Drag items to this column <span class="glyphicon glyphicon-arrow-down" aria-hidden="true"></span></div>
 			<ul id="ranks" ng-sortable="{group: 'choices'}" style="min-height: 50px">
 				<li ng-repeat="item in mine" class="{{item.type + ' ' + item.canon}} list-group-item choice">
 					<span class="handle"><div class="grip"><span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span></div></span><span class="itemTitle"><a href="{{item.url}}">{{item.title}}</a></span> ({{item.year}})
@@ -37,12 +40,12 @@
 		<div class="col-sm-12 col-md-6 list-group">
 			<div class="optionsHead"><h3>OPTIONS</h3></div>
 			<div class="optionsButtons">
-				<button type="button" id="movieButton">movies</button>
-				<button type="button" id="booksCanonButton">books (canon)</button>
-				<button type="button" id="booksLegendsButton">books (legends)</button>
-				<button type="button" id="comicsCanonButton">comics (canon)</button>
-				<button type="button" id="tvButton">tv</button>
-				<input ng-model="query" class="form-control" placeholder="Filter by title, author, series or year">
+				<input type="checkbox" id="movieButton" checked>Movies
+				<input type="checkbox" id="booksCanonButton">Books (canon)
+				<input type="checkbox" id="booksLegendsButton">Books (Legends)
+				<input type="checkbox" id="comicsCanonButton">Comics (Canon)
+				<input type="checkbox" id="tvButton">TV
+				<input ng-model="query" class="form-control filter" placeholder="Filter by title, author, series or year">
 			</div>
 			<ul id="options" ng-sortable="{group: {name: 'choices',  pull: 'clone', put: 'false'}, handle: '.handle', sort: false}">
 				<li ng-repeat="item in stories | filter:query" class="{{item.type + ' ' + item.canon}} list-group-item choice">
