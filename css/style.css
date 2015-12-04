@@ -29,21 +29,38 @@ a:active {
 	color: #fff;
 }
 
-.black {
-	color: #000;
-}
-
 /* layout */
 body {
 	background-color: #000;
 	color: #ccc;
 }
 
+ul {
+	padding-left: 0px;
+}
+
 input.filter {
-	margin: 10px;
 	color: #0099cc;
 	border: 1px solid #0099cc;
 	background-color: #000;
+}
+
+#ranksButtons {
+	text-align: right;
+	margin: 10px;
+}
+
+#ranksButtons div {
+	display: inline;
+	padding: 5px;
+	border: 1px solid #0099cc;
+	border-radius: 5px;
+	margin: 2px;
+	cursor: pointer;
+}
+
+#dragHere {
+	margin: 10px;
 }
 
 #shareInput {
