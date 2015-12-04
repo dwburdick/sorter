@@ -16,7 +16,7 @@
 </head>
 <body ng-app="swSort" ng-controller="swSortCtrl">
 
-	<nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+	<nav class="navbar navbar-default navbar-static-top navbar-inverse">
 		<div class="container">
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -32,6 +32,7 @@
 					<li><a>Share</a></li>
 					<li><a>Examples</a></li>
 					<li><a>About</a></li>
+					<li><a>Donate</a></li>
 				</ul>
 			</div>
 		</div>
@@ -39,14 +40,30 @@
 
 
 	<div class="container">
-		<div class="col-sm-12 col-md-6  list-group">
+		<div class="col-sm-12 col-md-6 list-group">
 			<div class="ranksHead">
 				<h3>MY RANKS</h3>
 			</div>
 			<div id="ranksButtons">
-				<div id="saveChoices" onClick="Model.saveChoices()"><span class="glyphicon glyphicon-saved" aria-hidden="true"></span> Save </div><div id="clearChoices" onClick="Model.clearChoices()"><span class="glyphicon glyphicon-trash" aria-hidden="true"></span> Clear </div>
+				<div id="saveChoices" onClick="Model.saveChoices()" data-toggle="modal" data-target="#shareModal"><span class="glyphicon glyphicon-share" aria-hidden="true"></span> Share </div><div id="clearChoices" onClick="Model.clearChoices()"><span class="glyphicon glyphicon-trash" aria-hidden="true"></span> Clear </div>
 			</div>
-			<div id="shareInput">Your URL: <input id="shareUrl"></div>
+
+			<div class="modal fade" id="shareModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content black">
+						<div class="modal-header gray">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+							<h4 class="modal-title">Share your list</h4>
+						</div>
+						<div class="modal-body">
+							<div id="share">
+								Your URL: <span id="shareUrl"></span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
 			<div id="dragHere">Drag items here with the <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span> or press the <span class="glyphicon glyphicon-plus" aria-hidden="true"></span> to start creating your list.</div>
 			<ul id="ranks" ng-sortable="{group: 'choices'}" style="min-height: 50px">
 				<li ng-repeat="item in mine" class="{{item.type + ' ' + item.canon}} list-group-item choice">

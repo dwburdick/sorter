@@ -45,6 +45,14 @@ input.filter {
 	background-color: #000;
 }
 
+.black {
+	background-color: #1a1a1a;
+}
+
+.gray {
+	background-color: #666;
+}
+
 #ranksButtons {
 	text-align: right;
 	margin: 10px;

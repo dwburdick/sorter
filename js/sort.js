@@ -12,8 +12,7 @@ var Model = {
         var saveStr = JSON.stringify(saveIDs);
         var urlStr = Base64.encode(saveStr);
         var thisUrl = window.location.href;
-        $("#shareInput").css("display", "block");
-        $("#shareUrl").val(thisUrl + "?" + urlStr);
+        $("#shareUrl").text(thisUrl + "?" + urlStr);
 	},
 	loadChoices: function() {
         var url = window.location.href;
