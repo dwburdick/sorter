@@ -39,13 +39,18 @@
 		</div>
 		<div class="col-sm-12 col-md-6 list-group">
 			<div class="optionsHead"><h3>OPTIONS</h3></div>
-			<div class="optionsButtons">
-				<input type="checkbox" id="movieButton" checked>Movies
-				<input type="checkbox" id="booksCanonButton">Books (canon)
-				<input type="checkbox" id="booksLegendsButton">Books (Legends)
-				<input type="checkbox" id="comicsCanonButton">Comics (Canon)
-				<input type="checkbox" id="tvButton">TV
+			<div class="optionsButtons" css="vertical-align: middle">
+				<form>
+				<div class="checkbox">
+				<label><input type="checkbox" id="movieButton" checked>Movies</label>
+				<label><input type="checkbox" id="booksCanonButton">Books (Canon)</label>
+				<label><input type="checkbox" id="booksLegendsButton">Books (Legends)</label>
+				<label><input type="checkbox" id="comicsCanonButton">Comics (Canon)</label>
+				<label><input type="checkbox" id="comicsLegendsButton">Comics (Legends)</label>
+				<label><input type="checkbox" id="tvButton">TV</label>
 				<input ng-model="query" class="form-control filter" placeholder="Filter by title, author, series or year">
+				</div>
+				</form>
 			</div>
 			<ul id="options" ng-sortable="{group: {name: 'choices',  pull: 'clone', put: 'false'}, handle: '.handle', sort: false}">
 				<li ng-repeat="item in stories | filter:query" class="{{item.type + ' ' + item.canon}} list-group-item choice">
