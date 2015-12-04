@@ -10,10 +10,28 @@ var Model = {
             saveIDs.push(self.mine[i].id);
         }
         var saveStr = JSON.stringify(saveIDs);
+        sessionStorage.setItem('order', saveStr);
         var urlStr = Base64.encode(saveStr);
         newUrl = "http://nicetryinternet.com/star-wars-ranker/index.htm?" + urlStr;
         $("#shareUrl").text(newUrl);
         $("meta[property='og\\:url']").attr("content", newUrl);
+    },
+    restoreChoices: function () {
+        if (sessionStorage.order) {
+            loadStr = sessionStorage.order;
+            var loadIDs = JSON.parse(loadStr);
+            var loadArray = [];
+            for (var i = 0, len = loadIDs.length; i < len; i++) {
+                for (var f = 0, fen = self.stories.length; f < fen; f++) {
+                    if (loadIDs[i] === self.stories[f].id) {
+                        loadArray.push(self.stories[f]);
+                    }
+                }
+            }
+        }
+        self.$apply(function(){
+            self.mine = loadArray;
+        });
     },
     loadChoices: function() {
         var url = window.location.href;
@@ -479,7 +497,7 @@ angular.module('swSort', ['ng-sortable'])
             sort: true,
             animation: 50,
             onUpdate: function (evt) {
-                console.log("Ping")
+                Model.saveChoices();
             }
         };
     self = $scope;
@@ -508,5 +526,6 @@ $(document).ready(function(){
         $("#options .video").toggle();
     });
     View.init();
+    Model.restoreChoices();
     Model.loadChoices();
 });
