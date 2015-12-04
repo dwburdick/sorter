@@ -15,13 +15,30 @@
 	<title>Sort</title>
 </head>
 <body ng-app="swSort" ng-controller="swSortCtrl">
+
+	<nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				</button>
+				<span class="navbar-brand">Star Wars Ranker</span>
+			</div>
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav">
+					<li><a>Share</a></li>
+					<li><a>Examples</a></li>
+					<li><a>About</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+
 	<div class="container">
-		<div class="page-header">
-		<h1>Star Wars Ranker</h1>
-		</div>
-		<div class="col-md-12">
-			Drag items with the <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span> or press the <span class="glyphicon glyphicon-plus" aria-hidden="true"></span> to start creating your list.
-		</div>
 		<div class="col-sm-12 col-md-6  list-group">
 			<div class="ranksHead">
 				<h3>MY RANKS</h3>
@@ -29,7 +46,7 @@
 			<div class="ranksButtons">
 				<button type="button" id="saveChoices" onClick="Model.saveChoices()"><span class="glyphicon glyphicon-saved black" aria-hidden="true"></span> Save </button><button type="button" id="clearChoices" onClick="Model.clearChoices()"><span class="glyphicon glyphicon-trash black" aria-hidden="true"></span> Clear </button><div id="shareInput">Your URL: <input id="shareUrl"></div>
 			</div>
-			<div id="dragHere"><span class="glyphicon glyphicon-arrow-down" aria-hidden="true"></span> Drag items to this column <span class="glyphicon glyphicon-arrow-down" aria-hidden="true"></span></div>
+			<div id="dragHere">Drag items here with the <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span> or press the <span class="glyphicon glyphicon-plus" aria-hidden="true"></span> to start creating your list.</div>
 			<ul id="ranks" ng-sortable="{group: 'choices'}" style="min-height: 50px">
 				<li ng-repeat="item in mine" class="{{item.type + ' ' + item.canon}} list-group-item choice">
 					<span class="handle"><div class="grip"><span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span></div></span><span class="itemTitle"><a href="{{item.url}}">{{item.title}}</a></span> ({{item.year}})
@@ -48,7 +65,7 @@
 				<label><input type="checkbox" id="comicsCanonButton">Comics (Canon)</label>
 				<label><input type="checkbox" id="comicsLegendsButton">Comics (Legends)</label>
 				<label><input type="checkbox" id="tvButton">TV</label>
-				<input ng-model="query" class="form-control filter" placeholder="Filter by title, author, series or year">
+				<input ng-model="query" class="form-control filter" placeholder="Filter by title, writer, series or year">
 				</div>
 				</form>
 			</div>

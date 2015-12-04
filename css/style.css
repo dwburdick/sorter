@@ -40,6 +40,8 @@ body {
 }
 
 input.filter {
+	margin: 10px;
+	color: #0099cc;
 	border: 1px solid #0099cc;
 	background-color: #000;
 }
@@ -56,6 +58,7 @@ input.filter {
 	opacity: 0.4;
 	color: #ffcc00;
 }
+
 .film {
 	background-color: #000066;
 }
