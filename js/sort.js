@@ -28,10 +28,11 @@ var Model = {
                     }
                 }
             }
+            self.$apply(function(){
+                self.mine = loadArray;
+            });
         }
-        self.$apply(function(){
-            self.mine = loadArray;
-        });
+
     },
     loadChoices: function() {
         var url = window.location.href;
@@ -56,6 +57,7 @@ var Model = {
         });
     },
     clearChoices: function() {
+        sessionStorage.order = "";
         self.$apply(function(){
             self.mine = [];
         });
@@ -81,10 +83,12 @@ angular.module('swSort', ['ng-sortable'])
             }
         }
         self.mine[self.mine.length] = toAdd;
+        Model.saveChoices();
     };
     $scope.removeSingle = function(item) {
         var toRemove = self.mine.indexOf(item);
         self.mine.splice(toRemove, 1);
+        Model.saveChoices();
     };
 
     $scope.singleMoved = function (evt) {
