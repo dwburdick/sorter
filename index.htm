@@ -74,7 +74,7 @@
 			</div>
 
 			<div id="dragHere">Drag items here with the <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span> or press the <span class="glyphicon glyphicon-plus" aria-hidden="true"></span> to start creating your list.</div>
-			<ul id="ranks" ng-sortable="{group: 'choices'}" style="min-height: 50px">
+			<ul id="ranks" ng-sortable="mineConfig" style="min-height: 50px">
 				<li ng-repeat="item in mine" class="{{item.type + ' ' + item.canon}} list-group-item choice">
 					<span class="handle"><div class="grip"><span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span></div></span><span class="itemTitle"><a href="{{item.url}}">{{item.title}}</a></span> ({{item.year}})
 					<div class="addItem"><span style="float: right" class="glyphicon glyphicon-minus" aria-hidden="true" ng-click="removeSingle(item.id)"></div>

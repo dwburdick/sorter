@@ -68,6 +68,13 @@ angular.module('swSort', ['ng-sortable'])
         var toRemove = self.mine.indexOf(item);
         self.mine.splice(toRemove, 1);
     };
+
+    $scope.singleMoved = function (evt) {
+        var itemEl = evt.item;  // dragged HTMLElement
+        // + indexes from onEnd
+        console.log("ping")
+    };
+
     $scope.stories = [
   {
     "id": 1,
@@ -467,7 +474,14 @@ angular.module('swSort', ['ng-sortable'])
   }
 ];
     $scope.mine = [];
-
+        $scope.mineConfig = {
+            group: {name: 'choices'},
+            sort: true,
+            animation: 50,
+            onUpdate: function (evt) {
+                console.log("Ping")
+            }
+        };
     self = $scope;
 }]);
 
