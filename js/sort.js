@@ -11,8 +11,9 @@ var Model = {
         };
         var saveStr = JSON.stringify(saveIDs);
         var urlStr = Base64.encode(saveStr);
-        var thisUrl = window.location.href;
-        $("#shareUrl").text(thisUrl + "?" + urlStr);
+        var newUrl = "http://nicetryinternet.com/star-wars-ranker/index.htm?" + urlStr
+        $("#shareUrl").text(newUrl);
+        $("meta[property='og\\:url']").attr("content", newUrl);
 	},
 	loadChoices: function() {
         var url = window.location.href;
