@@ -11,7 +11,7 @@ var Model = {
         };
         var saveStr = JSON.stringify(saveIDs);
         var urlStr = Base64.encode(saveStr);
-        var newUrl = "http://nicetryinternet.com/star-wars-ranker/index.htm?" + urlStr
+        newUrl = "http://nicetryinternet.com/star-wars-ranker/index.htm?" + urlStr
         $("#shareUrl").text(newUrl);
         $("meta[property='og\\:url']").attr("content", newUrl);
 	},

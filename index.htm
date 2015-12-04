@@ -21,7 +21,7 @@
 	<script src="js/ng-sortable.js"></script>
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-7s5uDGW3AHqw6xtJmNNtr+OBRJUlgkNJEo78P4b0yRw= sha512-nNo+yCHEyn0smMxSswnf/OnX6/KwJuZTlNZBjauKhTK0c+zT+q5JOCx0UFhXQ6rJR9jg6Es8gPuD2uZcYDLqSw==" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<title>Sort</title>
+	<title>Star Wars Ranker: From best to worst, share your favorites</title>
 </head>
 <body ng-app="swSort" ng-controller="swSortCtrl">
 
@@ -65,26 +65,8 @@
 							<h4 class="modal-title">Share your list</h4>
 						</div>
 						<div class="modal-body">
-
-							<div id="fb-root"></div>
-							<script>(function(d, s, id) {
-							var js, fjs = d.getElementsByTagName(s)[0];
-							if (d.getElementById(id)) return;
-							js = d.createElement(s); js.id = id;
-							js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1";
-							fjs.parentNode.insertBefore(js, fjs);
-							}(document, 'script', 'facebook-jssdk'));</script>
-
-							<!-- Your share button code -->
-							<div id="fb-share" class="fb-share-button"
-							data-href="http://nicetryinternet.com/star-wars-ranker/index.htm"
-							data-layout="button">
-							</div>
-
-
-
 							<div id="share">
-								Your URL: <span id="shareUrl"></span>
+								Your Share URL: <span id="shareUrl"></span>
 							</div>
 						</div>
 					</div>
