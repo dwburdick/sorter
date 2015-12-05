@@ -14,8 +14,8 @@ a:hover {
 }
 
 .choice a,
-a:visited,
-a:active {
+.choice a:visited,
+.choice a:active {
 	color: #ffff00;
 	font-weight: bolder;
 }
@@ -50,6 +50,15 @@ input.filter {
 	background-color: #000;
 }
 
+.myColumn {
+	display: table;
+	width: 100%;
+}
+
+.ranksHead {
+	display: table-cell;
+}
+
 .black,
 .popover-content {
 	background-color: #1a1a1a;
@@ -62,6 +71,7 @@ input.filter {
 #ranksButtons {
 	text-align: right;
 	margin: 10px;
+	display: table-cell;
 }
 
 #ranksButtons div {
