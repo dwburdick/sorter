@@ -51,7 +51,7 @@
 	<div class="container">
 		<div class="col-sm-12 col-md-6 list-group">
 			<div class="ranksHead">
-				<h3>MY RANKS</h3>
+				<h4>MY ORDER</h4>
 			</div>
 			<div id="ranksButtons">
 				<div id="saveChoices" onClick="Model.saveChoices()" data-toggle="modal" data-target="#shareModal"><span class="glyphicon glyphicon-share" aria-hidden="true"></span> Share </div><div id="clearChoices" onClick="Model.clearChoices()"><span class="glyphicon glyphicon-trash" aria-hidden="true"></span> Clear </div>
@@ -76,13 +76,18 @@
 			<div id="dragHere">Drag items here with the <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span> or press the <span class="glyphicon glyphicon-plus" aria-hidden="true"></span> to start creating your list.</div>
 			<ul id="ranks" ng-sortable="mineConfig" style="min-height: 50px">
 				<li ng-repeat="item in mine" class="{{item.type + ' ' + item.canon}} list-group-item choice">
-					<span class="handle"><div class="grip"><span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span></div></span><span class="itemTitle"><a href="{{item.url}}">{{item.title}}</a></span> ({{item.year}})
-					<div class="addItem"><span style="float: right" class="glyphicon glyphicon-minus" aria-hidden="true" ng-click="removeSingle(item.id)"></div>
+					<div class="item">
+						<div class="grip"><span class="glyphicon glyphicon-menu-hamburger handle" aria-hidden="true"></span></div>
+						<div class="itemContent">
+							<div class="firstRow"><span class="itemTitle"><a href="{{item.url}}">{{item.title}} </a></span>({{item.year}})</div>
+						</div>
+						<div class="addItem"><span style="float: right" class="glyphicon glyphicon-minus" aria-hidden="true" ng-click="removeSingle(item.id)"></span></div>
+					</div>
 				</li>
 			</ul>
 		</div>
 		<div class="col-sm-12 col-md-6 list-group">
-			<div class="optionsHead"><h3>OPTIONS</h3></div>
+			<div class="optionsHead"><h4>OPTIONS</h4></div>
 			<div class="optionsButtons" css="vertical-align: middle">
 				<form>
 				<div class="checkbox">
@@ -98,8 +103,14 @@
 			</div>
 			<ul id="options" ng-sortable="{group: {name: 'choices',  pull: 'clone', put: 'false'}, handle: '.handle', sort: false}">
 				<li ng-repeat="item in stories | filter:query" class="{{item.type + ' ' + item.canon}} list-group-item choice">
-					<div class="firstRow"><span class="handle"><div class="grip"><span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span></div><span class="itemTitle"><a href="{{item.url}}">{{item.title}} </a></span><div class="addItem"><span style="float: right" class="glyphicon glyphicon-plus" aria-hidden="true" ng-click="addSingle(item.id)"></span></div></div>
-					<div class="secondRow"><span class="authorName">{{item.author}} </span><span class="year">({{item.year}})</span></div>
+					<div class="item">
+						<div class="grip"><span class="glyphicon glyphicon-menu-hamburger handle" aria-hidden="true"></span></div>
+						<div class="itemContent">
+							<div class="firstRow"><span class="itemTitle"><a href="{{item.url}}">{{item.title}} </a></span></div>
+							<div class="secondRow"><span class="authorName">{{item.author}} </span><span class="year">({{item.year}})</span></div>
+						</div>
+						<div class="addItem"><span style="float: right" class="glyphicon glyphicon-plus" aria-hidden="true" ng-click="addSingle(item.id)"></span></div>
+					</div>
 				</li>
 			</ul>
 		</div>

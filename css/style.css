@@ -46,7 +46,7 @@ ul {
 
 input.filter {
 	color: #0099cc;
-	border: 1px solid #0099cc;
+	border: 1px solid #9b99af;
 	background-color: #000;
 }
 
@@ -67,7 +67,7 @@ input.filter {
 #ranksButtons div {
 	display: inline;
 	padding: 5px;
-	border: 1px solid #0099cc;
+	border: 1px solid #9b99af;
 	border-radius: 5px;
 	margin: 2px;
 	cursor: pointer;
@@ -91,7 +91,19 @@ input.filter {
 }
 
 .film {
-	background-color: #000066;
+	background-color: #020016;
+}
+
+.book {
+	background-color: #030021;
+}
+
+.comics {
+	background-color: #02001c;
+}
+
+.tv {
+	background-color: #04002c;
 }
 
 .grip {
@@ -107,16 +119,31 @@ input.filter {
 	cursor: -webkit-grabbing; cursor: -moz-grabbing;
 }
 
-.addItem {
-	display: inline;
-	padding: 4px;
-	margin: 4px;
-	cursor: pointer;
+.item {
+	display: table;
+	width: 100%;
 }
 
-@media screen and (max-width: 700px) {
+.addItem {
+	cursor: pointer;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: right;
+}
+
+.itemContent {
+	vertical-align: middle;
+}
+
+.grip {
+	float: left;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+@media screen and (max-width: 991px) {
 	.grip {
-		font-size: 2em
+		font-size: 2em;
 	}
 	.addItem .glyphicon {
 		font-size: 2em;
