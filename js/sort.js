@@ -529,6 +529,9 @@ $(document).ready(function(){
     $("#tvButton").click(function(){
         $("#options .video").toggle();
     });
+    $(function () {
+        $('[data-toggle="popover"]').popover()
+    });
     View.init();
     Model.restoreChoices();
     Model.loadChoices();

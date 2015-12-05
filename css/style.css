@@ -45,7 +45,8 @@ input.filter {
 	background-color: #000;
 }
 
-.black {
+.black,
+.popover-content {
 	background-color: #1a1a1a;
 }
 
