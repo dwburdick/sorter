@@ -30,6 +30,11 @@ a:active {
 }
 
 /* layout */
+
+html {
+    overflow-y: scroll;
+}
+
 body {
 	background-color: #000;
 	color: #ccc;
