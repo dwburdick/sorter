@@ -32,6 +32,11 @@ h4 {
 	font-family: 'Play', 'Arial Black', sans-serif;
 }
 
+.rank {
+	font-family: 'Play', sans-serif;
+	color: #ffff00;
+}
+
 .lead {
 	font-family: 'Play', sans-serif;
 }
