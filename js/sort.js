@@ -500,6 +500,7 @@ angular.module('swSort', ['ng-sortable'])
             group: {name: 'choices'},
             sort: true,
             animation: 50,
+            handle: '.handle',
             onUpdate: function (evt) {
                 Model.saveChoices();
             }
