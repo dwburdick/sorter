@@ -23,6 +23,26 @@
 	<title>Star Wars Ranker: From best to worst, share your favorites</title>
 </head>
 <body ng-app="swSort" ng-controller="swSortCtrl">
+	<div id="fb-root"></div>
+
+<!-- Load Facebook SDK for JavaScript -->
+	<script>
+		window.fbAsyncInit = function() {
+			FB.init({
+				appId      : '1213836965309492',
+				xfbml      : true,
+				version    : 'v2.5'
+			});
+		};
+
+		(function(d, s, id){
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) {return;}
+			js = d.createElement(s); js.id = id;
+			js.src = "http://connect.facebook.net/en_US/sdk.js";
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+	</script>
 
 	<nav class="navbar navbar-default navbar-static-top navbar-inverse">
 		<div class="container">
@@ -66,6 +86,8 @@
 						</div>
 						<div class="modal-body">
 							<div id="share">
+								<div class="fb-share-button" id="fb-share" data-layout="button_count" onclick="FB.ui({method: 'share', href: newUrl,}, function(response){});">
+								</div>
 								Your Share URL: <span id="shareUrl"></span>
 							</div>
 						</div>
@@ -114,7 +136,6 @@
 			</ul>
 		</div>
 	</div>
-
 	<script src="js/sort.js"></script>
 </body>
 </html>
