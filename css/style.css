@@ -1,4 +1,7 @@
 /* type */
+
+@import url(https://fonts.googleapis.com/css?family=Play:700);
+
 body a,
 a:visited,
 a:active,
@@ -10,7 +13,11 @@ a:hover {
 h4 {
 	font-size: 1em;
 	text-transform: uppercase;
-	font-family: 'Arial Black', sans-serif;
+	font-family: 'Play', 'Arial Black', sans-serif;
+}
+
+.lead {
+	font-family: 'Play', sans-serif;
 }
 
 .choice {
@@ -166,7 +173,20 @@ input.filter {
 	.grip {
 		font-size: 2em;
 	}
+	.checkbox {
+		font-size: 1.5em;
+	}
 	.addItem .glyphicon {
 		font-size: 2em;
 	}
+
+	input[type=checkbox],
+    {
+        /* Double-sized Checkboxes */
+        -ms-transform: scale(1.75); /* IE */
+        -moz-transform: scale(1.75); /* FF */
+        -webkit-transform: scale(1.75); /* Safari and Chrome */
+        -o-transform: scale(1.75); /* Opera */
+        padding: 10px;
+    }
 }
