@@ -150,7 +150,7 @@
 				</div>
 				</form>
 			</div>
-			<ul id="options" ng-sortable="{group: {name: 'choices',  pull: 'clone', put: 'false'}, handle: '.handle', sort: false}">
+			<ul id="options" ng-sortable="{group: {name: 'choices',  pull: 'true', put: 'true'}, handle: '.handle', sort: false}">
 				<li ng-repeat="item in stories | filter:query" class="{{item.type + ' ' + item.canon}} list-group-item choice">
 					<div class="item">
 						<div class="grip"><span class="glyphicon glyphicon-menu-hamburger handle" aria-hidden="true"></span></div>

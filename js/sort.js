@@ -69,12 +69,6 @@ var Model = {
             self.mine = [];
         });
     },
-    addSingle: function(id) {
-        var toAdd = self.stories[id];
-        self.$apply(function(){
-            self.mine[self.mine.length] = toAdd;
-        });
-    }
 };
 
 angular.module('swSort', ['ng-sortable'])
@@ -83,13 +77,13 @@ angular.module('swSort', ['ng-sortable'])
         ghostClass: "ghostclass",
     };
     $scope.addSingle = function(id) {
-        var toAdd;
+        var toAdd = [];
         for (var i = 0, len = self.stories.length; i < len; i++) {
             if (self.stories[i].id === id) {
-                toAdd = self.stories[i];
+                toAdd = self.stories.splice(i, 1);
+                self.mine.push(toAdd[0]);
             }
         }
-        self.mine[self.mine.length] = toAdd;
         Model.saveChoices();
     };
     $scope.removeSingle = function(item) {
