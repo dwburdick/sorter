@@ -6,8 +6,8 @@
 	<meta property="fb:app_id" content="1213836965309492" />
 	<meta property="og:url" content="http://nicetryinternet.com/star-wars-ranker/index.htm" />
 	<meta property="og:type" content="article" />
-	<meta property="og:title" content="Star Wars movies, ranked" />
-	<meta property="og:description" content="There are seven Star Wars movies, so far. You know what the best one is. You know what the worst one is." />
+	<meta property="og:title" content="Star Wars ranker: What's the best? What's the worst? You decide." />
+	<meta property="og:description" content="Is the first Star Wars movie the best one? Where does The Clone Wars TV show fit in? And in which order should they all be watched?" />
 	<meta property="og:image" content="http://nicetryinternet.com/star-wars-ranker/share.jpg" />
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
@@ -43,6 +43,23 @@
 		}(document, 'script', 'facebook-jssdk'));
 	</script>
 
+	<script>window.twttr = (function(d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0],
+		t = window.twttr || {};
+		if (d.getElementById(id)) return t;
+		js = d.createElement(s);
+		js.id = id;
+		js.src = "https://platform.twitter.com/widgets.js";
+		fjs.parentNode.insertBefore(js, fjs);
+
+		t._e = [];
+		t.ready = function(f) {
+		t._e.push(f);
+		};
+
+		return t;
+	}(document, "script", "twitter-wjs"));</script>
+
 	<nav class="navbar navbar-default navbar-static-top navbar-inverse">
 		<div class="container">
 			<div class="navbar-header">
@@ -77,13 +94,25 @@
 				</div>
 			</div>
 			<div class="modal fade" id="shareModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-				<div class="modal-dialog" role="document">
+				<div class="modal-dialog modal-sm" role="document">
 					<div class="modal-content black">
 						<div class="modal-header gray">
 							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 							<h4 class="modal-title">Share your list</h4>
 						</div>
 						<div class="modal-body">
+							<div id="tw-share">
+								<a class="twitter-share-button"
+								href="https://twitter.com/share"
+								data-size="large"
+								data-url="http://nicetryinternet.com/star-wars-ranker"
+								data-related="nicetryinternet,daveburdick,starwars,tordotcom"
+								data-hashtags="starwars"
+								data-text="Everything Star Wars, ranked. By me.">
+								Tweet
+								</a>
+							</div>
+
 							<div id="share">
 								<div class="fb-share-button" id="fb-share" data-layout="button_count" onclick="FB.ui({method: 'share', href: newUrl,}, function(response){});">
 								</div><br>

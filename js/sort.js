@@ -14,7 +14,14 @@ var Model = {
         var urlStr = Base64.encode(saveStr);
         newUrl = "http://nicetryinternet.com/star-wars-ranker/index.htm?" + urlStr;
         $("#shareUrl").text(newUrl);
+        $("#tw-share").html('<a class="twitter-share-button" href="https://twitter.com/share" ' +
+            'data-size="default" data-url="' + newUrl + '" ' +
+            'data-related="nicetryinternet,daveburdick,starwars,tordotcom" ' +
+            'data-hashtags="starwars" data-text="Everything Star Wars, ranked. By me.">' +
+            'Tweet</a><br>');
+        twttr.widgets.load();
         $("meta[property='og\\:url']").attr("content", newUrl);
+
     },
     restoreChoices: function () {
         if (sessionStorage.order) {
@@ -520,7 +527,7 @@ $.getJSON("http://nicetryinternet.com/star-wars-ranker/js/stories.json", functio
     self.$apply();
     View.init();
     Model.restoreChoices();
-    Model.loadChoices();    
+    Model.loadChoices();
 });
 
 $(document).ready(function(){
