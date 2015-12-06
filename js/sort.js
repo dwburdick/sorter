@@ -101,7 +101,7 @@ angular.module('swSort', ['ng-sortable'])
     $scope.singleMoved = function (evt) {
         var itemEl = evt.item;  // dragged HTMLElement
         // + indexes from onEnd
-        console.log("ping")
+        console.log("ping");
     };
 
     $scope.stories = [
@@ -547,7 +547,7 @@ $(document).ready(function(){
         $("#options .video").toggle();
     });
     $(function () {
-        $('[data-toggle="popover"]').popover()
+        $('[data-toggle="popover"]').popover();
     });
     View.init();
 });
