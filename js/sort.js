@@ -67,6 +67,7 @@ var Model = {
             for (var i = 0, len = self.stories.length; i < len; i++) {
                 self.stories[i].added = false;
             }
+            self.mine = [];
         });
     },
 };
