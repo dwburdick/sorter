@@ -36,7 +36,7 @@ var Model = {
                     }
                 }
             }
-            self.$apply();        }
+            }
 
     },
     loadChoices: function() {
@@ -56,7 +56,6 @@ var Model = {
                 }            
             }
         }
-        self.$apply();
     },
     clearChoices: function() {
         sessionStorage.order = "";
@@ -69,7 +68,7 @@ var Model = {
 };
 
 angular.module('swSort', ['ng-sortable'])
-.controller('swSortCtrl', ['$scope', function ($scope) {
+.controller('swSortCtrl', ['$scope', '$http', function ($scope, $http) {
     $scope.storiesConfig = {
         ghostClass: "ghostclass",
     };
@@ -230,294 +229,6 @@ angular.module('swSort', ['ng-sortable'])
     "url": "http://starwars.wikia.com/wiki/Untitled_Han_Solo_Anthology_film",
     "img": 0,
     "added": false
-  },
-  {
-    "id": 12,
-    "title": "Star Wars: From the Adventures of Luke Skywalker",
-    "author": "George Lucas/Alan Dean Foster",
-    "year": 1976,
-    "canon": "canon",
-    "type": "book",
-    "era": "classic",
-    "url": "http://starwars.wikia.com/wiki/Star_Wars_Episode_IV:_A_New_Hope_(novel)",
-    "img": 0,
-    "added": false
-  },
-  {
-    "id": 13,
-    "title": "Splinter of the Mind's Eye",
-    "author": "Alan Dean Foster",
-    "year": 1978,
-    "canon": "legends",
-    "type": "book",
-    "era": "classic",
-    "url": "http://starwars.wikia.com/wiki/Splinter_of_the_Mind%27s_Eye",
-    "img": 0,
-    "added": false
-  },
-  {
-    "id": 14,
-    "title": "Han Solo at Stars' End (Han 1)",
-    "author": "Brian Daley",
-    "year": 1979,
-    "canon": "legends",
-    "type": "book",
-    "era": "classic",
-    "url": "http://starwars.wikia.com/wiki/Han_Solo_at_Stars%27_End",
-    "img": 0,
-    "added": false
-  },
-  {
-    "id": 15,
-    "title": "Han Solo's Revenge (Han 2)",
-    "author": "Brian Daley",
-    "year": 1979,
-    "canon": "legends",
-    "type": "book",
-    "era": "classic",
-    "url": "http://starwars.wikia.com/wiki/Han_Solo%27s_Revenge",
-    "img": 0,
-    "added": false
-  },
-  {
-    "id": 16,
-    "title": "The Empire Strikes Back (novelization)",
-    "author": "Donald F. Glut",
-    "year": 1980,
-    "canon": "canon",
-    "type": "book",
-    "era": "classic",
-    "url": "http://starwars.wikia.com/wiki/Star_Wars_Episode_V:_The_Empire_Strikes_Back_(novel)",
-    "img": 0,
-    "added": false
-  },
-  {
-    "id": 17,
-    "title": "Han Solo and the Lost Legacy (Han 3)",
-    "author": "Brian Daley",
-    "year": 1980,
-    "canon": "legends",
-    "type": "book",
-    "era": "classic",
-    "url": "http://starwars.wikia.com/wiki/Han_Solo_and_the_Lost_Legacy",
-    "img": 0,
-    "added": false
-  },
-  {
-    "id": 18,
-    "title": "Return of the Jedi (novelization)",
-    "author": "James Kahn",
-    "year": 1983,
-    "canon": "canon",
-    "type": "book",
-    "era": "classic",
-    "url": "http://starwars.wikia.com/wiki/Star_Wars_Episode_VI:_Return_of_the_Jedi_(novel)",
-    "img": 0,
-    "added": false
-  },
-  {
-    "id": 19,
-    "title": "Lando Calrissian and the Mindharp of Sharu (Lando 1)",
-    "author": "L. Neil Smith",
-    "year": 1983,
-    "canon": "legends",
-    "type": "book",
-    "era": "classic",
-    "url": "http://starwars.wikia.com/wiki/Lando_Calrissian_and_the_Mindharp_of_Sharu",
-    "img": 0,
-    "added": false
-  },
-  {
-    "id": 20,
-    "title": "Lando Calrissian and the Flamewind of Oseon (Lando 2)",
-    "author": "L. Neil Smith",
-    "year": 1983,
-    "canon": "legends",
-    "type": "book",
-    "era": "classic",
-    "url": "http://starwars.wikia.com/wiki/Lando_Calrissian_and_the_Flamewind_of_Oseon",
-    "img": 0,
-    "added": false
-  },
-  {
-    "id": 21,
-    "title": "Lando Calrissian and the Starcave of ThonBoka (Lando 3)",
-    "author": "L. Neil Smith",
-    "year": 1983,
-    "canon": "legends",
-    "type": "book",
-    "era": "classic",
-    "url": "http://starwars.wikia.com/wiki/Lando_Calrissian_and_the_Starcave_of_ThonBoka",
-    "img": 0,
-    "added": false
-  },
-  {
-    "id": 22,
-    "title": "Heir to the Empire (Thrawn 1)",
-    "author": "Timothy Zahn",
-    "year": 1991,
-    "canon": "legends",
-    "type": "book",
-    "era": "newrepublic",
-    "url": "http://starwars.wikia.com/wiki/Heir_to_the_Empire",
-    "img": 0,
-    "added": false
-  },
-  {
-    "id": 23,
-    "title": "Dark Force Rising (Thrawn 2)",
-    "author": "Timothy Zahn",
-    "year": 1992,
-    "canon": "legends",
-    "type": "book",
-    "era": "newrepublic",
-    "url": "http://starwars.wikia.com/wiki/Dark_Force_Rising",
-    "img": 0,
-    "added": false
-  },
-  {
-    "id": 24,
-    "title": "The Glove of Darth Vader (Jedi Prince 1)",
-    "author": "Paul and Hollace Davids",
-    "year": 1992,
-    "canon": "legends",
-    "type": "book",
-    "era": "newrepublic",
-    "url": "http://starwars.wikia.com/wiki/The_Glove_of_Darth_Vader",
-    "img": 0,
-    "added": false
-  },
-  {
-    "id": 25,
-    "title": "The Lost City of the Jedi (Jedi Prince 2)",
-    "author": "Paul and Hollace Davids",
-    "year": 1992,
-    "canon": "legends",
-    "type": "book",
-    "era": "newrepublic",
-    "url": "http://starwars.wikia.com/wiki/The_Lost_City_of_the_Jedi",
-    "img": 0
-  },
-  {
-    "id": 26,
-    "title": "Zorba the Hutt's Revenge (Jedi Prince 3)",
-    "author": "Paul and Hollace Davids",
-    "year": 1992,
-    "canon": "legends",
-    "type": "book",
-    "era": "newrepublic",
-    "url": "http://starwars.wikia.com/wiki/Zorba_the_Hutt%27s_Revenge",
-    "img": 0
-  },
-  {
-    "id": 27,
-    "title": "Mission From Mount Yoda (Jedi Prince 4)",
-    "author": "Paul and Hollace Davids",
-    "year": 1993,
-    "canon": "legends",
-    "type": "book",
-    "era": "newrepublic",
-    "url": "http://starwars.wikia.com/wiki/Mission_from_Mount_Yoda",
-    "img": 0
-  },
-  {
-    "id": 28,
-    "title": "Queen of the Empire (Jedi Prince 5)",
-    "author": "Paul and Hollace Davids",
-    "year": 1993,
-    "canon": "legends",
-    "type": "book",
-    "era": "newrepublic",
-    "url": "http://starwars.wikia.com/wiki/Queen_of_the_Empire",
-    "img": 0
-  },
-  {
-    "id": 29,
-    "title": "Prophets of the Dark Side (Jedi Prince 6)",
-    "author": "Paul and Hollace Davids",
-    "year": 1993,
-    "canon": "legends",
-    "type": "book",
-    "era": "newrepublic",
-    "url": "http://starwars.wikia.com/wiki/Prophets_of_the_Dark_Side_(book)",
-    "img": 0
-  },
-  {
-    "id": 30,
-    "title": "The Last Command (Thrawn 3)",
-    "author": "Timothy Zahn",
-    "year": 1993,
-    "canon": "legends",
-    "type": "book",
-    "era": "newrepublic",
-    "url": "http://starwars.wikia.com/wiki/The_Last_Command",
-    "img": 0
-  },
-  {
-    "id": 31,
-    "title": "The Truce at Bakura",
-    "author": "Kathy Tyers",
-    "year": 1994,
-    "canon": "legends",
-    "type": "book",
-    "era": "newrepublic",
-    "url": "http://starwars.wikia.com/wiki/The_Truce_at_Bakura",
-    "img": 0
-  },
-  {
-    "id": 32,
-    "title": "Jedi Search (Jedi Academy 1)",
-    "author": "Kevin J. Anderson",
-    "year": 1994,
-    "canon": "legends",
-    "type": "book",
-    "era": "newrepublic",
-    "url": "http://starwars.wikia.com/wiki/Jedi_Search",
-    "img": 0
-  },
-  {
-    "id": 33,
-    "title": "The Courtship of Princess Leia",
-    "author": "Dave Wolverton",
-    "year": 1994,
-    "canon": "legends",
-    "type": "book",
-    "era": "newrepublic",
-    "url": "http://starwars.wikia.com/wiki/The_Courtship_of_Princess_Leia",
-    "img": 0
-  },
-  {
-    "id": 34,
-    "title": "Dark Apprentice (Jedi Academy 2)",
-    "author": "Kevin J. Anderson",
-    "year": 1994,
-    "canon": "legends",
-    "type": "book",
-    "era": "newrepublic",
-    "url": "http://starwars.wikia.com/wiki/Dark_Apprentice_(novel)",
-    "img": 0
-  },
-  {
-    "id": 35,
-    "title": "Champions of the Force",
-    "author": "Kevin J. Anderson",
-    "year": 1994,
-    "canon": "legends",
-    "type": "book",
-    "era": "newrepublic",
-    "url": "http://starwars.wikia.com/wiki/Champions_of_the_Force",
-    "img": 0
-  },
-  {
-    "id": 36,
-    "title": "The Crystal Star",
-    "author": "Vonda N. McIntyre",
-    "year": 1994,
-    "canon": "legends",
-    "type": "book",
-    "era": "newrepublic",
-    "url": "http://starwars.wikia.com/wiki/The_Crystal_Star",
-    "img": 0
   }
 ];
     $scope.mine = [];
@@ -531,6 +242,16 @@ angular.module('swSort', ['ng-sortable'])
             }
         };
     self = $scope;
+
+    $http.get('http://nicetryinternet.com/star-wars-ranker/js/stories.json').
+    success(function(data, status, headers, config) {
+        $scope.stories = data;
+        Model.restoreChoices();
+        Model.loadChoices();
+    }).
+    error(function(data, status, headers, config) {
+      // log error
+    });
 }]);
 
 var View = {
@@ -538,15 +259,6 @@ var View = {
         $("#options .book, #options .video, #options .comment").css('display', 'none');
     }
 };
-
-$.getJSON("http://nicetryinternet.com/star-wars-ranker/js/stories.json", function(data) {
-    var sw = data;
-    self.stories = data;
-    self.$apply();
-    View.init();
-    Model.restoreChoices();
-    Model.loadChoices();
-});
 
 $(document).ready(function(){
     $("#movieButton").click(function(){
