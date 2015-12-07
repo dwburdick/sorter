@@ -76,19 +76,28 @@ angular.module('swSort', ['ng-sortable'])
     $scope.storiesConfig = {
         ghostClass: "ghostclass",
     };
-    $scope.addSingle = function(id) {
+    $scope.addSingle = function(index) {
         var toAdd = [];
         for (var i = 0, len = self.stories.length; i < len; i++) {
-            if (self.stories[i].id === id) {
-                toAdd = self.stories.splice(i, 1);
-                self.mine.push(toAdd[0]);
+            if (self.stories[i].id === index) {
+                self.mine.push(self.stories[i]);
+                self.stories.splice(i, 1);
             }
         }
         Model.saveChoices();
     };
     $scope.removeSingle = function(item) {
         var toRemove = self.mine.indexOf(item);
-        self.mine.splice(toRemove, 1);
+        var removed = self.mine.splice(toRemove, 1);
+        var replaceIndex;
+        for (var i = 0, len = self.stories.length; i < len; i++) {
+            if (self.stories[i].id < item.id) {
+                var replaceIndex = i + 1;
+                console.log("item id is " + item.id);
+                console.log("replace id is " + replaceIndex);
+            }
+        }
+        self.stories.splice(replaceIndex, 0, removed[0]);
         Model.saveChoices();
     };
 
