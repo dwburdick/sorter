@@ -6,10 +6,8 @@ var Base64={_keyStr:"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456
 var Model = {
     saveChoices: function() {
         var saveIDs = [];
-        for (var i = 0, len = self.stories.length; i < len; i++) {
-            if (self.stories[i].added === true) {
-                saveIDs.push(self.stories[i].id);
-            }
+        for (var i = 0, len = self.mine.length; i < len; i++) {
+            saveIDs.push(self.mine[i].id);
         }
         var saveStr = JSON.stringify(saveIDs);
         sessionStorage.setItem('order', saveStr);
@@ -34,7 +32,7 @@ var Model = {
                     if (loadIDs[i] === self.stories[f].id) {
                         self.stories[f].added = true;
                         var whereAdd = self.mine.length;
-                        self.mine[whereAdd] = self.stories[f];                            
+                        self.mine[whereAdd] = self.stories[f];
                     }
                 }
             }
@@ -46,6 +44,7 @@ var Model = {
         if (url.indexOf('?') === -1) {
             return;
         } else {
+            sessionStorage.order = "";
             var loadUrl = url.slice(window.location.href.indexOf('?') + 1).split();
             var decodeUrl = loadUrl.toString();
             var loadStr = Base64.decode(decodeUrl);
@@ -97,12 +96,6 @@ angular.module('swSort', ['ng-sortable'])
         var toRemove = self.mine.indexOf(item);
         self.mine.splice(toRemove, 1);
         Model.saveChoices();
-    };
-
-    $scope.singleMoved = function (evt) {
-        var itemEl = evt.item;  // dragged HTMLElement
-        // + indexes from onEnd
-        console.log("ping");
     };
 
     $scope.stories = [

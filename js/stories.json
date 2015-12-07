@@ -6,7 +6,7 @@
     "year": 1999,
     "canon": "canon",
     "type": "film",
-    "era": "prequel",
+    "era": "Rise of the Empire",
     "url": "http://starwars.wikia.com/wiki/Star_Wars:_Episode_I_The_Phantom_Menace",
     "img": 0,
     "added": false
@@ -18,7 +18,7 @@
     "year": 2002,
     "canon": "canon",
     "type": "film",
-    "era": "prequel",
+    "era": "Rise of the Empire",
     "url": "http://starwars.wikia.com/wiki/Star_Wars:_Episode_II_Attack_of_the_Clones",
     "img": 0,
     "added": false
@@ -30,7 +30,7 @@
     "year": 2005,
     "canon": "canon",
     "type": "film",
-    "era": "prequel",
+    "era": "Rise of the Empire",
     "url": "http://starwars.wikia.com/wiki/Star_Wars:_Episode_III_Revenge_of_the_Sith",
     "img": 0,
     "added": false
@@ -42,7 +42,7 @@
     "year": 1977,
     "canon": "canon",
     "type": "film",
-    "era": "classic",
+    "era": "Rebellion",
     "url": "http://starwars.wikia.com/wiki/Star_Wars:_Episode_IV_A_New_Hope",
     "img": 0,
     "added": false
@@ -54,7 +54,7 @@
     "year": 1980,
     "canon": "canon",
     "type": "film",
-    "era": "classic",
+    "era": "Rebellion",
     "url": "http://starwars.wikia.com/wiki/Star_Wars:_Episode_V_The_Empire_Strikes_Back",
     "img": 0,
     "added": false
@@ -66,7 +66,7 @@
     "year": 1983,
     "canon": "canon",
     "type": "film",
-    "era": "classic",
+    "era": "Rebellion",
     "url": "http://starwars.wikia.com/wiki/Star_Wars:_Episode_VI_Return_of_the_Jedi",
     "img": 0,
     "added": false
@@ -138,7 +138,7 @@
     "year": 1976,
     "canon": "canon",
     "type": "book",
-    "era": "classic",
+    "era": "Rebellion",
     "url": "http://starwars.wikia.com/wiki/Star_Wars_Episode_IV:_A_New_Hope_(novel)",
     "img": 0,
     "added": false
@@ -150,7 +150,7 @@
     "year": 1978,
     "canon": "legends",
     "type": "book",
-    "era": "classic",
+    "era": "Rebellion",
     "url": "http://starwars.wikia.com/wiki/Splinter_of_the_Mind%27s_Eye",
     "img": 0,
     "added": false
@@ -162,7 +162,7 @@
     "year": 1979,
     "canon": "legends",
     "type": "book",
-    "era": "classic",
+    "era": "Rebellion",
     "url": "http://starwars.wikia.com/wiki/Han_Solo_at_Stars%27_End",
     "img": 0,
     "added": false
@@ -174,7 +174,7 @@
     "year": 1979,
     "canon": "legends",
     "type": "book",
-    "era": "classic",
+    "era": "Rebellion",
     "url": "http://starwars.wikia.com/wiki/Han_Solo%27s_Revenge",
     "img": 0,
     "added": false
@@ -186,7 +186,7 @@
     "year": 1980,
     "canon": "canon",
     "type": "book",
-    "era": "classic",
+    "era": "Rebellion",
     "url": "http://starwars.wikia.com/wiki/Star_Wars_Episode_V:_The_Empire_Strikes_Back_(novel)",
     "img": 0,
     "added": false
@@ -198,7 +198,7 @@
     "year": 1980,
     "canon": "legends",
     "type": "book",
-    "era": "classic",
+    "era": "Rebellion",
     "url": "http://starwars.wikia.com/wiki/Han_Solo_and_the_Lost_Legacy",
     "img": 0,
     "added": false
@@ -210,7 +210,7 @@
     "year": 1983,
     "canon": "canon",
     "type": "book",
-    "era": "classic",
+    "era": "Rebellion",
     "url": "http://starwars.wikia.com/wiki/Star_Wars_Episode_VI:_Return_of_the_Jedi_(novel)",
     "img": 0,
     "added": false
@@ -222,7 +222,7 @@
     "year": 1983,
     "canon": "legends",
     "type": "book",
-    "era": "classic",
+    "era": "Rebellion",
     "url": "http://starwars.wikia.com/wiki/Lando_Calrissian_and_the_Mindharp_of_Sharu",
     "img": 0,
     "added": false
@@ -234,7 +234,7 @@
     "year": 1983,
     "canon": "legends",
     "type": "book",
-    "era": "classic",
+    "era": "Rebellion",
     "url": "http://starwars.wikia.com/wiki/Lando_Calrissian_and_the_Flamewind_of_Oseon",
     "img": 0,
     "added": false
@@ -246,7 +246,7 @@
     "year": 1983,
     "canon": "legends",
     "type": "book",
-    "era": "classic",
+    "era": "Rebellion",
     "url": "http://starwars.wikia.com/wiki/Lando_Calrissian_and_the_Starcave_of_ThonBoka",
     "img": 0,
     "added": false
@@ -258,7 +258,7 @@
     "year": 1991,
     "canon": "legends",
     "type": "book",
-    "era": "newrepublic",
+    "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/Heir_to_the_Empire",
     "img": 0,
     "added": false
@@ -270,7 +270,7 @@
     "year": 1992,
     "canon": "legends",
     "type": "book",
-    "era": "newrepublic",
+    "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/Dark_Force_Rising",
     "img": 0,
     "added": false
@@ -282,7 +282,7 @@
     "year": 1992,
     "canon": "legends",
     "type": "book",
-    "era": "newrepublic",
+    "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/The_Glove_of_Darth_Vader",
     "img": 0,
     "added": false
@@ -294,7 +294,7 @@
     "year": 1992,
     "canon": "legends",
     "type": "book",
-    "era": "newrepublic",
+    "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/The_Lost_City_of_the_Jedi",
     "img": 0,
     "added": false
@@ -306,7 +306,7 @@
     "year": 1992,
     "canon": "legends",
     "type": "book",
-    "era": "newrepublic",
+    "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/Zorba_the_Hutt%27s_Revenge",
     "img": 0,
     "added": false
@@ -318,7 +318,7 @@
     "year": 1993,
     "canon": "legends",
     "type": "book",
-    "era": "newrepublic",
+    "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/Mission_from_Mount_Yoda",
     "img": 0,
     "added": false
@@ -330,7 +330,7 @@
     "year": 1993,
     "canon": "legends",
     "type": "book",
-    "era": "newrepublic",
+    "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/Queen_of_the_Empire",
     "img": 0,
     "added": false
@@ -342,7 +342,7 @@
     "year": 1993,
     "canon": "legends",
     "type": "book",
-    "era": "newrepublic",
+    "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/Prophets_of_the_Dark_Side_(book)",
     "img": 0,
     "added": false
@@ -354,7 +354,7 @@
     "year": 1993,
     "canon": "legends",
     "type": "book",
-    "era": "newrepublic",
+    "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/The_Last_Command",
     "img": 0,
     "added": false
@@ -366,7 +366,7 @@
     "year": 1994,
     "canon": "legends",
     "type": "book",
-    "era": "newrepublic",
+    "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/The_Truce_at_Bakura",
     "img": 0,
     "added": false
@@ -378,7 +378,7 @@
     "year": 1994,
     "canon": "legends",
     "type": "book",
-    "era": "newrepublic",
+    "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/Jedi_Search",
     "img": 0,
     "added": false
@@ -390,7 +390,7 @@
     "year": 1994,
     "canon": "legends",
     "type": "book",
-    "era": "newrepublic",
+    "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/The_Courtship_of_Princess_Leia",
     "img": 0,
     "added": false
@@ -402,7 +402,7 @@
     "year": 1994,
     "canon": "legends",
     "type": "book",
-    "era": "newrepublic",
+    "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/Dark_Apprentice_(novel)",
     "img": 0,
     "added": false
@@ -414,7 +414,7 @@
     "year": 1994,
     "canon": "legends",
     "type": "book",
-    "era": "newrepublic",
+    "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/Champions_of_the_Force",
     "img": 0,
     "added": false
@@ -426,7 +426,7 @@
     "year": 1994,
     "canon": "legends",
     "type": "book",
-    "era": "newrepublic",
+    "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/The_Crystal_Star",
     "img": 0,
     "added": false
@@ -438,7 +438,7 @@
     "year": 1995,
     "canon": "legends",
     "type": "book",
-    "era": "newrepublic",
+    "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/Ambush_at_Corellia",
     "img": 0,
     "added": false
@@ -450,7 +450,7 @@
     "year": 1995,
     "canon": "legends",
     "type": "book",
-    "era": "newrepublic",
+    "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/Children_of_the_Jedi_(novel)",
     "img": 0,
     "added": false
@@ -462,7 +462,7 @@
     "year": 1995,
     "canon": "legends",
     "type": "book",
-    "era": "newrepublic",
+    "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/Young_Jedi_Knights:_Heirs_of_the_Force",
     "img": 0,
     "added": false
@@ -474,7 +474,7 @@
     "year": 1995,
     "canon": "legends",
     "type": "book",
-    "era": "newrepublic",
+    "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/Assault_at_Selonia",
     "img": 0,
     "added": false
@@ -486,7 +486,7 @@
     "year": 1995,
     "canon": "legends",
     "type": "book",
-    "era": "classic",
+    "era": "Rebellion",
     "url": "http://starwars.wikia.com/wiki/Tales_from_the_Mos_Eisley_Cantina",
     "img": 0,
     "added": false
@@ -498,7 +498,7 @@
     "year": 1995,
     "canon": "legends",
     "type": "book",
-    "era": "newrepublic",
+    "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/Young_Jedi_Knights:_Shadow_Academy",
     "img": 0,
     "added": false
@@ -510,7 +510,7 @@
     "year": 1995,
     "canon": "legends",
     "type": "book",
-    "era": "newrepublic",
+    "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/Junior_Jedi_Knights:_The_Golden_Globe",
     "img": 0,
     "added": false
@@ -522,7 +522,7 @@
     "year": 1995,
     "canon": "legends",
     "type": "book",
-    "era": "newrepublic",
+    "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/Showdown_at_Centerpoint",
     "img": 0,
     "added": false
@@ -534,7 +534,7 @@
     "year": 1995,
     "canon": "legends",
     "type": "book",
-    "era": "newrepublic",
+    "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/Darksaber_(novel)",
     "img": 0,
     "added": false
@@ -546,7 +546,7 @@
     "year": 1995,
     "canon": "legends",
     "type": "book",
-    "era": "newrepublic",
+    "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/Young_Jedi_Knights:_The_Lost_Ones",
     "img": 0,
     "added": false
@@ -558,7 +558,7 @@
     "year": 1996,
     "canon": "legends",
     "type": "book",
-    "era": "newrepublic",
+    "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/X-Wing:_Rogue_Squadron",
     "img": 0,
     "added": false
@@ -570,7 +570,7 @@
     "year": 1996,
     "canon": "legends",
     "type": "book",
-    "era": "newrepublic",
+    "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/Junior_Jedi_Knights:_Lyric%27s_World",
     "img": 0,
     "added": false
@@ -582,7 +582,7 @@
     "year": 1996,
     "canon": "legends",
     "type": "book",
-    "era": "classic",
+    "era": "Rebellion",
     "url": "http://starwars.wikia.com/wiki/Tales_from_Jabba%27s_Palace",
     "img": 0,
     "added": false
@@ -594,7 +594,7 @@
     "year": 1996,
     "canon": "legends",
     "type": "book",
-    "era": "newrepublic",
+    "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/Before_the_Storm",
     "img": 0,
     "added": false
@@ -606,7 +606,7 @@
     "year": 1996,
     "canon": "legends",
     "type": "book",
-    "era": "newrepublic",
+    "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/Young_Jedi_Knights:_Lightsabers",
     "img": 0,
     "added": false
@@ -618,7 +618,7 @@
     "year": 1996,
     "canon": "legends",
     "type": "book",
-    "era": "newrepublic",
+    "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/Junior_Jedi_Knights:_Promises",
     "img": 0,
     "added": false
@@ -630,7 +630,7 @@
     "year": 1996,
     "canon": "legends",
     "type": "book",
-    "era": "classic",
+    "era": "Rebellion",
     "url": "http://starwars.wikia.com/wiki/Shadows_of_the_Empire_(novel)",
     "img": 0,
     "added": false
@@ -642,7 +642,7 @@
     "year": 1996,
     "canon": "legends",
     "type": "book",
-    "era": "newrepublic",
+    "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/X-Wing:_Wedge%27s_Gamble",
     "img": 0,
     "added": false
@@ -654,7 +654,7 @@
     "year": 1996,
     "canon": "legends",
     "type": "book",
-    "era": "newrepublic",
+    "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/Young_Jedi_Knights:_Darkest_Knight",
     "img": 0,
     "added": false
@@ -666,7 +666,7 @@
     "year": 1996,
     "canon": "legends",
     "type": "book",
-    "era": "newrepublic",
+    "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/Shield_of_Lies",
     "img": 0,
     "added": false
@@ -678,7 +678,7 @@
     "year": 1996,
     "canon": "legends",
     "type": "book",
-    "era": "newrepublic",
+    "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/Young_Jedi_Knights:_Jedi_Under_Siege",
     "img": 0,
     "added": false
@@ -690,7 +690,7 @@
     "year": 1996,
     "canon": "legends",
     "type": "book",
-    "era": "newrepublic",
+    "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/X-Wing:_The_Krytos_Trap",
     "img": 0,
     "added": false
@@ -702,7 +702,7 @@
     "year": 1996,
     "canon": "legends",
     "type": "book",
-    "era": "classic",
+    "era": "Rebellion",
     "url": "http://starwars.wikia.com/wiki/Tales_of_the_Bounty_Hunters",
     "img": 0,
     "added": false
@@ -714,7 +714,7 @@
     "year": 1996,
     "canon": "legends",
     "type": "book",
-    "era": "newrepublic",
+    "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/Tyrant%27s_Test",
     "img": 0,
     "added": false
@@ -726,7 +726,7 @@
     "year": 1996,
     "canon": "legends",
     "type": "book",
-    "era": "newrepublic",
+    "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/The_New_Rebellion",
     "img": 0,
     "added": false
@@ -738,7 +738,7 @@
     "year": 1997,
     "canon": "legends",
     "type": "book",
-    "era": "classic",
+    "era": "Rebellion",
     "url": "http://starwars.wikia.com/wiki/Galaxy_of_Fear:_Eaten_Alive",
     "img": 0,
     "added": false
@@ -750,7 +750,7 @@
     "year": 1997,
     "canon": "legends",
     "type": "book",
-    "era": "newrepublic",
+    "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/Young_Jedi_Knights:_Shards_of_Alderaan",
     "img": 0,
     "added": false
@@ -762,7 +762,7 @@
     "year": 1997,
     "canon": "legends",
     "type": "book",
-    "era": "classic",
+    "era": "Rebellion",
     "url": "http://starwars.wikia.com/wiki/Galaxy_of_Fear:_City_of_the_Dead",
     "img": 0,
     "added": false
@@ -774,7 +774,7 @@
     "year": 1997,
     "canon": "legends",
     "type": "book",
-    "era": "prequel",
+    "era": "Rise of the Empire",
     "url": "http://starwars.wikia.com/wiki/Dark_Forces:_Soldier_for_the_Empire",
     "img": 0,
     "added": false
@@ -786,7 +786,7 @@
     "year": 1997,
     "canon": "legends",
     "type": "book",
-    "era": "newrepublic",
+    "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/X-Wing:_The_Bacta_War",
     "img": 0,
     "added": false
@@ -798,7 +798,7 @@
     "year": 1997,
     "canon": "legends",
     "type": "book",
-    "era": "newrepublic",
+    "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/Young_Jedi_Knights:_Diversity_Alliance",
     "img": 0,
     "added": false
@@ -810,7 +810,7 @@
     "year": 1997,
     "canon": "legends",
     "type": "book",
-    "era": "classic",
+    "era": "Rebellion",
     "url": "http://starwars.wikia.com/wiki/Galaxy_of_Fear:_Planet_Plague",
     "img": 0,
     "added": false
@@ -822,7 +822,7 @@
     "year": 1997,
     "canon": "legends",
     "type": "book",
-    "era": "newrepublic",
+    "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/Junior_Jedi_Knights:_Anakin%27s_Quest",
     "img": 0,
     "added": false
@@ -834,7 +834,7 @@
     "year": 1997,
     "canon": "legends",
     "type": "book",
-    "era": "prequel",
+    "era": "Rise of the Empire",
     "url": "http://starwars.wikia.com/wiki/The_Paradise_Snare",
     "img": 0,
     "added": false
@@ -846,7 +846,7 @@
     "year": 1997,
     "canon": "legends",
     "type": "book",
-    "era": "classic",
+    "era": "Rebellion",
     "url": "http://starwars.wikia.com/wiki/Galaxy_of_Fear:_The_Nightmare_Machine",
     "img": 0,
     "added": false
@@ -858,7 +858,7 @@
     "year": 1997,
     "canon": "legends",
     "type": "book",
-    "era": "newrepublic",
+    "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/Planet_of_Twilight",
     "img": 0,
     "added": false
@@ -870,7 +870,7 @@
     "year": 1997,
     "canon": "legends",
     "type": "book",
-    "era": "classic",
+    "era": "Rebellion",
     "url": "http://starwars.wikia.com/wiki/Galaxy_of_Fear:_Ghost_of_the_Jedi",
     "img": 0,
     "added": false
@@ -882,7 +882,7 @@
     "year": 1997,
     "canon": "legends",
     "type": "book",
-    "era": "newrepublic",
+    "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/Young_Jedi_Knights:_Delusions_of_Grandeur",
     "img": 0,
     "added": false
@@ -894,7 +894,7 @@
     "year": 1997,
     "canon": "legends",
     "type": "book",
-    "era": "newrepublic",
+    "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/Junior_Jedi_Knights:_Vader%27s_Fortress",
     "img": 0,
     "added": false
@@ -906,7 +906,7 @@
     "year": 1997,
     "canon": "legends",
     "type": "book",
-    "era": "newrepublic",
+    "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/Junior_Jedi_Knights:_Kenobi%27s_Blade",
     "img": 0,
     "added": false
@@ -918,7 +918,7 @@
     "year": 1997,
     "canon": "legends",
     "type": "book",
-    "era": "newrepublic",
+    "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/Galaxy_of_Fear:_Army_of_Terror",
     "img": 0,
     "added": false
@@ -930,7 +930,7 @@
     "year": 1997,
     "canon": "legends",
     "type": "book",
-    "era": "prequel",
+    "era": "Rise of the Empire",
     "url": "http://starwars.wikia.com/wiki/The_Hutt_Gambit",
     "img": 0,
     "added": false
@@ -942,7 +942,7 @@
     "year": 1997,
     "canon": "legends",
     "type": "book",
-    "era": "newrepublic",
+    "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/Young_Jedi_Knights:_Jedi_Bounty",
     "img": 0,
     "added": false
@@ -954,7 +954,7 @@
     "year": 1997,
     "canon": "legends",
     "type": "book",
-    "era": "newrepublic",
+    "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/Specter_of_the_Past",
     "img": 0,
     "added": false
@@ -966,7 +966,7 @@
     "year": 1997,
     "canon": "legends",
     "type": "book",
-    "era": "classic",
+    "era": "Rebellion",
     "url": "http://starwars.wikia.com/wiki/Galaxy_of_Fear:_The_Brain_Spiders",
     "img": 0,
     "added": false
@@ -978,7 +978,7 @@
     "year": 1997,
     "canon": "legends",
     "type": "book",
-    "era": "classic",
+    "era": "Rebellion",
     "url": "http://starwars.wikia.com/wiki/Tales_from_the_Empire",
     "img": 0,
     "added": false
@@ -990,7 +990,7 @@
     "year": 1998,
     "canon": "legends",
     "type": "book",
-    "era": "newrepublic",
+    "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/Young_Jedi_Knights:_The_Emperor%27s_Plague",
     "img": 0,
     "added": false
@@ -1002,7 +1002,7 @@
     "year": 1998,
     "canon": "legends",
     "type": "book",
-    "era": "newrepublic",
+    "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/Galaxy_of_Fear:_The_Swarm",
     "img": 0,
     "added": false
@@ -1014,7 +1014,7 @@
     "year": 1998,
     "canon": "legends",
     "type": "book",
-    "era": "newrepublic",
+    "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/X-Wing:_Wraith_Squadron",
     "img": 0,
     "added": false
@@ -1026,7 +1026,7 @@
     "year": 1998,
     "canon": "legends",
     "type": "book",
-    "era": "prequel",
+    "era": "Rise of the Empire",
     "url": "http://starwars.wikia.com/wiki/Rebel_Dawn",
     "img": 0,
     "added": false
@@ -1038,7 +1038,7 @@
     "year": 1998,
     "canon": "legends",
     "type": "book",
-    "era": "classic",
+    "era": "Rebellion",
     "url": "http://starwars.wikia.com/wiki/Galaxy_of_Fear:_Spore",
     "img": 0,
     "added": false
@@ -1050,7 +1050,7 @@
     "year": 1998,
     "canon": "legends",
     "type": "book",
-    "era": "prequel",
+    "era": "Rise of the Empire",
     "url": "http://starwars.wikia.com/wiki/Dark_Forces:_Rebel_Agent",
     "img": 0,
     "added": false
@@ -1062,7 +1062,7 @@
     "year": 1998,
     "canon": "legends",
     "type": "book",
-    "era": "newrepublic",
+    "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/Young_Jedi_Knights:_Return_to_Ord_Mantell",
     "img": 0,
     "added": false
@@ -1074,7 +1074,7 @@
     "year": 1998,
     "canon": "legends",
     "type": "book",
-    "era": "newrepublic",
+    "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/I,_Jedi",
     "img": 0,
     "added": false
@@ -1086,7 +1086,7 @@
     "year": 1998,
     "canon": "legends",
     "type": "book",
-    "era": "classic",
+    "era": "Rebellion",
     "url": "http://starwars.wikia.com/wiki/Galaxy_of_Fear:_The_Doomsday_Ship",
     "img": 0,
     "added": false
@@ -1098,7 +1098,7 @@
     "year": 1998,
     "canon": "legends",
     "type": "book",
-    "era": "classic",
+    "era": "Rebellion",
     "url": "http://starwars.wikia.com/wiki/The_Mandalorian_Armor",
     "img": 0,
     "added": false
@@ -1110,7 +1110,7 @@
     "year": 1998,
     "canon": "legends",
     "type": "book",
-    "era": "classic",
+    "era": "Rebellion",
     "url": "http://starwars.wikia.com/wiki/Galaxy_of_Fear:_Clones",
     "img": 0,
     "added": false
@@ -1122,7 +1122,7 @@
     "year": 1998,
     "canon": "legends",
     "type": "book",
-    "era": "newrepublic",
+    "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/X-Wing:_Iron_Fist",
     "img": 0,
     "added": false
@@ -1134,7 +1134,7 @@
     "year": 1998,
     "canon": "legends",
     "type": "book",
-    "era": "newrepublic",
+    "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/Young_Jedi_Knights:_Trouble_on_Cloud_City",
     "img": 0,
     "added": false
@@ -1146,7 +1146,7 @@
     "year": 1998,
     "canon": "legends",
     "type": "book",
-    "era": "newrepublic",
+    "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/Vision_of_the_Future",
     "img": 0,
     "added": false
@@ -1158,7 +1158,7 @@
     "year": 1998,
     "canon": "legends",
     "type": "book",
-    "era": "classic",
+    "era": "Rebellion",
     "url": "http://starwars.wikia.com/wiki/Galaxy_of_Fear:_The_Hunger",
     "img": 0,
     "added": false
@@ -1170,7 +1170,7 @@
     "year": 1998,
     "canon": "legends",
     "type": "book",
-    "era": "prequel",
+    "era": "Rise of the Empire",
     "url": "http://starwars.wikia.com/wiki/Dark_Forces:_Jedi_Knight",
     "img": 0,
     "added": false
@@ -1182,7 +1182,7 @@
     "year": 1998,
     "canon": "legends",
     "type": "book",
-    "era": "classic",
+    "era": "Rebellion",
     "url": "http://starwars.wikia.com/wiki/Slave_Ship",
     "img": 0,
     "added": false
@@ -1194,7 +1194,7 @@
     "year": 1998,
     "canon": "legends",
     "type": "book",
-    "era": "newrepublic",
+    "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/Young_Jedi_Knights:_Crisis_at_Crystal_Reef",
     "img": 0,
     "added": false
@@ -1206,7 +1206,7 @@
     "year": 1999,
     "canon": "legends",
     "type": "book",
-    "era": "newrepublic",
+    "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/X-Wing:_Solo_Command",
     "img": 0,
     "added": false
@@ -1218,7 +1218,7 @@
     "year": 1999,
     "canon": "legends",
     "type": "book",
-    "era": "newrepublic",
+    "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/X-Wing:_Isard%27s_Revenge",
     "img": 0,
     "added": false
@@ -1230,7 +1230,7 @@
     "year": 1999,
     "canon": "legends",
     "type": "book",
-    "era": "prequel",
+    "era": "Rise of the Empire",
     "url": "http://starwars.wikia.com/wiki/Star_Wars_Episode_I:_The_Phantom_Menace_(novel)",
     "img": 0,
     "added": false
@@ -1242,7 +1242,7 @@
     "year": 1999,
     "canon": "legends",
     "type": "book",
-    "era": "prequel",
+    "era": "Rise of the Empire",
     "url": "http://starwars.wikia.com/wiki/Star_Wars_Episode_I:_The_Phantom_Menace_(junior_novelization)",
     "img": 0,
     "added": false
@@ -1254,7 +1254,7 @@
     "year": 1999,
     "canon": "legends",
     "type": "book",
-    "era": "prequel",
+    "era": "Rise of the Empire",
     "url": "http://starwars.wikia.com/wiki/Jedi_Apprentice:_The_Rising_Force",
     "img": 0,
     "added": false
@@ -1266,7 +1266,7 @@
     "year": 1999,
     "canon": "legends",
     "type": "book",
-    "era": "prequel",
+    "era": "Rise of the Empire",
     "url": "http://starwars.wikia.com/wiki/Jedi_Apprentice:_The_Dark_Rival",
     "img": 0,
     "added": false
@@ -1278,7 +1278,7 @@
     "year": 1999,
     "canon": "legends",
     "type": "book",
-    "era": "classic",
+    "era": "Rebellion",
     "url": "http://starwars.wikia.com/wiki/Hard_Merchandise",
     "img": 0,
     "added": false
@@ -1290,7 +1290,7 @@
     "year": 1999,
     "canon": "legends",
     "type": "book",
-    "era": "prequel",
+    "era": "Rise of the Empire",
     "url": "http://starwars.wikia.com/wiki/Jedi_Apprentice:_The_Hidden_Past",
     "img": 0,
     "added": false
@@ -1302,7 +1302,7 @@
     "year": 1999,
     "canon": "legends",
     "type": "book",
-    "era": "newrepublic",
+    "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/X-Wing:_Starfighters_of_Adumar",
     "img": 0,
     "added": false
@@ -1314,7 +1314,7 @@
     "year": 1999,
     "canon": "legends",
     "type": "book",
-    "era": "prequel",
+    "era": "Rise of the Empire",
     "url": "http://starwars.wikia.com/wiki/Jedi_Apprentice:_The_Mark_of_the_Crown",
     "img": 0,
     "added": false
@@ -1326,7 +1326,7 @@
     "year": 1999,
     "canon": "legends",
     "type": "book",
-    "era": "newjediorder",
+    "era": "New Jedi Order",
     "url": "http://starwars.wikia.com/wiki/The_New_Jedi_Order:_Vector_Prime",
     "img": 0,
     "added": false
@@ -1338,7 +1338,7 @@
     "year": 1999,
     "canon": "legends",
     "type": "book",
-    "era": "prequel",
+    "era": "Rise of the Empire",
     "url": "http://starwars.wikia.com/wiki/Jedi_Apprentice:_The_Defenders_of_the_Dead",
     "img": 0,
     "added": false
@@ -1350,7 +1350,7 @@
     "year": 1999,
     "canon": "legends",
     "type": "book",
-    "era": "newrepublic",
+    "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/Tales_from_the_New_Republic",
     "img": 0,
     "added": false
@@ -1362,7 +1362,7 @@
     "year": 2000,
     "canon": "legends",
     "type": "book",
-    "era": "prequel",
+    "era": "Rise of the Empire",
     "url": "http://starwars.wikia.com/wiki/Jedi_Apprentice:_The_Uncertain_Path",
     "img": 0,
     "added": false
@@ -1374,7 +1374,7 @@
     "year": 2000,
     "canon": "legends",
     "type": "book",
-    "era": "newjediorder",
+    "era": "New Jedi Order",
     "url": "http://starwars.wikia.com/wiki/The_New_Jedi_Order:_Dark_Tide_I:_Onslaught",
     "img": 0,
     "added": false
@@ -1386,7 +1386,7 @@
     "year": 2000,
     "canon": "legends",
     "type": "book",
-    "era": "prequel",
+    "era": "Rise of the Empire",
     "url": "http://starwars.wikia.com/wiki/Jedi_Apprentice:_The_Captive_Temple",
     "img": 0,
     "added": false
@@ -1398,7 +1398,7 @@
     "year": 2000,
     "canon": "legends",
     "type": "book",
-    "era": "prequel",
+    "era": "Rise of the Empire",
     "url": "http://starwars.wikia.com/wiki/Rogue_Planet",
     "img": 0,
     "added": false
@@ -1410,7 +1410,7 @@
     "year": 2000,
     "canon": "legends",
     "type": "book",
-    "era": "newrepublic",
+    "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/Jedi_Apprentice:_The_Day_of_Reckoning",
     "img": 0,
     "added": false
@@ -1422,7 +1422,7 @@
     "year": 2000,
     "canon": "legends",
     "type": "book",
-    "era": "newjediorder",
+    "era": "New Jedi Order",
     "url": "http://starwars.wikia.com/wiki/The_New_Jedi_Order:_Dark_Tide_II:_Ruin",
     "img": 0,
     "added": false
@@ -1434,7 +1434,7 @@
     "year": 2000,
     "canon": "legends",
     "type": "book",
-    "era": "newrepublic",
+    "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/The_New_Jedi_Order:_Agents_of_Chaos_I:_Hero%27s_Trial",
     "img": 0,
     "added": false
@@ -1446,7 +1446,7 @@
     "year": 2000,
     "canon": "legends",
     "type": "book",
-    "era": "prequel",
+    "era": "Rise of the Empire",
     "url": "http://starwars.wikia.com/wiki/Jedi_Apprentice:_The_Fight_for_Truth",
     "img": 0,
     "added": false
@@ -1458,7 +1458,7 @@
     "year": 2000,
     "canon": "legends",
     "type": "book",
-    "era": "prequel",
+    "era": "Rise of the Empire",
     "url": "http://starwars.wikia.com/wiki/Jedi_Apprentice:_The_Shattered_Peace",
     "img": 0,
     "added": false
@@ -1470,7 +1470,7 @@
     "year": 2000,
     "canon": "legends",
     "type": "book",
-    "era": "newjediorder",
+    "era": "New Jedi Order",
     "url": "http://starwars.wikia.com/wiki/The_New_Jedi_Order:_Agents_of_Chaos_II:_Jedi_Eclipse",
     "img": 0,
     "added": false
@@ -1482,7 +1482,7 @@
     "year": 2000,
     "canon": "legends",
     "type": "book",
-    "era": "newjediorder",
+    "era": "New Jedi Order",
     "url": "http://starwars.wikia.com/wiki/The_New_Jedi_Order:_Balance_Point",
     "img": 0,
     "added": false
@@ -1494,8 +1494,356 @@
     "year": 2000,
     "canon": "legends",
     "type": "book",
-    "era": "prequel",
+    "era": "Rise of the Empire",
     "url": "http://starwars.wikia.com/wiki/Jedi_Apprentice:_The_Deadly_Hunter",
+    "img": 0,
+    "added": false
+  },
+  {
+    "id": 126,
+    "title": "Darth Maul: Shadow Hunter",
+    "author": "Michael Cumpsty",
+    "year": 2001,
+    "canon": "legends",
+    "type": "book",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/Darth_Maul:_Shadow_Hunter",
+    "img": 0,
+    "added": false
+  },
+  {
+    "id": 127,
+    "title": "The Evil Experiment (Jedi Apprentice 12)",
+    "author": "Jude Watson",
+    "year": 2001,
+    "canon": "legends",
+    "type": "book",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/Jedi_Apprentice:_The_Evil_Experiment",
+    "img": 0,
+    "added": false
+  },
+  {
+    "id": 128,
+    "title": "The Dangerous Rescue (Jedi Apprentice 13)",
+    "author": "Jude Watson",
+    "year": 2001,
+    "canon": "legends",
+    "type": "book",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/Jedi_Apprentice:_The_Dangerous_Rescue",
+    "img": 0,
+    "added": false
+  },
+  {
+    "id": 129,
+    "title": "Conquest (Edge of Victory 1)",
+    "author": "Greg Keyes",
+    "year": 2001,
+    "canon": "legends",
+    "type": "book",
+    "era": "New Jedi Order",
+    "url": "http://starwars.wikia.com/wiki/The_New_Jedi_Order:_Edge_of_Victory_I:_Conquest",
+    "img": 0,
+    "added": false
+  },
+  {
+    "id": 130,
+    "title": "Cloak of Deception",
+    "author": "James Luceno",
+    "year": 2001,
+    "canon": "legends",
+    "type": "book",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/Cloak_of_Deception",
+    "img": 0,
+    "added": false
+  },
+  {
+    "id": 131,
+    "title": "Jedi Apprentice Special Edition: Deceptions",
+    "author": "Jude Watson",
+    "year": 2001,
+    "canon": "legends",
+    "type": "book",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/Jedi_Apprentice_Special_Edition:_Deceptions",
+    "img": 0,
+    "added": false
+  },
+  {
+    "id": 132,
+    "title": "Rebirth (Edge of Victory 2)",
+    "author": "Greg Keyes",
+    "year": 2001,
+    "canon": "legends",
+    "type": "book",
+    "era": "New Jedi Order",
+    "url": "http://starwars.wikia.com/wiki/The_New_Jedi_Order:_Edge_of_Victory_II:_Rebirth",
+    "img": 0,
+    "added": false
+  },
+  {
+    "id": 133,
+    "title": "The Ties that Bind (Jedi Apprentice 14)",
+    "author": "Jude Watson",
+    "year": 2001,
+    "canon": "legends",
+    "type": "book",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/Jedi_Apprentice:_The_Ties_That_Bind",
+    "img": 0,
+    "added": false
+  },
+  {
+    "id": 134,
+    "title": "Path to Truth (Jedi Quest 1)",
+    "author": "Jude Watson",
+    "year": 2001,
+    "canon": "legends",
+    "type": "book",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/Jedi_Quest:_Path_to_Truth",
+    "img": 0,
+    "added": false
+  },
+  {
+    "id": 135,
+    "title": "The Death of Hope (Jedi Apprentice 15)",
+    "author": "Jude Watson",
+    "year": 2001,
+    "canon": "legends",
+    "type": "book",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/Jedi_Apprentice:_The_Death_of_Hope",
+    "img": 0,
+    "added": false
+  },
+  {
+    "id": 136,
+    "title": "Star by Star",
+    "author": "Troy Denning",
+    "year": 2001,
+    "canon": "legends",
+    "type": "book",
+    "era": "New Jedi Order",
+    "url": "http://starwars.wikia.com/wiki/The_New_Jedi_Order:_Star_by_Star",
+    "img": 0,
+    "added": false
+  },
+  {
+    "id": 137,
+    "title": "The Call to Vengeance (Jedi Apprentice 16)",
+    "author": "Jude Watson",
+    "year": 2001,
+    "canon": "legends",
+    "type": "book",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/Jedi_Apprentice:_The_Call_to_Vengeance",
+    "img": 0,
+    "added": false
+  },
+  {
+    "id": 138,
+    "title": "Dark Journey",
+    "author": "Elaine Cunningham",
+    "year": 2002,
+    "canon": "legends",
+    "type": "book",
+    "era": "New Jedi Order",
+    "url": "http://starwars.wikia.com/wiki/The_New_Jedi_Order:_Dark_Journey",
+    "img": 0,
+    "added": false
+  },
+  {
+    "id": 139,
+    "title": "The Approaching Storm",
+    "author": "Alan Dean Foster",
+    "year": 2002,
+    "canon": "legends",
+    "type": "book",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/The_Approaching_Storm",
+    "img": 0,
+    "added": false
+  },
+  {
+    "id": 140,
+    "title": "The Only Witness (Jedi Apprentice 17)",
+    "author": "Jude Watson",
+    "year": 2002,
+    "canon": "legends",
+    "type": "book",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/Jedi_Apprentice:_The_Only_Witness",
+    "img": 0,
+    "added": false
+  },
+  {
+    "id": 141,
+    "title": "Rebel Dream (Enemy Lines 1)",
+    "author": "Aaron Allston",
+    "year": 2002,
+    "canon": "legends",
+    "type": "book",
+    "era": "New Jedi Order",
+    "url": "http://starwars.wikia.com/wiki/The_New_Jedi_Order:_Enemy_Lines_I:_Rebel_Dream",
+    "img": 0,
+    "added": false
+  },
+  {
+    "id": 142,
+    "title": "The Threat Within (Jedi Apprentice 18)",
+    "author": "Jude Watson",
+    "year": 2002,
+    "canon": "legends",
+    "type": "book",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/Jedi_Apprentice:_The_Threat_Within",
+    "img": 0,
+    "added": false
+  },
+  {
+    "id": 143,
+    "title": "The Fight to Survive (Boba Fett 1)",
+    "author": "Terry Bisson",
+    "year": 2002,
+    "canon": "legends",
+    "type": "book",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/Boba_Fett:_The_Fight_to_Survive",
+    "img": 0,
+    "added": false
+  },
+  {
+    "id": 144,
+    "title": "Star Wars Episode II: Attack of the Clones (junior novelization)",
+    "author": "Patricia C. Wrede",
+    "year": 2002,
+    "canon": "legends",
+    "type": "book",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/Star_Wars_Episode_II:_Attack_of_the_Clones_(junior_novelization)",
+    "img": 0,
+    "added": false
+  },
+  {
+    "id": 145,
+    "title": "Star Wars Episode II: Attack of the Clones (novelization)",
+    "author": "R.A. Salvatore",
+    "year": 2002,
+    "canon": "legends",
+    "type": "book",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/Star_Wars_Episode_II:_Attack_of_the_Clones_(novel)",
+    "img": 0,
+    "added": false
+  },
+  {
+    "id": 146,
+    "title": "Jedi Apprentice Special Edition: The Followers",
+    "author": "Jude Watson",
+    "year": 2002,
+    "canon": "legends",
+    "type": "book",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/Jedi_Apprentice_Special_Edition:_The_Followers",
+    "img": 0,
+    "added": false
+  },
+  {
+    "id": 147,
+    "title": "The Way of the Apprentice (Jedi Quest 1)",
+    "author": "Jude Watson",
+    "year": 2002,
+    "canon": "legends",
+    "type": "book",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/Jedi_Quest:_The_Way_of_the_Apprentice",
+    "img": 0,
+    "added": false
+  },
+  {
+    "id": 148,
+    "title": "The Trail of the Jedi (Jedi Quest 2)",
+    "author": "Jude Watson",
+    "year": 2002,
+    "canon": "legends",
+    "type": "book",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/Jedi_Quest:_The_Trail_of_the_Jedi",
+    "img": 0,
+    "added": false
+  },
+  {
+    "id": 149,
+    "title": "Rebel Stand (Enemy Lines 2)",
+    "author": "Aaron Allston",
+    "year": 2002,
+    "canon": "legends",
+    "type": "book",
+    "era": "New Jedi Order",
+    "url": "http://starwars.wikia.com/wiki/The_New_Jedi_Order:_Enemy_Lines_II:_Rebel_Stand",
+    "img": 0,
+    "added": false
+  },
+  {
+    "id": 150,
+    "title": "Traitor",
+    "author": "Matthew Stover",
+    "year": 2002,
+    "canon": "legends",
+    "type": "book",
+    "era": "New Jedi Order",
+    "url": "http://starwars.wikia.com/wiki/The_New_Jedi_Order:_Traitor",
+    "img": 0,
+    "added": false
+  },
+  {
+    "id": 151,
+    "title": "The Dangerous Games (Jedi Quest 3)",
+    "author": "Jude Watson",
+    "year": 2002,
+    "canon": "legends",
+    "type": "book",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/Jedi_Quest:_The_Dangerous_Games",
+    "img": 0,
+    "added": false
+  },
+  {
+    "id": 152,
+    "title": "Destiny's Way",
+    "author": "Walter Jon Williams",
+    "year": 2002,
+    "canon": "legends",
+    "type": "book",
+    "era": "New Jedi Order",
+    "url": "http://starwars.wikia.com/wiki/The_New_Jedi_Order:_Destiny%27s_Way",
+    "img": 0,
+    "added": false
+  },
+  {
+    "id": 153,
+    "title": "Crossfire (Boba Fett 2)",
+    "author": "Terry Bisson",
+    "year": 2002,
+    "canon": "legends",
+    "type": "book",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/Boba_Fett:_Crossfire",
+    "img": 0,
+    "added": false
+  },
+  {
+    "id": 154,
+    "title": "The Master of Disguise (Jedi Quest 4)",
+    "author": "Jude Watson",
+    "year": 2002,
+    "canon": "legends",
+    "type": "book",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/Jedi_Quest:_The_Master_of_Disguise",
     "img": 0,
     "added": false
   }
