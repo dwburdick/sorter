@@ -54,9 +54,9 @@ var Model = {
                     if (loadIDs[i] === self.stories[f].id) {
                         self.stories[f].added = true;
                         var whereAdd = self.mine.length;
-                        self.mine[whereAdd] = self.stories[f];                       
+                        self.mine[whereAdd] = self.stories[f];
                     }
-                }            
+                }
             }
         }
     },
@@ -235,9 +235,15 @@ angular.module('swSort', ['ng-sortable'])
     $scope.mine = [];
         $scope.mineConfig = {
             group: {name: 'choices'},
+            pull: false,
+            put: false,
             sort: true,
             animation: 50,
             handle: '.handle',
+            onAdd: function(evt) {
+                var where = self.mine.length;
+                self.mine[where].added = true;
+            },
             onUpdate: function (evt) {
                 Model.saveChoices();
             }

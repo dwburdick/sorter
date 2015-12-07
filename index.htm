@@ -123,7 +123,7 @@
 				</div>
 			</div>
 
-			<div id="dragHere">Drag items here with the <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span> or press the <span class="glyphicon glyphicon-plus" aria-hidden="true"></span> to start creating your list.</div>
+			<div id="dragHere">Press the <span class="glyphicon glyphicon-plus" aria-hidden="true"></span> to start creating your list and adjust your order by dragging the <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>.</div>
 			<ul id="ranks" ng-sortable="mineConfig" style="min-height: 50px">
 				<li ng-repeat="item in mine" class="{{item.type + ' ' + item.canon}} list-group-item choice">
 					<div class="item">
@@ -150,10 +150,9 @@
 				</div>
 				</form>
 			</div>
-			<ul id="options" ng-sortable="{group: {name: 'choices',  pull: 'true', put: 'true'}, handle: '.handle', sort: false}">
+			<ul id="options">
 				<li ng-repeat="item in stories | filter: {added: false} | filter:query" class="{{item.type + ' ' + item.canon}} list-group-item choice">
 					<div class="item">
-						<div class="grip"><span class="glyphicon glyphicon-menu-hamburger handle" aria-hidden="true"></span></div>
 						<div class="itemContent">
 							<div class="firstRow"><span class="itemTitle"><a href="{{item.url}}">{{item.title}} </a></span></div>
 							<div class="secondRow"><span class="authorName">{{item.author}} </span><span class="year">({{item.year}})</span></div>
