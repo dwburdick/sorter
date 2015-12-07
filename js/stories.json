@@ -8,7 +8,8 @@
     "type": "film",
     "era": "prequel",
     "url": "http://starwars.wikia.com/wiki/Star_Wars:_Episode_I_The_Phantom_Menace",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 2,
@@ -19,7 +20,8 @@
     "type": "film",
     "era": "prequel",
     "url": "http://starwars.wikia.com/wiki/Star_Wars:_Episode_II_Attack_of_the_Clones",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 3,
@@ -30,7 +32,8 @@
     "type": "film",
     "era": "prequel",
     "url": "http://starwars.wikia.com/wiki/Star_Wars:_Episode_III_Revenge_of_the_Sith",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 4,
@@ -41,7 +44,8 @@
     "type": "film",
     "era": "classic",
     "url": "http://starwars.wikia.com/wiki/Star_Wars:_Episode_IV_A_New_Hope",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 5,
@@ -52,7 +56,8 @@
     "type": "film",
     "era": "classic",
     "url": "http://starwars.wikia.com/wiki/Star_Wars:_Episode_V_The_Empire_Strikes_Back",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 6,
@@ -63,7 +68,8 @@
     "type": "film",
     "era": "classic",
     "url": "http://starwars.wikia.com/wiki/Star_Wars:_Episode_VI_Return_of_the_Jedi",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 7,
@@ -71,10 +77,11 @@
     "author": "Lawrence Kasdan/JJ Abrams/Michael Arndt",
     "year": 2015,
     "canon": "canon",
-    "type": "film",
+    "type": "unreleased",
     "era": "unreleased",
     "url": "http://starwars.wikia.com/wiki/Star_Wars:_Episode_VII_The_Force_Awakens",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 8,
@@ -82,10 +89,11 @@
     "author": "Rian Johnson",
     "year": 2017,
     "canon": "canon",
-    "type": "film",
+    "type": "unreleased",
     "era": "unreleased",
     "url": "http://starwars.wikia.com/wiki/Star_Wars:_Episode_VIII",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 9,
@@ -93,10 +101,11 @@
     "author": "...",
     "year": 2019,
     "canon": "canon",
-    "type": "film",
+    "type": "unreleased",
     "era": "unreleased",
     "url": "http://starwars.wikia.com/wiki/Star_Wars:_Episode_IX",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 10,
@@ -104,10 +113,11 @@
     "author": "John Knoll/Chris Weitz/Gary Whitta",
     "year": 2016,
     "canon": "canon",
-    "type": "film",
+    "type": "unreleased",
     "era": "unreleased",
     "url": "http://starwars.wikia.com/wiki/Rogue_One",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 11,
@@ -115,10 +125,11 @@
     "author": "Jon Kasdan/Lawrence Kasdan",
     "year": 2018,
     "canon": "canon",
-    "type": "film",
+    "type": "unreleased",
     "era": "unreleased",
     "url": "http://starwars.wikia.com/wiki/Untitled_Han_Solo_Anthology_film",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 12,
@@ -129,7 +140,8 @@
     "type": "book",
     "era": "classic",
     "url": "http://starwars.wikia.com/wiki/Star_Wars_Episode_IV:_A_New_Hope_(novel)",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 13,
@@ -140,7 +152,8 @@
     "type": "book",
     "era": "classic",
     "url": "http://starwars.wikia.com/wiki/Splinter_of_the_Mind%27s_Eye",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 14,
@@ -151,7 +164,8 @@
     "type": "book",
     "era": "classic",
     "url": "http://starwars.wikia.com/wiki/Han_Solo_at_Stars%27_End",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 15,
@@ -162,7 +176,8 @@
     "type": "book",
     "era": "classic",
     "url": "http://starwars.wikia.com/wiki/Han_Solo%27s_Revenge",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 16,
@@ -173,7 +188,8 @@
     "type": "book",
     "era": "classic",
     "url": "http://starwars.wikia.com/wiki/Star_Wars_Episode_V:_The_Empire_Strikes_Back_(novel)",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 17,
@@ -184,7 +200,8 @@
     "type": "book",
     "era": "classic",
     "url": "http://starwars.wikia.com/wiki/Han_Solo_and_the_Lost_Legacy",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 18,
@@ -195,7 +212,8 @@
     "type": "book",
     "era": "classic",
     "url": "http://starwars.wikia.com/wiki/Star_Wars_Episode_VI:_Return_of_the_Jedi_(novel)",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 19,
@@ -206,7 +224,8 @@
     "type": "book",
     "era": "classic",
     "url": "http://starwars.wikia.com/wiki/Lando_Calrissian_and_the_Mindharp_of_Sharu",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 20,
@@ -217,7 +236,8 @@
     "type": "book",
     "era": "classic",
     "url": "http://starwars.wikia.com/wiki/Lando_Calrissian_and_the_Flamewind_of_Oseon",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 21,
@@ -228,7 +248,8 @@
     "type": "book",
     "era": "classic",
     "url": "http://starwars.wikia.com/wiki/Lando_Calrissian_and_the_Starcave_of_ThonBoka",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 22,
@@ -239,7 +260,8 @@
     "type": "book",
     "era": "newrepublic",
     "url": "http://starwars.wikia.com/wiki/Heir_to_the_Empire",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 23,
@@ -250,7 +272,8 @@
     "type": "book",
     "era": "newrepublic",
     "url": "http://starwars.wikia.com/wiki/Dark_Force_Rising",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 24,
@@ -261,7 +284,8 @@
     "type": "book",
     "era": "newrepublic",
     "url": "http://starwars.wikia.com/wiki/The_Glove_of_Darth_Vader",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 25,
@@ -272,7 +296,8 @@
     "type": "book",
     "era": "newrepublic",
     "url": "http://starwars.wikia.com/wiki/The_Lost_City_of_the_Jedi",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 26,
@@ -283,7 +308,8 @@
     "type": "book",
     "era": "newrepublic",
     "url": "http://starwars.wikia.com/wiki/Zorba_the_Hutt%27s_Revenge",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 27,
@@ -294,7 +320,8 @@
     "type": "book",
     "era": "newrepublic",
     "url": "http://starwars.wikia.com/wiki/Mission_from_Mount_Yoda",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 28,
@@ -305,7 +332,8 @@
     "type": "book",
     "era": "newrepublic",
     "url": "http://starwars.wikia.com/wiki/Queen_of_the_Empire",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 29,
@@ -316,7 +344,8 @@
     "type": "book",
     "era": "newrepublic",
     "url": "http://starwars.wikia.com/wiki/Prophets_of_the_Dark_Side_(book)",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 30,
@@ -327,7 +356,8 @@
     "type": "book",
     "era": "newrepublic",
     "url": "http://starwars.wikia.com/wiki/The_Last_Command",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 31,
@@ -338,7 +368,8 @@
     "type": "book",
     "era": "newrepublic",
     "url": "http://starwars.wikia.com/wiki/The_Truce_at_Bakura",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 32,
@@ -349,7 +380,8 @@
     "type": "book",
     "era": "newrepublic",
     "url": "http://starwars.wikia.com/wiki/Jedi_Search",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 33,
@@ -360,7 +392,8 @@
     "type": "book",
     "era": "newrepublic",
     "url": "http://starwars.wikia.com/wiki/The_Courtship_of_Princess_Leia",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 34,
@@ -371,7 +404,8 @@
     "type": "book",
     "era": "newrepublic",
     "url": "http://starwars.wikia.com/wiki/Dark_Apprentice_(novel)",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 35,
@@ -382,7 +416,8 @@
     "type": "book",
     "era": "newrepublic",
     "url": "http://starwars.wikia.com/wiki/Champions_of_the_Force",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 36,
@@ -393,7 +428,8 @@
     "type": "book",
     "era": "newrepublic",
     "url": "http://starwars.wikia.com/wiki/The_Crystal_Star",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 37,
@@ -404,7 +440,8 @@
     "type": "book",
     "era": "newrepublic",
     "url": "http://starwars.wikia.com/wiki/Ambush_at_Corellia",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 38,
@@ -415,7 +452,8 @@
     "type": "book",
     "era": "newrepublic",
     "url": "http://starwars.wikia.com/wiki/Children_of_the_Jedi_(novel)",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 39,
@@ -426,7 +464,8 @@
     "type": "book",
     "era": "newrepublic",
     "url": "http://starwars.wikia.com/wiki/Young_Jedi_Knights:_Heirs_of_the_Force",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 40,
@@ -437,7 +476,8 @@
     "type": "book",
     "era": "newrepublic",
     "url": "http://starwars.wikia.com/wiki/Assault_at_Selonia",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 41,
@@ -448,7 +488,8 @@
     "type": "book",
     "era": "classic",
     "url": "http://starwars.wikia.com/wiki/Tales_from_the_Mos_Eisley_Cantina",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 42,
@@ -459,7 +500,8 @@
     "type": "book",
     "era": "newrepublic",
     "url": "http://starwars.wikia.com/wiki/Young_Jedi_Knights:_Shadow_Academy",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 43,
@@ -470,7 +512,8 @@
     "type": "book",
     "era": "newrepublic",
     "url": "http://starwars.wikia.com/wiki/Junior_Jedi_Knights:_The_Golden_Globe",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 44,
@@ -481,7 +524,8 @@
     "type": "book",
     "era": "newrepublic",
     "url": "http://starwars.wikia.com/wiki/Showdown_at_Centerpoint",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 45,
@@ -492,7 +536,8 @@
     "type": "book",
     "era": "newrepublic",
     "url": "http://starwars.wikia.com/wiki/Darksaber_(novel)",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 46,
@@ -503,7 +548,8 @@
     "type": "book",
     "era": "newrepublic",
     "url": "http://starwars.wikia.com/wiki/Young_Jedi_Knights:_The_Lost_Ones",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 47,
@@ -514,7 +560,8 @@
     "type": "book",
     "era": "newrepublic",
     "url": "http://starwars.wikia.com/wiki/X-Wing:_Rogue_Squadron",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 48,
@@ -525,7 +572,8 @@
     "type": "book",
     "era": "newrepublic",
     "url": "http://starwars.wikia.com/wiki/Junior_Jedi_Knights:_Lyric%27s_World",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 49,
@@ -536,7 +584,8 @@
     "type": "book",
     "era": "classic",
     "url": "http://starwars.wikia.com/wiki/Tales_from_Jabba%27s_Palace",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 50,
@@ -547,7 +596,8 @@
     "type": "book",
     "era": "newrepublic",
     "url": "http://starwars.wikia.com/wiki/Before_the_Storm",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 51,
@@ -558,7 +608,8 @@
     "type": "book",
     "era": "newrepublic",
     "url": "http://starwars.wikia.com/wiki/Young_Jedi_Knights:_Lightsabers",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 52,
@@ -569,7 +620,8 @@
     "type": "book",
     "era": "newrepublic",
     "url": "http://starwars.wikia.com/wiki/Junior_Jedi_Knights:_Promises",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 53,
@@ -580,7 +632,8 @@
     "type": "book",
     "era": "classic",
     "url": "http://starwars.wikia.com/wiki/Shadows_of_the_Empire_(novel)",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 54,
@@ -591,7 +644,8 @@
     "type": "book",
     "era": "newrepublic",
     "url": "http://starwars.wikia.com/wiki/X-Wing:_Wedge%27s_Gamble",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 55,
@@ -602,7 +656,8 @@
     "type": "book",
     "era": "newrepublic",
     "url": "http://starwars.wikia.com/wiki/Young_Jedi_Knights:_Darkest_Knight",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 56,
@@ -613,7 +668,8 @@
     "type": "book",
     "era": "newrepublic",
     "url": "http://starwars.wikia.com/wiki/Shield_of_Lies",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 57,
@@ -624,7 +680,8 @@
     "type": "book",
     "era": "newrepublic",
     "url": "http://starwars.wikia.com/wiki/Young_Jedi_Knights:_Jedi_Under_Siege",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 58,
@@ -635,7 +692,8 @@
     "type": "book",
     "era": "newrepublic",
     "url": "http://starwars.wikia.com/wiki/X-Wing:_The_Krytos_Trap",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 59,
@@ -646,7 +704,8 @@
     "type": "book",
     "era": "classic",
     "url": "http://starwars.wikia.com/wiki/Tales_of_the_Bounty_Hunters",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 60,
@@ -657,7 +716,8 @@
     "type": "book",
     "era": "newrepublic",
     "url": "http://starwars.wikia.com/wiki/Tyrant%27s_Test",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 61,
@@ -668,7 +728,8 @@
     "type": "book",
     "era": "newrepublic",
     "url": "http://starwars.wikia.com/wiki/The_New_Rebellion",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 62,
@@ -679,7 +740,8 @@
     "type": "book",
     "era": "classic",
     "url": "http://starwars.wikia.com/wiki/Galaxy_of_Fear:_Eaten_Alive",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 63,
@@ -690,7 +752,8 @@
     "type": "book",
     "era": "newrepublic",
     "url": "http://starwars.wikia.com/wiki/Young_Jedi_Knights:_Shards_of_Alderaan",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 64,
@@ -701,7 +764,8 @@
     "type": "book",
     "era": "classic",
     "url": "http://starwars.wikia.com/wiki/Galaxy_of_Fear:_City_of_the_Dead",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 65,
@@ -712,7 +776,8 @@
     "type": "book",
     "era": "prequel",
     "url": "http://starwars.wikia.com/wiki/Dark_Forces:_Soldier_for_the_Empire",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 66,
@@ -723,7 +788,8 @@
     "type": "book",
     "era": "newrepublic",
     "url": "http://starwars.wikia.com/wiki/X-Wing:_The_Bacta_War",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 67,
@@ -734,7 +800,8 @@
     "type": "book",
     "era": "newrepublic",
     "url": "http://starwars.wikia.com/wiki/Young_Jedi_Knights:_Diversity_Alliance",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 68,
@@ -745,7 +812,8 @@
     "type": "book",
     "era": "classic",
     "url": "http://starwars.wikia.com/wiki/Galaxy_of_Fear:_Planet_Plague",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 69,
@@ -756,7 +824,8 @@
     "type": "book",
     "era": "newrepublic",
     "url": "http://starwars.wikia.com/wiki/Junior_Jedi_Knights:_Anakin%27s_Quest",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 70,
@@ -767,7 +836,8 @@
     "type": "book",
     "era": "prequel",
     "url": "http://starwars.wikia.com/wiki/The_Paradise_Snare",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 71,
@@ -778,7 +848,8 @@
     "type": "book",
     "era": "classic",
     "url": "http://starwars.wikia.com/wiki/Galaxy_of_Fear:_The_Nightmare_Machine",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 72,
@@ -789,7 +860,8 @@
     "type": "book",
     "era": "newrepublic",
     "url": "http://starwars.wikia.com/wiki/Planet_of_Twilight",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 73,
@@ -800,7 +872,8 @@
     "type": "book",
     "era": "classic",
     "url": "http://starwars.wikia.com/wiki/Galaxy_of_Fear:_Ghost_of_the_Jedi",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 74,
@@ -811,7 +884,8 @@
     "type": "book",
     "era": "newrepublic",
     "url": "http://starwars.wikia.com/wiki/Young_Jedi_Knights:_Delusions_of_Grandeur",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 75,
@@ -822,7 +896,8 @@
     "type": "book",
     "era": "newrepublic",
     "url": "http://starwars.wikia.com/wiki/Junior_Jedi_Knights:_Vader%27s_Fortress",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 76,
@@ -833,7 +908,8 @@
     "type": "book",
     "era": "newrepublic",
     "url": "http://starwars.wikia.com/wiki/Junior_Jedi_Knights:_Kenobi%27s_Blade",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 77,
@@ -844,7 +920,8 @@
     "type": "book",
     "era": "newrepublic",
     "url": "http://starwars.wikia.com/wiki/Galaxy_of_Fear:_Army_of_Terror",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 78,
@@ -855,7 +932,8 @@
     "type": "book",
     "era": "prequel",
     "url": "http://starwars.wikia.com/wiki/The_Hutt_Gambit",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 79,
@@ -866,7 +944,8 @@
     "type": "book",
     "era": "newrepublic",
     "url": "http://starwars.wikia.com/wiki/Young_Jedi_Knights:_Jedi_Bounty",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 80,
@@ -877,7 +956,8 @@
     "type": "book",
     "era": "newrepublic",
     "url": "http://starwars.wikia.com/wiki/Specter_of_the_Past",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 81,
@@ -888,7 +968,8 @@
     "type": "book",
     "era": "classic",
     "url": "http://starwars.wikia.com/wiki/Galaxy_of_Fear:_The_Brain_Spiders",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 82,
@@ -899,7 +980,8 @@
     "type": "book",
     "era": "classic",
     "url": "http://starwars.wikia.com/wiki/Tales_from_the_Empire",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 83,
@@ -910,7 +992,8 @@
     "type": "book",
     "era": "newrepublic",
     "url": "http://starwars.wikia.com/wiki/Young_Jedi_Knights:_The_Emperor%27s_Plague",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 84,
@@ -921,7 +1004,8 @@
     "type": "book",
     "era": "newrepublic",
     "url": "http://starwars.wikia.com/wiki/Galaxy_of_Fear:_The_Swarm",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 85,
@@ -932,7 +1016,8 @@
     "type": "book",
     "era": "newrepublic",
     "url": "http://starwars.wikia.com/wiki/X-Wing:_Wraith_Squadron",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 86,
@@ -943,7 +1028,8 @@
     "type": "book",
     "era": "prequel",
     "url": "http://starwars.wikia.com/wiki/Rebel_Dawn",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 87,
@@ -954,7 +1040,8 @@
     "type": "book",
     "era": "classic",
     "url": "http://starwars.wikia.com/wiki/Galaxy_of_Fear:_Spore",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 88,
@@ -965,7 +1052,8 @@
     "type": "book",
     "era": "prequel",
     "url": "http://starwars.wikia.com/wiki/Dark_Forces:_Rebel_Agent",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 89,
@@ -976,7 +1064,8 @@
     "type": "book",
     "era": "newrepublic",
     "url": "http://starwars.wikia.com/wiki/Young_Jedi_Knights:_Return_to_Ord_Mantell",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 90,
@@ -987,7 +1076,8 @@
     "type": "book",
     "era": "newrepublic",
     "url": "http://starwars.wikia.com/wiki/I,_Jedi",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 91,
@@ -998,7 +1088,8 @@
     "type": "book",
     "era": "classic",
     "url": "http://starwars.wikia.com/wiki/Galaxy_of_Fear:_The_Doomsday_Ship",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 92,
@@ -1009,7 +1100,8 @@
     "type": "book",
     "era": "classic",
     "url": "http://starwars.wikia.com/wiki/The_Mandalorian_Armor",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 93,
@@ -1020,7 +1112,8 @@
     "type": "book",
     "era": "classic",
     "url": "http://starwars.wikia.com/wiki/Galaxy_of_Fear:_Clones",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 94,
@@ -1031,7 +1124,8 @@
     "type": "book",
     "era": "newrepublic",
     "url": "http://starwars.wikia.com/wiki/X-Wing:_Iron_Fist",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 95,
@@ -1042,7 +1136,8 @@
     "type": "book",
     "era": "newrepublic",
     "url": "http://starwars.wikia.com/wiki/Young_Jedi_Knights:_Trouble_on_Cloud_City",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 96,
@@ -1053,7 +1148,8 @@
     "type": "book",
     "era": "newrepublic",
     "url": "http://starwars.wikia.com/wiki/Vision_of_the_Future",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 97,
@@ -1064,7 +1160,8 @@
     "type": "book",
     "era": "classic",
     "url": "http://starwars.wikia.com/wiki/Galaxy_of_Fear:_The_Hunger",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 98,
@@ -1075,7 +1172,8 @@
     "type": "book",
     "era": "prequel",
     "url": "http://starwars.wikia.com/wiki/Dark_Forces:_Jedi_Knight",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 99,
@@ -1086,7 +1184,8 @@
     "type": "book",
     "era": "classic",
     "url": "http://starwars.wikia.com/wiki/Slave_Ship",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 100,
@@ -1097,7 +1196,8 @@
     "type": "book",
     "era": "newrepublic",
     "url": "http://starwars.wikia.com/wiki/Young_Jedi_Knights:_Crisis_at_Crystal_Reef",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 101,
@@ -1108,7 +1208,8 @@
     "type": "book",
     "era": "newrepublic",
     "url": "http://starwars.wikia.com/wiki/X-Wing:_Solo_Command",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 102,
@@ -1119,7 +1220,8 @@
     "type": "book",
     "era": "newrepublic",
     "url": "http://starwars.wikia.com/wiki/X-Wing:_Isard%27s_Revenge",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 103,
@@ -1130,7 +1232,8 @@
     "type": "book",
     "era": "prequel",
     "url": "http://starwars.wikia.com/wiki/Star_Wars_Episode_I:_The_Phantom_Menace_(novel)",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 104,
@@ -1141,7 +1244,8 @@
     "type": "book",
     "era": "prequel",
     "url": "http://starwars.wikia.com/wiki/Star_Wars_Episode_I:_The_Phantom_Menace_(junior_novelization)",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 105,
@@ -1152,7 +1256,8 @@
     "type": "book",
     "era": "prequel",
     "url": "http://starwars.wikia.com/wiki/Jedi_Apprentice:_The_Rising_Force",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 106,
@@ -1163,7 +1268,8 @@
     "type": "book",
     "era": "prequel",
     "url": "http://starwars.wikia.com/wiki/Jedi_Apprentice:_The_Dark_Rival",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 107,
@@ -1174,7 +1280,8 @@
     "type": "book",
     "era": "classic",
     "url": "http://starwars.wikia.com/wiki/Hard_Merchandise",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 108,
@@ -1185,7 +1292,8 @@
     "type": "book",
     "era": "prequel",
     "url": "http://starwars.wikia.com/wiki/Jedi_Apprentice:_The_Hidden_Past",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 109,
@@ -1196,7 +1304,8 @@
     "type": "book",
     "era": "newrepublic",
     "url": "http://starwars.wikia.com/wiki/X-Wing:_Starfighters_of_Adumar",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 110,
@@ -1207,7 +1316,8 @@
     "type": "book",
     "era": "prequel",
     "url": "http://starwars.wikia.com/wiki/Jedi_Apprentice:_The_Mark_of_the_Crown",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 111,
@@ -1218,7 +1328,8 @@
     "type": "book",
     "era": "newjediorder",
     "url": "http://starwars.wikia.com/wiki/The_New_Jedi_Order:_Vector_Prime",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 112,
@@ -1229,7 +1340,8 @@
     "type": "book",
     "era": "prequel",
     "url": "http://starwars.wikia.com/wiki/Jedi_Apprentice:_The_Defenders_of_the_Dead",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 113,
@@ -1240,7 +1352,8 @@
     "type": "book",
     "era": "newrepublic",
     "url": "http://starwars.wikia.com/wiki/Tales_from_the_New_Republic",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 114,
@@ -1251,7 +1364,8 @@
     "type": "book",
     "era": "prequel",
     "url": "http://starwars.wikia.com/wiki/Jedi_Apprentice:_The_Uncertain_Path",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 115,
@@ -1262,7 +1376,8 @@
     "type": "book",
     "era": "newjediorder",
     "url": "http://starwars.wikia.com/wiki/The_New_Jedi_Order:_Dark_Tide_I:_Onslaught",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 116,
@@ -1273,7 +1388,8 @@
     "type": "book",
     "era": "prequel",
     "url": "http://starwars.wikia.com/wiki/Jedi_Apprentice:_The_Captive_Temple",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 117,
@@ -1284,7 +1400,8 @@
     "type": "book",
     "era": "prequel",
     "url": "http://starwars.wikia.com/wiki/Rogue_Planet",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 118,
@@ -1295,7 +1412,8 @@
     "type": "book",
     "era": "newrepublic",
     "url": "http://starwars.wikia.com/wiki/Jedi_Apprentice:_The_Day_of_Reckoning",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 119,
@@ -1306,7 +1424,8 @@
     "type": "book",
     "era": "newjediorder",
     "url": "http://starwars.wikia.com/wiki/The_New_Jedi_Order:_Dark_Tide_II:_Ruin",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 120,
@@ -1317,7 +1436,8 @@
     "type": "book",
     "era": "newrepublic",
     "url": "http://starwars.wikia.com/wiki/The_New_Jedi_Order:_Agents_of_Chaos_I:_Hero%27s_Trial",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 121,
@@ -1328,7 +1448,8 @@
     "type": "book",
     "era": "prequel",
     "url": "http://starwars.wikia.com/wiki/Jedi_Apprentice:_The_Fight_for_Truth",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 122,
@@ -1339,7 +1460,8 @@
     "type": "book",
     "era": "prequel",
     "url": "http://starwars.wikia.com/wiki/Jedi_Apprentice:_The_Shattered_Peace",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 123,
@@ -1350,7 +1472,8 @@
     "type": "book",
     "era": "newjediorder",
     "url": "http://starwars.wikia.com/wiki/The_New_Jedi_Order:_Agents_of_Chaos_II:_Jedi_Eclipse",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 124,
@@ -1361,7 +1484,8 @@
     "type": "book",
     "era": "newjediorder",
     "url": "http://starwars.wikia.com/wiki/The_New_Jedi_Order:_Balance_Point",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 125,
@@ -1372,6 +1496,7 @@
     "type": "book",
     "era": "prequel",
     "url": "http://starwars.wikia.com/wiki/Jedi_Apprentice:_The_Deadly_Hunter",
-    "img": 0
+    "img": 0,
+    "added": false
   }
 ]

@@ -6,8 +6,10 @@ var Base64={_keyStr:"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456
 var Model = {
     saveChoices: function() {
         var saveIDs = [];
-        for (var i = 0, len = self.mine.length; i < len; i++) {
-            saveIDs.push(self.mine[i].id);
+        for (var i = 0, len = self.stories.length; i < len; i++) {
+            if (self.stories[i].added === true) {
+                saveIDs.push(self.stories[i].id);
+            }
         }
         var saveStr = JSON.stringify(saveIDs);
         sessionStorage.setItem('order', saveStr);
@@ -27,18 +29,14 @@ var Model = {
         if (sessionStorage.order) {
             loadStr = sessionStorage.order;
             var loadIDs = JSON.parse(loadStr);
-            var loadArray = [];
             for (var i = 0, len = loadIDs.length; i < len; i++) {
                 for (var f = 0, fen = self.stories.length; f < fen; f++) {
                     if (loadIDs[i] === self.stories[f].id) {
-                        loadArray.push(self.stories[f]);
+                        self.stories[f].added = true;
                     }
                 }
             }
-            self.$apply(function(){
-                self.mine = loadArray;
-            });
-        }
+            self.$apply();        }
 
     },
     loadChoices: function() {
@@ -50,23 +48,22 @@ var Model = {
             var decodeUrl = loadUrl.toString();
             var loadStr = Base64.decode(decodeUrl);
             var loadIDs = JSON.parse(loadStr);
-            var loadArray = [];
             for (var i = 0, len = loadIDs.length; i < len; i++) {
                 for (var f = 0, fen = self.stories.length; f < fen; f++) {
                     if (loadIDs[i] === self.stories[f].id) {
-                        loadArray.push(self.stories[f]);
+                        self.stories[f].added = true;
                     }
-                }
+                }            
             }
         }
-        self.$apply(function(){
-            self.mine = loadArray;
-        });
+        self.$apply();
     },
     clearChoices: function() {
         sessionStorage.order = "";
         self.$apply(function(){
-            self.mine = [];
+            for (var i = 0, len = self.stories.length; i < len; i++) {
+                self.stories[i].added = false;
+            }
         });
     },
 };
@@ -80,22 +77,18 @@ angular.module('swSort', ['ng-sortable'])
         var toAdd = [];
         for (var i = 0, len = self.stories.length; i < len; i++) {
             if (self.stories[i].id === index) {
-                self.mine.push(self.stories[i]);
-                self.stories.splice(i, 1);
+                self.stories[i].added = true;
             }
         }
         Model.saveChoices();
     };
-    $scope.removeSingle = function(item) {
-        var toRemove = self.mine.indexOf(item);
-        var removed = self.mine.splice(toRemove, 1);
-        var replaceIndex;
+    $scope.removeSingle = function(index) {
+        var toAdd = [];
         for (var i = 0, len = self.stories.length; i < len; i++) {
-            if (self.stories[i].id < item.id) {
-                var replaceIndex = i + 1;
+            if (self.stories[i].id === index) {
+                self.stories[i].added = false;
             }
         }
-        self.stories.splice(replaceIndex, 0, removed[0]);
         Model.saveChoices();
     };
 
@@ -115,7 +108,8 @@ angular.module('swSort', ['ng-sortable'])
     "type": "film",
     "era": "prequel",
     "url": "http://starwars.wikia.com/wiki/Star_Wars:_Episode_I_The_Phantom_Menace",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 2,
@@ -126,7 +120,8 @@ angular.module('swSort', ['ng-sortable'])
     "type": "film",
     "era": "prequel",
     "url": "http://starwars.wikia.com/wiki/Star_Wars:_Episode_II_Attack_of_the_Clones",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 3,
@@ -137,7 +132,8 @@ angular.module('swSort', ['ng-sortable'])
     "type": "film",
     "era": "prequel",
     "url": "http://starwars.wikia.com/wiki/Star_Wars:_Episode_III_Revenge_of_the_Sith",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 4,
@@ -148,7 +144,8 @@ angular.module('swSort', ['ng-sortable'])
     "type": "film",
     "era": "classic",
     "url": "http://starwars.wikia.com/wiki/Star_Wars:_Episode_IV_A_New_Hope",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 5,
@@ -159,7 +156,8 @@ angular.module('swSort', ['ng-sortable'])
     "type": "film",
     "era": "classic",
     "url": "http://starwars.wikia.com/wiki/Star_Wars:_Episode_V_The_Empire_Strikes_Back",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 6,
@@ -170,7 +168,8 @@ angular.module('swSort', ['ng-sortable'])
     "type": "film",
     "era": "classic",
     "url": "http://starwars.wikia.com/wiki/Star_Wars:_Episode_VI_Return_of_the_Jedi",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 7,
@@ -181,7 +180,8 @@ angular.module('swSort', ['ng-sortable'])
     "type": "film",
     "era": 0,
     "url": "http://starwars.wikia.com/wiki/Star_Wars:_Episode_VII_The_Force_Awakens",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 8,
@@ -192,7 +192,8 @@ angular.module('swSort', ['ng-sortable'])
     "type": "film",
     "era": 0,
     "url": "http://starwars.wikia.com/wiki/Star_Wars:_Episode_VIII",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 9,
@@ -203,7 +204,8 @@ angular.module('swSort', ['ng-sortable'])
     "type": "film",
     "era": 0,
     "url": "http://starwars.wikia.com/wiki/Star_Wars:_Episode_IX",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 10,
@@ -214,7 +216,8 @@ angular.module('swSort', ['ng-sortable'])
     "type": "film",
     "era": "prequel",
     "url": "http://starwars.wikia.com/wiki/Rogue_One",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 11,
@@ -225,7 +228,8 @@ angular.module('swSort', ['ng-sortable'])
     "type": "film",
     "era": 0,
     "url": "http://starwars.wikia.com/wiki/Untitled_Han_Solo_Anthology_film",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 12,
@@ -236,7 +240,8 @@ angular.module('swSort', ['ng-sortable'])
     "type": "book",
     "era": "classic",
     "url": "http://starwars.wikia.com/wiki/Star_Wars_Episode_IV:_A_New_Hope_(novel)",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 13,
@@ -247,7 +252,8 @@ angular.module('swSort', ['ng-sortable'])
     "type": "book",
     "era": "classic",
     "url": "http://starwars.wikia.com/wiki/Splinter_of_the_Mind%27s_Eye",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 14,
@@ -258,7 +264,8 @@ angular.module('swSort', ['ng-sortable'])
     "type": "book",
     "era": "classic",
     "url": "http://starwars.wikia.com/wiki/Han_Solo_at_Stars%27_End",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 15,
@@ -269,7 +276,8 @@ angular.module('swSort', ['ng-sortable'])
     "type": "book",
     "era": "classic",
     "url": "http://starwars.wikia.com/wiki/Han_Solo%27s_Revenge",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 16,
@@ -280,7 +288,8 @@ angular.module('swSort', ['ng-sortable'])
     "type": "book",
     "era": "classic",
     "url": "http://starwars.wikia.com/wiki/Star_Wars_Episode_V:_The_Empire_Strikes_Back_(novel)",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 17,
@@ -291,7 +300,8 @@ angular.module('swSort', ['ng-sortable'])
     "type": "book",
     "era": "classic",
     "url": "http://starwars.wikia.com/wiki/Han_Solo_and_the_Lost_Legacy",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 18,
@@ -302,7 +312,8 @@ angular.module('swSort', ['ng-sortable'])
     "type": "book",
     "era": "classic",
     "url": "http://starwars.wikia.com/wiki/Star_Wars_Episode_VI:_Return_of_the_Jedi_(novel)",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 19,
@@ -313,7 +324,8 @@ angular.module('swSort', ['ng-sortable'])
     "type": "book",
     "era": "classic",
     "url": "http://starwars.wikia.com/wiki/Lando_Calrissian_and_the_Mindharp_of_Sharu",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 20,
@@ -324,7 +336,8 @@ angular.module('swSort', ['ng-sortable'])
     "type": "book",
     "era": "classic",
     "url": "http://starwars.wikia.com/wiki/Lando_Calrissian_and_the_Flamewind_of_Oseon",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 21,
@@ -335,7 +348,8 @@ angular.module('swSort', ['ng-sortable'])
     "type": "book",
     "era": "classic",
     "url": "http://starwars.wikia.com/wiki/Lando_Calrissian_and_the_Starcave_of_ThonBoka",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 22,
@@ -346,7 +360,8 @@ angular.module('swSort', ['ng-sortable'])
     "type": "book",
     "era": "newrepublic",
     "url": "http://starwars.wikia.com/wiki/Heir_to_the_Empire",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 23,
@@ -357,7 +372,8 @@ angular.module('swSort', ['ng-sortable'])
     "type": "book",
     "era": "newrepublic",
     "url": "http://starwars.wikia.com/wiki/Dark_Force_Rising",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 24,
@@ -368,7 +384,8 @@ angular.module('swSort', ['ng-sortable'])
     "type": "book",
     "era": "newrepublic",
     "url": "http://starwars.wikia.com/wiki/The_Glove_of_Darth_Vader",
-    "img": 0
+    "img": 0,
+    "added": false
   },
   {
     "id": 25,
