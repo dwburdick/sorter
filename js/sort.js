@@ -93,8 +93,6 @@ angular.module('swSort', ['ng-sortable'])
         for (var i = 0, len = self.stories.length; i < len; i++) {
             if (self.stories[i].id < item.id) {
                 var replaceIndex = i + 1;
-                console.log("item id is " + item.id);
-                console.log("replace id is " + replaceIndex);
             }
         }
         self.stories.splice(replaceIndex, 0, removed[0]);
