@@ -33,6 +33,8 @@ var Model = {
                 for (var f = 0, fen = self.stories.length; f < fen; f++) {
                     if (loadIDs[i] === self.stories[f].id) {
                         self.stories[f].added = true;
+                        var whereAdd = self.mine.length;
+                        self.mine[whereAdd] = self.stories[f];                            
                     }
                 }
             }
@@ -52,6 +54,8 @@ var Model = {
                 for (var f = 0, fen = self.stories.length; f < fen; f++) {
                     if (loadIDs[i] === self.stories[f].id) {
                         self.stories[f].added = true;
+                        var whereAdd = self.mine.length;
+                        self.mine[whereAdd] = self.stories[f];                       
                     }
                 }            
             }
@@ -77,17 +81,20 @@ angular.module('swSort', ['ng-sortable'])
         for (var i = 0, len = self.stories.length; i < len; i++) {
             if (self.stories[i].id === index) {
                 self.stories[i].added = true;
+                var whereAdd = self.mine.length;
+                self.mine[whereAdd] = self.stories[i];
             }
         }
         Model.saveChoices();
     };
-    $scope.removeSingle = function(index) {
-        var toAdd = [];
+    $scope.removeSingle = function(item) {
         for (var i = 0, len = self.stories.length; i < len; i++) {
-            if (self.stories[i].id === index) {
+            if (self.stories[i].id === item.id) {
                 self.stories[i].added = false;
             }
         }
+        var toRemove = self.mine.indexOf(item);
+        self.mine.splice(toRemove, 1);
         Model.saveChoices();
     };
 
