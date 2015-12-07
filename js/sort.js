@@ -42,7 +42,7 @@ var Model = {
     loadChoices: function() {
         var url = window.location.href;
         if (url.indexOf('?') === -1) {
-            return;
+            Model.restoreChoices();
         } else {
             sessionStorage.order = "";
             var loadUrl = url.slice(window.location.href.indexOf('?') + 1).split();
@@ -253,7 +253,6 @@ angular.module('swSort', ['ng-sortable'])
     $http.get('http://nicetryinternet.com/star-wars-ranker/js/stories.json').
     success(function(data, status, headers, config) {
         $scope.stories = data;
-        Model.restoreChoices();
         Model.loadChoices();
     }).
     error(function(data, status, headers, config) {
