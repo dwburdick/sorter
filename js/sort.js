@@ -13,7 +13,7 @@ var Model = {
         sessionStorage.setItem('order', saveStr);
         var urlStr = Base64.encode(saveStr);
         newUrl = "http://nicetryinternet.com/star-wars-ranker/index.htm?" + urlStr;
-        $("#shareUrl").text(newUrl);
+        $("#shareUrl").val(newUrl);
         $("#tw-share").html('<a class="twitter-share-button" href="https://twitter.com/share" ' +
             'data-size="default" data-url="' + newUrl + '" ' +
             'data-related="nicetryinternet,daveburdick,starwars,tordotcom" ' +
@@ -36,7 +36,7 @@ var Model = {
                     }
                 }
             }
-            }
+        }
 
     },
     loadChoices: function() {
