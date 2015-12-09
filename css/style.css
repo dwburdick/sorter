@@ -126,13 +126,24 @@ input.filter {
 	display: table-cell;
 }
 
-#ranksButtons div {
-	display: inline;
+#toggleButtons {
+	margin: 10px;
+	display: none;
+}
+
+.sortButtons div,
+#advancedButton {
+	display: inline-block;
 	padding: 5px;
 	border: 1px solid #9b99af;
 	border-radius: 5px;
 	margin: 2px;
 	cursor: pointer;
+}
+
+.sortButtons div:active,
+#advancedButton:active {
+	background-color: #666;
 }
 
 #dragHere {
@@ -166,6 +177,13 @@ input.filter {
 
 .tv {
 	background-color: #04002c;
+}
+
+.badge {
+	color: #0099cc;
+	background-color: #1a1a1a;
+	border: 1px solid #0099cc;
+	display: none;
 }
 
 .grip {

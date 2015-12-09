@@ -89,8 +89,8 @@
 				<div class="ranksHead">
 					<h4>MY ORDER</h4>
 				</div>
-				<div id="ranksButtons">
-					<div id="saveChoices" onClick="Model.saveChoices()" data-toggle="modal" data-target="#shareModal"><span class="glyphicon glyphicon-share" aria-hidden="true"></span> Share </div><div id="clearChoices" onClick="Model.clearChoices()"><span class="glyphicon glyphicon-trash" aria-hidden="true"></span> Clear </div>
+				<div id="ranksButtons" class="sortButtons">
+					<div id="saveChoices" onClick="Model.saveChoices()" data-toggle="modal" data-target="#shareModal"><span class="glyphicon glyphicon-share" aria-hidden="true"></span> Save/Share </div><div id="clearChoices" onClick="Model.clearChoices()"><span class="glyphicon glyphicon-trash" aria-hidden="true"></span> Clear </div>
 				</div>
 			</div>
 			<div class="modal fade" id="shareModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
@@ -123,7 +123,7 @@
 				</div>
 			</div>
 
-			<div id="dragHere">Press the <span class="glyphicon glyphicon-plus" aria-hidden="true"></span> on a title to start creating your list and adjust your order by dragging the <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>.</div>
+			<div id="dragHere">Which Star Wars movie is your favorite? In which order should they be watched? Use this tool to bring order to the galaxy! Press the <span class="glyphicon glyphicon-plus" aria-hidden="true"></span> on a title to start creating your list and adjust your order by dragging the <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>. <a href="examples.htm">Need ideas</a>?</div>
 			<ul id="ranks" ng-sortable="mineConfig" style="min-height: 50px">
 				<li ng-repeat="item in mine" class="{{item.type + ' ' + item.canon}} list-group-item choice">
 					<div class="item">
@@ -139,14 +139,17 @@
 		<div class="col-sm-12 col-md-6 list-group">
 			<div class="optionsButtons" css="vertical-align: middle">
 				<form>
-				<input ng-model="query" class="form-control filter" placeholder="Filter by title, writer, series or year">
-				<div class="checkbox">
-				<label><input type="checkbox" id="movieButton" checked>Movies</label>
-				<label><input type="checkbox" id="booksCanonButton" checked>Books (Canon)</label>
-				<label><input type="checkbox" id="booksLegendsButton" checked>Books <span data-container="body" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content='In April 2014, Disney reset the Star Wars universe, making books and other properties that had already been published no longer a part of the official, "canon" Star Wars timeline. Those older works now carry the label "Legends."'>(Legends)</span></label>
-				<label><input type="checkbox" id="comicsCanonButton" checked>Comics (Canon)</label>
-				<label><input type="checkbox" id="comicsLegendsButton" checked>Comics <span data-container="body" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content='In April 2014, Disney reset the Star Wars universe, making books and other properties that had already been published no longer a part of the official, "canon" Star Wars timeline. Those older works now carry the label "Legends."'>(Legends)</span></label>
-				<label><input type="checkbox" id="tvButton" checked>TV</label>
+				<input ng-model="query" class="form-control filter" placeholder="Filter by title, writer, series, era or year"> <div id="advancedButton" class="sortButtons">Advanced</div>
+
+				<div id="toggleButtons" class="sortButtons">
+					<div id="movieButton"><span class="glyphicon glyphicon-film" aria-hidden="true"></span> Movies</div>
+					<div id="tvButton"><span class="glyphicon glyphicon-facetime-video" aria-hidden="true"></span> TV</div>
+					<div id="booksCanonButton"><span class="glyphicon glyphicon-book" aria-hidden="true"></span> Books (Canon)</div>
+					<div id="booksLegendsButton"><span class="glyphicon glyphicon-book" aria-hidden="true"></span> Books <span data-container="body" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content='In April 2014, Disney reset the Star Wars universe, making books and other properties that had already been published no longer a part of the official, "canon" Star Wars timeline. Those older works now carry the label "Legends."'>(Legends)</span></div>
+					<div id="comicsCanonButton"><span class="glyphicon glyphicon-comment" aria-hidden="true"></span> Comics (Canon)</div>
+					<div id="comicsLegendsButton"><span class="glyphicon glyphicon-comment" aria-hidden="true"></span> Comics <span data-container="body" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content='In April 2014, Disney reset the Star Wars universe, making books and other properties that had already been published no longer a part of the official, "canon" Star Wars timeline. Those older works now carry the label "Legends."'>(Legends)</span></div>
+					<div id="eraButton"><span class="glyphicon glyphicon-hourglass" aria-hidden="true"></span> Toggle Era</div>
+
 				</div>
 				</form>
 			</div>
@@ -155,7 +158,7 @@
 					<div class="item">
 						<div class="itemContent">
 							<div class="firstRow"><span class="itemTitle"><a href="{{item.url}}">{{item.title}} </a></span></div>
-							<div class="secondRow"><span class="authorName">{{item.author}} </span><span class="year">({{item.year}})</span></div>
+							<div class="secondRow"><span class="authorName">{{item.author}} </span><span class="year">({{item.year}})</span> <span class="badge">{{item.era}}</span></div>
 						</div>
 						<div class="addItem"><span style="float: right" class="glyphicon glyphicon-plus" aria-hidden="true" ng-click="addSingle(item.id)"></span></div>
 					</div>

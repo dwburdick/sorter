@@ -106,7 +106,7 @@ angular.module('swSort', ['ng-sortable'])
     "year": 1999,
     "canon": "canon",
     "type": "film",
-    "era": "prequel",
+    "era": "Rise of the Empire",
     "url": "http://starwars.wikia.com/wiki/Star_Wars:_Episode_I_The_Phantom_Menace",
     "img": 0,
     "added": false
@@ -118,7 +118,7 @@ angular.module('swSort', ['ng-sortable'])
     "year": 2002,
     "canon": "canon",
     "type": "film",
-    "era": "prequel",
+    "era": "Rise of the Empire",
     "url": "http://starwars.wikia.com/wiki/Star_Wars:_Episode_II_Attack_of_the_Clones",
     "img": 0,
     "added": false
@@ -130,7 +130,7 @@ angular.module('swSort', ['ng-sortable'])
     "year": 2005,
     "canon": "canon",
     "type": "film",
-    "era": "prequel",
+    "era": "Rise of the Empire",
     "url": "http://starwars.wikia.com/wiki/Star_Wars:_Episode_III_Revenge_of_the_Sith",
     "img": 0,
     "added": false
@@ -142,7 +142,7 @@ angular.module('swSort', ['ng-sortable'])
     "year": 1977,
     "canon": "canon",
     "type": "film",
-    "era": "classic",
+    "era": "Rebellion",
     "url": "http://starwars.wikia.com/wiki/Star_Wars:_Episode_IV_A_New_Hope",
     "img": 0,
     "added": false
@@ -154,7 +154,7 @@ angular.module('swSort', ['ng-sortable'])
     "year": 1980,
     "canon": "canon",
     "type": "film",
-    "era": "classic",
+    "era": "Rebellion",
     "url": "http://starwars.wikia.com/wiki/Star_Wars:_Episode_V_The_Empire_Strikes_Back",
     "img": 0,
     "added": false
@@ -166,7 +166,7 @@ angular.module('swSort', ['ng-sortable'])
     "year": 1983,
     "canon": "canon",
     "type": "film",
-    "era": "classic",
+    "era": "Rebellion",
     "url": "http://starwars.wikia.com/wiki/Star_Wars:_Episode_VI_Return_of_the_Jedi",
     "img": 0,
     "added": false
@@ -178,7 +178,7 @@ angular.module('swSort', ['ng-sortable'])
     "year": 2015,
     "canon": "canon",
     "type": "film",
-    "era": 0,
+    "era": "Aftermath",
     "url": "http://starwars.wikia.com/wiki/Star_Wars:_Episode_VII_The_Force_Awakens",
     "img": 0,
     "added": false
@@ -190,7 +190,7 @@ angular.module('swSort', ['ng-sortable'])
     "year": 2017,
     "canon": "canon",
     "type": "film",
-    "era": 0,
+    "era": "unreleased",
     "url": "http://starwars.wikia.com/wiki/Star_Wars:_Episode_VIII",
     "img": 0,
     "added": false
@@ -202,7 +202,7 @@ angular.module('swSort', ['ng-sortable'])
     "year": 2019,
     "canon": "canon",
     "type": "film",
-    "era": 0,
+    "era": "unreleased",
     "url": "http://starwars.wikia.com/wiki/Star_Wars:_Episode_IX",
     "img": 0,
     "added": false
@@ -214,7 +214,7 @@ angular.module('swSort', ['ng-sortable'])
     "year": 2016,
     "canon": "canon",
     "type": "film",
-    "era": "prequel",
+    "era": "Rebellion",
     "url": "http://starwars.wikia.com/wiki/Rogue_One",
     "img": 0,
     "added": false
@@ -226,7 +226,7 @@ angular.module('swSort', ['ng-sortable'])
     "year": 2018,
     "canon": "canon",
     "type": "film",
-    "era": 0,
+    "era": "unreleased",
     "url": "http://starwars.wikia.com/wiki/Untitled_Han_Solo_Anthology_film",
     "img": 0,
     "added": false
@@ -277,11 +277,19 @@ $(document).ready(function(){
         $("#options .book.legends").toggle();
     });
     $("#comicsCanonButton").click(function(){
-        $("#options .comment.canon").toggle();
+        $("#options .comics.canon").toggle();
     });
     $("#tvButton").click(function(){
-        $("#options .video").toggle();
+        $("#options .tv").toggle();
     });
+    $("#eraButton").click(function(){
+        $(".badge").toggle();
+    });
+    $("#advancedButton").click(function(){
+        $("#toggleButtons").toggle();
+        $("#advancedButton").toggle();
+    });
+
     $(function () {
         $('[data-toggle="popover"]').popover();
     });
