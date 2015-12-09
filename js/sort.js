@@ -254,6 +254,7 @@ angular.module('swSort', ['ng-sortable'])
     success(function(data, status, headers, config) {
         $scope.stories = data;
         Model.loadChoices();
+        View.init();
     }).
     error(function(data, status, headers, config) {
       // log error
@@ -262,7 +263,7 @@ angular.module('swSort', ['ng-sortable'])
 
 var View = {
     init: function() {
-        $("#options .book, #options .video, #options .comment").css('display', 'none');
+        $("#options .book, #options .tv, #options .comic").css('display', 'none');
     }
 };
 

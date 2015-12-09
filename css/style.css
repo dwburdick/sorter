@@ -102,6 +102,14 @@ input.filter {
 	background-color: #000;
 }
 
+
+#options .book,
+#options .tv,
+#options .comic {
+	display: none;
+	list-style: none;
+}
+
 .myColumn {
 	display: table;
 	width: 100%;
