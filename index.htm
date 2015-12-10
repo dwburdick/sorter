@@ -90,7 +90,7 @@
 					<h4>MY ORDER</h4>
 				</div>
 				<div id="ranksButtons" class="sortButtons">
-					<div id="saveChoices" onClick="Model.saveChoices()" data-toggle="modal" data-target="#shareModal"><span class="glyphicon glyphicon-share" aria-hidden="true"></span> Save/Share </div><div id="clearChoices" onClick="Model.clearChoices()"><span class="glyphicon glyphicon-trash" aria-hidden="true"></span> Clear </div>
+					<div id="advancedButton" class="sortButtons"><span id="advancedGlyph" class="glyphicon glyphicon-zoom-in" aria-hidden="true"></span> <span data-container="body" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content='Add TV, books and more to your search.'>Advanced</span></div><div id="saveChoices" onClick="Model.saveChoices()" data-toggle="modal" data-target="#shareModal"><span class="glyphicon glyphicon-share" aria-hidden="true"></span> Save/Share </div><div id="clearChoices" onClick="Model.clearChoices()"><span class="glyphicon glyphicon-trash" aria-hidden="true"></span> Clear </div>
 				</div>
 			</div>
 			<div class="modal fade" id="shareModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
@@ -140,7 +140,7 @@
 		<div class="col-sm-12 col-md-6 list-group">
 			<div class="optionsButtons" css="vertical-align: middle">
 				<form>
-				<input ng-model="query" class="form-control filter" placeholder="Filter by title, writer, series, era or year"> <div id="advancedButton" class="sortButtons">Advanced</div>
+				<input ng-model="query" class="form-control filter" placeholder="Filter by title, writer, series, era or year">
 
 				<div id="toggleButtons" class="sortButtons">
 					<div id="movieButton"><span class="glyphicon glyphicon-film" aria-hidden="true"></span> Movies</div>

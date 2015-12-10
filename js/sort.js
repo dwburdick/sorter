@@ -254,7 +254,6 @@ angular.module('swSort', ['ng-sortable'])
     success(function(data, status, headers, config) {
         $scope.stories = data;
         Model.loadChoices();
-        View.init();
     }).
     error(function(data, status, headers, config) {
       // log error
@@ -288,7 +287,12 @@ $(document).ready(function(){
     });
     $("#advancedButton").click(function(){
         $("#toggleButtons").toggle();
-        $("#advancedButton").toggle();
+        var glyph = $("#advancedGlyph").attr("class");
+        if (glyph === "glyphicon glyphicon-zoom-in") {
+            $("#advancedGlyph").attr("class", "glyphicon glyphicon-zoom-out")
+        } else {
+            $("#advancedGlyph").attr("class", "glyphicon glyphicon-zoom-in");
+        }
     });
 
     $(function () {
