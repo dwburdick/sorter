@@ -156,19 +156,11 @@ input.filter {
 
 #dragHere {
 	margin: 10px;
+	text-align: center;
 }
 
 #shareInput {
 	display: none;
-}
-
-#dragHere {
-	text-align: center;
-}
-
-.ghostclass {
-	opacity: 0.4;
-	color: #ffcc00;
 }
 
 .film {

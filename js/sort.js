@@ -266,6 +266,8 @@ var View = {
     }
 };
 
+
+
 $(document).ready(function(){
     $("#movieButton").click(function(){
         $("#options .film").toggle();
