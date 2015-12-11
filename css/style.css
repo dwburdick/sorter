@@ -106,7 +106,6 @@ input.filter {
 #options .book,
 #options .tv,
 #options .comic {
-	display: none;
 	list-style: none;
 }
 
