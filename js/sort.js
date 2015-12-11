@@ -213,7 +213,7 @@ angular.module('swSort', ['ng-sortable'])
     "author": "John Knoll/Chris Weitz/Gary Whitta",
     "year": 2016,
     "canon": "canon",
-    "type": "film",
+    "type": "book",
     "era": "Rebellion",
     "url": "http://starwars.wikia.com/wiki/Rogue_One",
     "img": 0,
@@ -225,7 +225,7 @@ angular.module('swSort', ['ng-sortable'])
     "author": "Jon Kasdan/Lawrence Kasdan",
     "year": 2018,
     "canon": "canon",
-    "type": "film",
+    "type": "book",
     "era": "unreleased",
     "url": "http://starwars.wikia.com/wiki/Untitled_Han_Solo_Anthology_film",
     "img": 0,
@@ -248,12 +248,22 @@ angular.module('swSort', ['ng-sortable'])
                 Model.saveChoices();
             }
         };
+
+    $scope.visible = {
+        "filmcanon": true,
+        "bookscanon": false,
+        "bookslegends": false,
+        "comicscanon": false,
+        "comicslegends": false,
+        "tvcanon": false
+    };
     self = $scope;
 
     $http.get('http://nicetryinternet.com/star-wars-ranker/js/stories.json').
     success(function(data, status, headers, config) {
         $scope.stories = data;
         Model.loadChoices();
+        View.init();
     }).
     error(function(data, status, headers, config) {
       // log error
@@ -262,28 +272,13 @@ angular.module('swSort', ['ng-sortable'])
 
 var View = {
     init: function() {
-        $("#options .book, #options .tv, #options .comic").css('display', 'none');
+        $("#options .book, #options .tv, #options .comic").toggle();
     }
 };
 
 
 
 $(document).ready(function(){
-    $("#movieButton").click(function(){
-        $("#options .film").toggle();
-    });
-    $("#booksCanonButton").click(function(){
-        $("#options .book.canon").toggle();
-    });
-    $("#booksLegendsButton").click(function(){
-        $("#options .book.legends").toggle();
-    });
-    $("#comicsCanonButton").click(function(){
-        $("#options .comics.canon").toggle();
-    });
-    $("#tvButton").click(function(){
-        $("#options .tv").toggle();
-    });
     $("#eraButton").click(function(){
         $(".badge").toggle();
     });
@@ -300,5 +295,4 @@ $(document).ready(function(){
     $(function () {
         $('[data-toggle="popover"]').popover();
     });
-    View.init();
 });
