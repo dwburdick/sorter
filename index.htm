@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html ng-app="swSort">
+<html ng-app="lineupSort">
 
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-	<meta property="fb:app_id" content="1213836965309492" />
-	<meta property="og:url" content="http://nicetryinternet.com/star-wars-ranker/index.htm" />
+	<meta property="fb:app_id" content="APP_ID" />
+	<meta property="og:url" content="URL" />
 	<meta property="og:type" content="article" />
-	<meta property="og:title" content="Star Wars ranker: What's the best? What's the worst? You decide." />
-	<meta property="og:description" content="Is the first Star Wars movie the best one? Where does The Clone Wars TV show fit in? And in which order should they all be watched?" />
-	<meta property="og:image" content="http://nicetryinternet.com/star-wars-ranker/share.jpg" />
+	<meta property="og:title" content="Starting lineup selector: Which five are you going with, coach?" />
+	<meta property="og:description" content="Who's got the hot hand? Whose injury is slowing them down too much? Put yourself in the coach's shoes and pick a winning starting five." />
+	<meta property="og:image" content="IMG_URL" />
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
@@ -19,9 +19,9 @@
 	<script src="js/ng-sortable.js"></script>
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-7s5uDGW3AHqw6xtJmNNtr+OBRJUlgkNJEo78P4b0yRw= sha512-nNo+yCHEyn0smMxSswnf/OnX6/KwJuZTlNZBjauKhTK0c+zT+q5JOCx0UFhXQ6rJR9jg6Es8gPuD2uZcYDLqSw==" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<title>Star Wars Ranker: From best to worst, share your favorites</title>
+	<title>Starting lineup selector: Which five are you going with, coach?</title>
 </head>
-<body ng-app="swSort" ng-controller="swSortCtrl">
+<body ng-app="lineupSort" ng-controller="lineupSortCtrl">
 	<div id="fb-root"></div>
 
 <!-- Load Facebook SDK for JavaScript -->
@@ -69,14 +69,13 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="index.htm">Star Wars Ranker</a>
+				<a class="navbar-brand" href="index.htm">Starting Lineup Selector</a>
 			</div>
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav">
 					<li><a onClick="Model.saveChoices()" data-toggle="modal" data-target="#shareModal">Share</a></li>
-					<li><a href="examples.htm">Examples</a></li>
-					<li><a href="about.htm">About</a></li>
-					<li><a href="donate.htm">Donate</a></li>
+					<li><a href="#">Denver Nuggets news</a></li>
+					<li><a href="#">Nuggets Ink blog</a></li>
 				</ul>
 			</div>
 		</div>
@@ -87,10 +86,10 @@
 		<div class="col-sm-12 col-md-6 list-group">
 			<div class="myColumn">
 				<div class="ranksHead">
-					<h4>MY ORDER</h4>
+					<h4>MY LINEUP</h4>
 				</div>
 				<div id="ranksButtons" class="sortButtons">
-					<div id="advancedButton" class="sortButtons"><span id="advancedGlyph" class="glyphicon glyphicon-zoom-in" aria-hidden="true"></span> <span data-container="body" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content='Add TV, books and more to your search.'>Advanced</span></div><div id="saveChoices" onClick="Model.saveChoices()" data-toggle="modal" data-target="#shareModal"><span class="glyphicon glyphicon-share" aria-hidden="true"></span> Save/Share </div><div id="clearChoices" onClick="Model.clearChoices()"><span class="glyphicon glyphicon-trash" aria-hidden="true"></span> Clear </div>
+					<div id="saveChoices" onClick="Model.saveChoices()" data-toggle="modal" data-target="#shareModal"><span class="glyphicon glyphicon-share" aria-hidden="true"></span> Save/Share </div><div id="clearChoices" onClick="Model.clearChoices()"><span class="glyphicon glyphicon-trash" aria-hidden="true"></span> Clear </div>
 				</div>
 			</div>
 			<div class="modal fade" id="shareModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
@@ -98,7 +97,7 @@
 					<div class="modal-content black">
 						<div class="modal-header gray">
 							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-							<h4 class="modal-title">Share your list</h4>
+							<h4 class="modal-title">Share your lineup</h4>
 						</div>
 						<div class="modal-body">
 							<div id="tw-share">
@@ -106,9 +105,9 @@
 								href="https://twitter.com/share"
 								data-size="large"
 								data-url="http://nicetryinternet.com/star-wars-ranker"
-								data-related="nicetryinternet,daveburdick,starwars,tordotcom"
-								data-hashtags="starwars"
-								data-text="Everything Star Wars, ranked. By me.">
+								data-related="denverpost"
+								data-hashtags="nba"
+								data-text="Here's who should be starting for the #Nuggets!">
 								Tweet
 								</a>
 							</div>
@@ -123,45 +122,27 @@
 				</div>
 			</div>
 
-			<div id="dragHere">Which Star Wars movie is your favorite? In which order should they be watched? Use this tool to bring order to the galaxy! Press the <span class="glyphicon glyphicon-plus" aria-hidden="true"></span> on a title to start creating your list and adjust your order by dragging the <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>. <a href="examples.htm">Need ideas</a>?</div>
+			<div id="dragHere">Press the <span class="glyphicon glyphicon-plus" aria-hidden="true"></span> on a title to start creating your list and adjust your lineup by dragging the <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>. <a href="examples.htm">Need ideas</a>?</div>
 			<ul id="ranks" ng-sortable="mineConfig">
-				<li ng-repeat="item in mine" class="{{item.type + ' ' + item.canon}} list-group-item choice">
-					<div class="item">
+				<li ng-repeat="player in mine" class="list-group-item choice">
+					<div class="player">
 						<div class="grip"><span class="glyphicon glyphicon-menu-hamburger handle" aria-hidden="true"></span></div>
-						<div class="itemContent">
-							<div class="firstRow"><span class="rank">{{$index + 1}}. </span><span class="itemTitle"><a href="{{item.url}}">{{item.title}} </a></span><span class="itemType">({{item.type}})</span></div>
-							<div class="secondRow"><span class="authorName">{{item.author}} </span><span class="year">({{item.year}})</span> <span class="badge era" ng-show="visible.era">{{item.era}}</span></div>
-						</div>
-						<div class="addItem"><span style="float: right" class="glyphicon glyphicon-minus" aria-hidden="true" ng-click="removeSingle(item)"></span></div>
+						<div class="firstRow"><span class="playerNumber">{{player.Number}} </span><span class="playerName"><a href="{{player.url}}">{{player.First}} {{player.Last}}</a></span><span class="playerPosition"> ({{player.Position}})</span></div>
+							<div class="secondRow"><span class="playerVitals">{{player.Height}} / {{player.Weight}}</span><span class="playerFrom">({{player.From}})</span></div>
+						<div class="addItem"><span style="float: right" class="glyphicon glyphicon-minus" aria-hidden="true" ng-click="removeSingle(player)"></span></div>
 					</div>
 				</li>
 			</ul>
 		</div>
 		<div class="col-sm-12 col-md-6 list-group">
-			<div class="optionsButtons" css="vertical-align: middle">
-				<form>
-				<input ng-model="query" class="form-control filter" placeholder="Filter by title, writer, series, era or year">
-
-				<div id="toggleButtons" class="sortButtons">
-					<div ng-click="visible.filmcanon = !visible.filmcanon"><span class="glyphicon glyphicon-film" aria-hidden="true"></span> Movies</div>
-					<div ng-click="visible.tvcanon = !visible.tvcanon"><span class="glyphicon glyphicon-facetime-video" aria-hidden="true"></span> TV</div>
-					<div ng-click="visible.bookcanon = !visible.bookcanon"><span class="glyphicon glyphicon-book" aria-hidden="true"></span> Books (Canon)</div>
-					<div ng-click="visible.booklegends = !visible.booklegends"><span class="glyphicon glyphicon-book" aria-hidden="true"></span> Books <span data-container="body" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content='In April 2014, Disney reset the Star Wars universe, making books and other properties that had already been published no longer a part of the official, "canon" Star Wars timeline. Those older works now carry the label "Legends."'>(Legends)</span></div>
-					<div ng-click="visible.comiccanon = !visible.comiccanon"><span class="glyphicon glyphicon-comment" aria-hidden="true"></span> Comics (Canon)</div>
-					<div ng-click="visible.comiclegends = !visible.comiclegends"><span class="glyphicon glyphicon-comment" aria-hidden="true"></span> Comics <span data-container="body" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content='In April 2014, Disney reset the Star Wars universe, making books and other properties that had already been published no longer a part of the official, "canon" Star Wars timeline. Those older works now carry the label "Legends."'>(Legends)</span></div>
-					<div ng-click="visible.era = !visible.era"><span class="glyphicon glyphicon-hourglass" aria-hidden="true"></span> Toggle Era</div>
-
-				</div>
-				</form>
-			</div>
 			<ul id="options">
-				<li ng-repeat="item in stories | filter: {added: false} | filter:query" class="{{item.type + ' ' + item.canon}} list-group-item choice" ng-show="visible.{{item.type}}{{item.canon}}">
-					<div class="item">
-						<div class="itemContent">
-							<div class="firstRow"><span class="itemTitle"><a href="{{item.url}}">{{item.title}} </a></span><span class="itemType">({{item.type}})</span></div>
-							<div class="secondRow"><span class="authorName">{{item.author}} </span><span class="year">({{item.year}})</span> <span class="badge era" ng-show="visible.era">{{item.era}}</span></div>
+				<li ng-repeat="player in players | filter: {added: false}" class="list-group-item choice">
+					<div class="player">
+						<div class="playerContent">
+							<div class="firstRow"><span class="playerNumber">{{player.Number}} </span><span class="playerName"><a href="{{player.url}}">{{player.First}} {{player.Last}}</a></span><span class="playerPosition"> ({{player.Position}})</span></div>
+							<div class="secondRow"><span class="playerVitals">{{player.Height}} / {{player.Weight}}</span><span class="playerFrom">({{player.From}})</span></div>
 						</div>
-						<div class="addItem"><span style="float: right" class="glyphicon glyphicon-plus" aria-hidden="true" ng-click="addSingle(item.id)"></span></div>
+						<div class="addItem"><span style="float: right" class="glyphicon glyphicon-plus" aria-hidden="true" ng-click="addSingle(player.id)"></span></div>
 					</div>
 				</li>
 			</ul>
