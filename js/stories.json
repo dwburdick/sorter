@@ -1,39 +1,15 @@
 [
   {
-    "id": 1,
-    "title": "Episode I: The Phantom Menace",
-    "author": "George Lucas",
-    "year": 1999,
-    "canon": "canon",
-    "type": "film",
-    "era": "Rise of the Empire",
-    "url": "http://starwars.wikia.com/wiki/Star_Wars:_Episode_I_The_Phantom_Menace",
-    "img": 0,
-    "added": false
-  },
-  {
-    "id": 2,
-    "title": "Episode II: Attack of the Clones",
-    "author": "George Lucas/Jonathan Hales",
-    "year": 2002,
-    "canon": "canon",
-    "type": "film",
-    "era": "Rise of the Empire",
-    "url": "http://starwars.wikia.com/wiki/Star_Wars:_Episode_II_Attack_of_the_Clones",
-    "img": 0,
-    "added": false
-  },
-  {
-    "id": 3,
-    "title": "Episode III: Revenge of the Sith",
-    "author": "George Lucas",
-    "year": 2005,
-    "canon": "canon",
-    "type": "film",
-    "era": "Rise of the Empire",
-    "url": "http://starwars.wikia.com/wiki/Star_Wars:_Episode_III_Revenge_of_the_Sith",
-    "img": 0,
-    "added": false
+    "id": 12,
+    "title": "Star Wars: From the Adventures of Luke Skywalker",
+    "author": "George Lucas/Alan Dean Foster",
+    "year": 1976,
+    "canon": "legends",
+    "type": "book",
+    "era": "Rebellion",
+    "url": "http://starwars.wikia.com/wiki/Star_Wars_Episode_IV:_A_New_Hope_(novel)",
+    "added": "FALSE",
+    "youngreader": "FALSE"
   },
   {
     "id": 4,
@@ -44,104 +20,20 @@
     "type": "film",
     "era": "Rebellion",
     "url": "http://starwars.wikia.com/wiki/Star_Wars:_Episode_IV_A_New_Hope",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "FALSE"
   },
   {
-    "id": 5,
-    "title": "Episode V: The Empire Strikes Back",
-    "author": "Leigh Brackett/Lawrence Kasdan",
-    "year": 1980,
-    "canon": "canon",
-    "type": "film",
+    "id": 317,
+    "title": "Star Wars",
+    "author": "Marvel",
+    "year": 1977,
+    "canon": "legends",
+    "type": "comic",
     "era": "Rebellion",
-    "url": "http://starwars.wikia.com/wiki/Star_Wars:_Episode_V_The_Empire_Strikes_Back",
-    "img": 0,
-    "added": false
-  },
-  {
-    "id": 6,
-    "title": "Episode VI: Return of the Jedi",
-    "author": "Lawrence Kasdan/George Lucas",
-    "year": 1983,
-    "canon": "canon",
-    "type": "film",
-    "era": "Rebellion",
-    "url": "http://starwars.wikia.com/wiki/Star_Wars:_Episode_VI_Return_of_the_Jedi",
-    "img": 0,
-    "added": false
-  },
-  {
-    "id": 7,
-    "title": "Episode VII: The Force Awakens",
-    "author": "Lawrence Kasdan/JJ Abrams/Michael Arndt",
-    "year": 2015,
-    "canon": "canon",
-    "type": "unreleased",
-    "era": "unreleased",
-    "url": "http://starwars.wikia.com/wiki/Star_Wars:_Episode_VII_The_Force_Awakens",
-    "img": 0,
-    "added": false
-  },
-  {
-    "id": 8,
-    "title": "Episode VIII",
-    "author": "Rian Johnson",
-    "year": 2017,
-    "canon": "canon",
-    "type": "unreleased",
-    "era": "unreleased",
-    "url": "http://starwars.wikia.com/wiki/Star_Wars:_Episode_VIII",
-    "img": 0,
-    "added": false
-  },
-  {
-    "id": 9,
-    "title": "Episode IX",
-    "author": "...",
-    "year": 2019,
-    "canon": "canon",
-    "type": "unreleased",
-    "era": "unreleased",
-    "url": "http://starwars.wikia.com/wiki/Star_Wars:_Episode_IX",
-    "img": 0,
-    "added": false
-  },
-  {
-    "id": 10,
-    "title": "Rogue One: A Star Wars Story",
-    "author": "John Knoll/Chris Weitz/Gary Whitta",
-    "year": 2016,
-    "canon": "canon",
-    "type": "unreleased",
-    "era": "unreleased",
-    "url": "http://starwars.wikia.com/wiki/Rogue_One",
-    "img": 0,
-    "added": false
-  },
-  {
-    "id": 11,
-    "title": "Untitled Han Solo film",
-    "author": "Jon Kasdan/Lawrence Kasdan",
-    "year": 2018,
-    "canon": "canon",
-    "type": "unreleased",
-    "era": "unreleased",
-    "url": "http://starwars.wikia.com/wiki/Untitled_Han_Solo_Anthology_film",
-    "img": 0,
-    "added": false
-  },
-  {
-    "id": 12,
-    "title": "Star Wars: From the Adventures of Luke Skywalker",
-    "author": "George Lucas/Alan Dean Foster",
-    "year": 1976,
-    "canon": "canon",
-    "type": "book",
-    "era": "Rebellion",
-    "url": "http://starwars.wikia.com/wiki/Star_Wars_Episode_IV:_A_New_Hope_(novel)",
-    "img": 0,
-    "added": false
+    "url": "http://starwars.wikia.com/wiki/Star_Wars_(Marvel)",
+    "added": "FALSE",
+    "youngreader": "FALSE"
   },
   {
     "id": 13,
@@ -152,8 +44,20 @@
     "type": "book",
     "era": "Rebellion",
     "url": "http://starwars.wikia.com/wiki/Splinter_of_the_Mind%27s_Eye",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 296,
+    "title": "The Star Wars Holiday Special",
+    "author": "Steve Binder",
+    "year": 1978,
+    "canon": "legends",
+    "type": "tv",
+    "era": "Rebellion",
+    "url": "http://starwars.wikia.com/wiki/The_Star_Wars_Holiday_Special",
+    "added": "FALSE",
+    "youngreader": "FALSE"
   },
   {
     "id": 14,
@@ -164,8 +68,8 @@
     "type": "book",
     "era": "Rebellion",
     "url": "http://starwars.wikia.com/wiki/Han_Solo_at_Stars%27_End",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "FALSE"
   },
   {
     "id": 15,
@@ -176,20 +80,32 @@
     "type": "book",
     "era": "Rebellion",
     "url": "http://starwars.wikia.com/wiki/Han_Solo%27s_Revenge",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 5,
+    "title": "Episode V: The Empire Strikes Back",
+    "author": "Leigh Brackett/Lawrence Kasdan",
+    "year": 1980,
+    "canon": "canon",
+    "type": "film",
+    "era": "Rebellion",
+    "url": "http://starwars.wikia.com/wiki/Star_Wars:_Episode_V_The_Empire_Strikes_Back",
+    "added": "FALSE",
+    "youngreader": "FALSE"
   },
   {
     "id": 16,
     "title": "The Empire Strikes Back (novelization)",
     "author": "Donald F. Glut",
     "year": 1980,
-    "canon": "canon",
+    "canon": "legends",
     "type": "book",
     "era": "Rebellion",
     "url": "http://starwars.wikia.com/wiki/Star_Wars_Episode_V:_The_Empire_Strikes_Back_(novel)",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "FALSE"
   },
   {
     "id": 17,
@@ -200,20 +116,32 @@
     "type": "book",
     "era": "Rebellion",
     "url": "http://starwars.wikia.com/wiki/Han_Solo_and_the_Lost_Legacy",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 6,
+    "title": "Episode VI: Return of the Jedi",
+    "author": "Lawrence Kasdan/George Lucas",
+    "year": 1983,
+    "canon": "canon",
+    "type": "film",
+    "era": "Rebellion",
+    "url": "http://starwars.wikia.com/wiki/Star_Wars:_Episode_VI_Return_of_the_Jedi",
+    "added": "FALSE",
+    "youngreader": "FALSE"
   },
   {
     "id": 18,
     "title": "Return of the Jedi (novelization)",
     "author": "James Kahn",
     "year": 1983,
-    "canon": "canon",
+    "canon": "legends",
     "type": "book",
     "era": "Rebellion",
     "url": "http://starwars.wikia.com/wiki/Star_Wars_Episode_VI:_Return_of_the_Jedi_(novel)",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "FALSE"
   },
   {
     "id": 19,
@@ -224,8 +152,8 @@
     "type": "book",
     "era": "Rebellion",
     "url": "http://starwars.wikia.com/wiki/Lando_Calrissian_and_the_Mindharp_of_Sharu",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "FALSE"
   },
   {
     "id": 20,
@@ -236,8 +164,8 @@
     "type": "book",
     "era": "Rebellion",
     "url": "http://starwars.wikia.com/wiki/Lando_Calrissian_and_the_Flamewind_of_Oseon",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "FALSE"
   },
   {
     "id": 21,
@@ -248,8 +176,92 @@
     "type": "book",
     "era": "Rebellion",
     "url": "http://starwars.wikia.com/wiki/Lando_Calrissian_and_the_Starcave_of_ThonBoka",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 318,
+    "title": "Return of the Jedi",
+    "author": "Marvel",
+    "year": 1983,
+    "canon": "legends",
+    "type": "comic",
+    "era": "Rebellion",
+    "url": "http://starwars.wikia.com/wiki/Star_Wars:_Return_of_the_Jedi_(comics)",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 297,
+    "title": "Ewoks (Ewoks 1)",
+    "author": "Paul Dini",
+    "year": 1985,
+    "canon": "legends",
+    "type": "tv",
+    "era": "Rebellion",
+    "url": "http://starwars.wikia.com/wiki/Star_Wars%3A_Ewoks",
+    "added": "FALSE",
+    "youngreader": "TRUE"
+  },
+  {
+    "id": 299,
+    "title": "Droids: The Adventures of R2-D2 and C-3PO",
+    "author": "Paul Dini",
+    "year": 1985,
+    "canon": "legends",
+    "type": "tv",
+    "era": "Rebellion",
+    "url": "http://starwars.wikia.com/wiki/Star_Wars%3A_Droids%3A_The_Adventures_of_R2-D2_and_C-3PO",
+    "added": "FALSE",
+    "youngreader": "TRUE"
+  },
+  {
+    "id": 319,
+    "title": "Ewoks",
+    "author": "Marvel",
+    "year": 1985,
+    "canon": "legends",
+    "type": "comic",
+    "era": "Rebellion",
+    "url": "http://starwars.wikia.com/wiki/Ewoks_(Marvel)",
+    "added": "FALSE",
+    "youngreader": "TRUE"
+  },
+  {
+    "id": 298,
+    "title": "The All New Ewoks (Ewoks 2)",
+    "author": "Paul Dini",
+    "year": 1986,
+    "canon": "legends",
+    "type": "tv",
+    "era": "Rebellion",
+    "url": "http://starwars.wikia.com/wiki/Star_Wars%3A_Ewoks",
+    "added": "FALSE",
+    "youngreader": "TRUE"
+  },
+  {
+    "id": 300,
+    "title": "The Great Heep (Droids TV special)",
+    "author": "Paul Dini",
+    "year": 1986,
+    "canon": "legends",
+    "type": "tv",
+    "era": "Rebellion",
+    "url": "http://starwars.wikia.com/wiki/The_Great_Heep",
+    "added": "FALSE",
+    "youngreader": "TRUE"
+  },
+  {
+    "id": 320,
+    "title": "Droids",
+    "author": "Marvel",
+    "year": 1986,
+    "canon": "legends",
+    "type": "comic",
+    "era": "Rebellion",
+    "url": "http://starwars.wikia.com/wiki/Star_Wars:_Droids_(Marvel)",
+    "added": "FALSE",
+    "youngreader": "TRUE"
   },
   {
     "id": 22,
@@ -260,8 +272,32 @@
     "type": "book",
     "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/Heir_to_the_Empire",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 321,
+    "title": "Dark Empire",
+    "author": "Dark Horse / Veitch / Kennedy",
+    "year": 1991,
+    "canon": "legends",
+    "type": "comic",
+    "era": "New Republic",
+    "url": "http://starwars.wikia.com/wiki/Dark_Empire",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 322,
+    "title": "Dark Empire II",
+    "author": "Dark Horse / Veitch / Kennedy",
+    "year": 1991,
+    "canon": "legends",
+    "type": "comic",
+    "era": "New Republic",
+    "url": "http://starwars.wikia.com/wiki/Dark_Empire_II",
+    "added": "FALSE",
+    "youngreader": "FALSE"
   },
   {
     "id": 23,
@@ -272,8 +308,8 @@
     "type": "book",
     "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/Dark_Force_Rising",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "FALSE"
   },
   {
     "id": 24,
@@ -284,8 +320,8 @@
     "type": "book",
     "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/The_Glove_of_Darth_Vader",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "FALSE"
   },
   {
     "id": 25,
@@ -296,8 +332,8 @@
     "type": "book",
     "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/The_Lost_City_of_the_Jedi",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "FALSE"
   },
   {
     "id": 26,
@@ -308,8 +344,8 @@
     "type": "book",
     "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/Zorba_the_Hutt%27s_Revenge",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "FALSE"
   },
   {
     "id": 27,
@@ -320,8 +356,8 @@
     "type": "book",
     "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/Mission_from_Mount_Yoda",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "FALSE"
   },
   {
     "id": 28,
@@ -332,8 +368,8 @@
     "type": "book",
     "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/Queen_of_the_Empire",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "FALSE"
   },
   {
     "id": 29,
@@ -344,8 +380,8 @@
     "type": "book",
     "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/Prophets_of_the_Dark_Side_(book)",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "FALSE"
   },
   {
     "id": 30,
@@ -356,8 +392,20 @@
     "type": "book",
     "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/The_Last_Command",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 323,
+    "title": "Knights of the Old Republic (Tales of the Jedi)",
+    "author": "Dark Horse",
+    "year": 1993,
+    "canon": "legends",
+    "type": "comic",
+    "era": "Old Republic",
+    "url": "http://starwars.wikia.com/wiki/Tales_of_the_Jedi:_Knights_of_the_Old_Republic",
+    "added": "FALSE",
+    "youngreader": "FALSE"
   },
   {
     "id": 31,
@@ -368,8 +416,8 @@
     "type": "book",
     "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/The_Truce_at_Bakura",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "FALSE"
   },
   {
     "id": 32,
@@ -380,8 +428,8 @@
     "type": "book",
     "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/Jedi_Search",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "FALSE"
   },
   {
     "id": 33,
@@ -392,8 +440,8 @@
     "type": "book",
     "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/The_Courtship_of_Princess_Leia",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "FALSE"
   },
   {
     "id": 34,
@@ -404,8 +452,8 @@
     "type": "book",
     "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/Dark_Apprentice_(novel)",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "FALSE"
   },
   {
     "id": 35,
@@ -416,8 +464,8 @@
     "type": "book",
     "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/Champions_of_the_Force",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "FALSE"
   },
   {
     "id": 36,
@@ -428,8 +476,44 @@
     "type": "book",
     "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/The_Crystal_Star",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 324,
+    "title": "The Freedon Nadd Uprising (Tales of the Jedi)",
+    "author": "Dark Horse",
+    "year": 1994,
+    "canon": "legends",
+    "type": "comic",
+    "era": "Old Republic",
+    "url": "http://starwars.wikia.com/wiki/Tales_of_the_Jedi:_The_Freedon_Nadd_Uprising",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 325,
+    "title": "Dark Lords of the Sith",
+    "author": "Dark Horse",
+    "year": 1994,
+    "canon": "legends",
+    "type": "comic",
+    "era": "Old Republic",
+    "url": "http://starwars.wikia.com/wiki/Tales_of_the_Jedi:_Dark_Lords_of_the_Sith",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 326,
+    "title": "Droids",
+    "author": "Dark Horse",
+    "year": 1994,
+    "canon": "legends",
+    "type": "comic",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/Star_Wars:_Droids_(Dark_Horse)",
+    "added": "FALSE",
+    "youngreader": "FALSE"
   },
   {
     "id": 37,
@@ -440,8 +524,8 @@
     "type": "book",
     "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/Ambush_at_Corellia",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "FALSE"
   },
   {
     "id": 38,
@@ -452,20 +536,20 @@
     "type": "book",
     "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/Children_of_the_Jedi_(novel)",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "FALSE"
   },
   {
     "id": 39,
-    "title": "Young Jedi Knights 1: Heirs of the Force",
+    "title": "Heirs of the Force (Young Jedi Knights 1)",
     "author": "Kevin J. Anderson / Rebecca Moesta",
     "year": 1995,
     "canon": "legends",
     "type": "book",
     "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/Young_Jedi_Knights:_Heirs_of_the_Force",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "TRUE"
   },
   {
     "id": 40,
@@ -476,8 +560,8 @@
     "type": "book",
     "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/Assault_at_Selonia",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "FALSE"
   },
   {
     "id": 41,
@@ -488,32 +572,32 @@
     "type": "book",
     "era": "Rebellion",
     "url": "http://starwars.wikia.com/wiki/Tales_from_the_Mos_Eisley_Cantina",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "FALSE"
   },
   {
     "id": 42,
-    "title": "Young Jedi Knights 2: Shadow Academy",
+    "title": "Shadow Academy (Young Jedi Knights 2)",
     "author": "Kevin J. Anderson / Rebecca Moesta",
     "year": 1995,
     "canon": "legends",
     "type": "book",
     "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/Young_Jedi_Knights:_Shadow_Academy",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "TRUE"
   },
   {
     "id": 43,
-    "title": "Junior Jedi Knights 1: The Golden Globe",
+    "title": "The Golden Globe (Junior Jedi Knights 1)",
     "author": "Nancy Richardson",
     "year": 1995,
     "canon": "legends",
     "type": "book",
     "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/Junior_Jedi_Knights:_The_Golden_Globe",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "TRUE"
   },
   {
     "id": 44,
@@ -524,8 +608,8 @@
     "type": "book",
     "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/Showdown_at_Centerpoint",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "FALSE"
   },
   {
     "id": 45,
@@ -536,20 +620,92 @@
     "type": "book",
     "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/Darksaber_(novel)",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "FALSE"
   },
   {
     "id": 46,
-    "title": "Young Jedi Knights 3: The Lost Ones",
+    "title": "The Lost Ones (Young Jedi Knights 3)",
     "author": "Kevin J. Anderson / Rebecca Moesta",
     "year": 1995,
     "canon": "legends",
     "type": "book",
     "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/Young_Jedi_Knights:_The_Lost_Ones",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "TRUE"
+  },
+  {
+    "id": 327,
+    "title": "The Sith War (Tales of the Jedi)",
+    "author": "Dark Horse",
+    "year": 1995,
+    "canon": "legends",
+    "type": "comic",
+    "era": "Old Republic",
+    "url": "http://starwars.wikia.com/wiki/Tales_of_the_Jedi:_The_Sith_War",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 328,
+    "title": "Jabba The Hutt",
+    "author": "Dark Horse / Woodring / Wetherell / Sheldon",
+    "year": 1995,
+    "canon": "legends",
+    "type": "comic",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/Jabba_the_Hutt_(comics)",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 329,
+    "title": "Boba Fett",
+    "author": "Dark Horse",
+    "year": 1995,
+    "canon": "legends",
+    "type": "comic",
+    "era": "Rebellion",
+    "url": "http://starwars.wikia.com/wiki/Boba_Fett:_Enemy_of_the_Empire",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 330,
+    "title": "Splinter of the Mind's Eye",
+    "author": "Dark Horse / Austin",
+    "year": 1995,
+    "canon": "legends",
+    "type": "comic",
+    "era": "Rebellion",
+    "url": "http://starwars.wikia.com/wiki/Splinter_of_the_Mind%27s_Eye_(comics)",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 331,
+    "title": "X-Wing: Rogue Squadron",
+    "author": "Dark Horse",
+    "year": 1995,
+    "canon": "legends",
+    "type": "comic",
+    "era": "New Republic",
+    "url": "http://starwars.wikia.com/wiki/Star_Wars:_X-Wing_Rogue_Squadron",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 332,
+    "title": "Heir to the Empire",
+    "author": "Dark Horse / Mike Baron",
+    "year": 1995,
+    "canon": "legends",
+    "type": "comic",
+    "era": "New Republic",
+    "url": "http://starwars.wikia.com/wiki/Heir_to_the_Empire_(comics)",
+    "added": "FALSE",
+    "youngreader": "FALSE"
   },
   {
     "id": 47,
@@ -560,20 +716,20 @@
     "type": "book",
     "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/X-Wing:_Rogue_Squadron",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "FALSE"
   },
   {
     "id": 48,
-    "title": "Junior Jedi Knights 2: Lyric's World",
+    "title": "Lyric's World (Junior Jedi Knights 2)",
     "author": "Nancy Richardson",
     "year": 1996,
     "canon": "legends",
     "type": "book",
     "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/Junior_Jedi_Knights:_Lyric%27s_World",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "TRUE"
   },
   {
     "id": 49,
@@ -584,8 +740,8 @@
     "type": "book",
     "era": "Rebellion",
     "url": "http://starwars.wikia.com/wiki/Tales_from_Jabba%27s_Palace",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "FALSE"
   },
   {
     "id": 50,
@@ -596,32 +752,32 @@
     "type": "book",
     "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/Before_the_Storm",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "FALSE"
   },
   {
     "id": 51,
-    "title": "Young Jedi Knights 4: Lightsabers",
+    "title": "Lightsabers (Young Jedi Knights 4)",
     "author": "Kevin J. Anderson / Rebecca Moesta",
     "year": 1996,
     "canon": "legends",
     "type": "book",
     "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/Young_Jedi_Knights:_Lightsabers",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "TRUE"
   },
   {
     "id": 52,
-    "title": "Junior Jedi Knights 3: Promises",
+    "title": "Promises (Junior Jedi Knights 3)",
     "author": "Nancy Richardson",
     "year": 1996,
     "canon": "legends",
     "type": "book",
     "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/Junior_Jedi_Knights:_Promises",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "TRUE"
   },
   {
     "id": 53,
@@ -632,8 +788,8 @@
     "type": "book",
     "era": "Rebellion",
     "url": "http://starwars.wikia.com/wiki/Shadows_of_the_Empire_(novel)",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "FALSE"
   },
   {
     "id": 54,
@@ -644,20 +800,20 @@
     "type": "book",
     "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/X-Wing:_Wedge%27s_Gamble",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "FALSE"
   },
   {
     "id": 55,
-    "title": "Young Jedi Knights 5: Darkest Knight",
+    "title": "Darkest Knight (Young Jedi Knights 5)",
     "author": "Kevin J. Anderson / Rebecca Moesta",
     "year": 1996,
     "canon": "legends",
     "type": "book",
     "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/Young_Jedi_Knights:_Darkest_Knight",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "TRUE"
   },
   {
     "id": 56,
@@ -668,20 +824,20 @@
     "type": "book",
     "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/Shield_of_Lies",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "FALSE"
   },
   {
     "id": 57,
-    "title": "Young Jedi Knights 6: Jedi Under Siege",
+    "title": "Jedi Under Siege (Young Jedi Knights 6)",
     "author": "Kevin J. Anderson / Rebecca Moesta",
     "year": 1996,
     "canon": "legends",
     "type": "book",
     "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/Young_Jedi_Knights:_Jedi_Under_Siege",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "TRUE"
   },
   {
     "id": 58,
@@ -692,8 +848,8 @@
     "type": "book",
     "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/X-Wing:_The_Krytos_Trap",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "FALSE"
   },
   {
     "id": 59,
@@ -704,8 +860,8 @@
     "type": "book",
     "era": "Rebellion",
     "url": "http://starwars.wikia.com/wiki/Tales_of_the_Bounty_Hunters",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "FALSE"
   },
   {
     "id": 60,
@@ -716,8 +872,8 @@
     "type": "book",
     "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/Tyrant%27s_Test",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "FALSE"
   },
   {
     "id": 61,
@@ -728,44 +884,68 @@
     "type": "book",
     "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/The_New_Rebellion",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 333,
+    "title": "The Golden Age of the Sith (Tales of the Jedi)",
+    "author": "Dark Horse / Kevin J. Anderson",
+    "year": 1996,
+    "canon": "legends",
+    "type": "comic",
+    "era": "Old Republic",
+    "url": "http://starwars.wikia.com/wiki/Tales_of_the_Jedi:_The_Golden_Age_of_the_Sith",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 334,
+    "title": "Shadows of the Empire",
+    "author": "Dark Horse / Wagner",
+    "year": 1996,
+    "canon": "legends",
+    "type": "comic",
+    "era": "Rebellion",
+    "url": "http://starwars.wikia.com/wiki/Shadows_of_the_Empire_(comics)",
+    "added": "FALSE",
+    "youngreader": "FALSE"
   },
   {
     "id": 62,
-    "title": "Galaxy of Fear 1: Eaten Alive",
+    "title": "Eaten Alive (Galaxy of Fear 1)",
     "author": "John Whitman",
     "year": 1997,
     "canon": "legends",
     "type": "book",
     "era": "Rebellion",
     "url": "http://starwars.wikia.com/wiki/Galaxy_of_Fear:_Eaten_Alive",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "TRUE"
   },
   {
     "id": 63,
-    "title": "Young Jedi Knights 7: Shards of Alderaan",
+    "title": "Shards of Alderaan (Young Jedi Knights 7)",
     "author": "Kevin J. Anderson / Rebecca Moesta",
     "year": 1997,
     "canon": "legends",
     "type": "book",
     "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/Young_Jedi_Knights:_Shards_of_Alderaan",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "TRUE"
   },
   {
     "id": 64,
-    "title": "Galaxy of Fear 2: City of the Dead",
+    "title": "City of the Dead (Galaxy of Fear 2)",
     "author": "John Whitman",
     "year": 1997,
     "canon": "legends",
     "type": "book",
     "era": "Rebellion",
     "url": "http://starwars.wikia.com/wiki/Galaxy_of_Fear:_City_of_the_Dead",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "TRUE"
   },
   {
     "id": 65,
@@ -776,8 +956,8 @@
     "type": "book",
     "era": "Rise of the Empire",
     "url": "http://starwars.wikia.com/wiki/Dark_Forces:_Soldier_for_the_Empire",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "FALSE"
   },
   {
     "id": 66,
@@ -788,44 +968,44 @@
     "type": "book",
     "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/X-Wing:_The_Bacta_War",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "FALSE"
   },
   {
     "id": 67,
-    "title": "Young Jedi Knights 8: Diversity Alliance",
+    "title": "Diversity Alliance (Young Jedi Knights 8)",
     "author": "Kevin J. Anderson / Rebecca Moesta",
     "year": 1997,
     "canon": "legends",
     "type": "book",
     "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/Young_Jedi_Knights:_Diversity_Alliance",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "TRUE"
   },
   {
     "id": 68,
-    "title": "Galaxy of Fear 3: Planet Plague",
+    "title": "Planet Plague (Galaxy of Fear 3)",
     "author": 0,
     "year": 1997,
     "canon": "legends",
     "type": "book",
     "era": "Rebellion",
     "url": "http://starwars.wikia.com/wiki/Galaxy_of_Fear:_Planet_Plague",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "TRUE"
   },
   {
     "id": 69,
-    "title": "Junior Jedi Knights 4: Anakin's Quest",
+    "title": "Anakin's Quest (Junior Jedi Knights 4)",
     "author": "Rebecca Moesta",
     "year": 1997,
     "canon": "legends",
     "type": "book",
     "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/Junior_Jedi_Knights:_Anakin%27s_Quest",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "TRUE"
   },
   {
     "id": 70,
@@ -836,20 +1016,20 @@
     "type": "book",
     "era": "Rise of the Empire",
     "url": "http://starwars.wikia.com/wiki/The_Paradise_Snare",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "FALSE"
   },
   {
     "id": 71,
-    "title": "Galaxy of Fear 4: The Nightmare Machine",
+    "title": "The Nightmare Machine (Galaxy of Fear 4)",
     "author": "John Whitman",
     "year": 1997,
     "canon": "legends",
     "type": "book",
     "era": "Rebellion",
     "url": "http://starwars.wikia.com/wiki/Galaxy_of_Fear:_The_Nightmare_Machine",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "TRUE"
   },
   {
     "id": 72,
@@ -860,68 +1040,68 @@
     "type": "book",
     "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/Planet_of_Twilight",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "FALSE"
   },
   {
     "id": 73,
-    "title": "Galaxy of Fear 5: Ghost of the Jedi",
+    "title": "Ghost of the Jedi (Galaxy of Fear 5)",
     "author": "John Whitman",
     "year": 1997,
     "canon": "legends",
     "type": "book",
     "era": "Rebellion",
     "url": "http://starwars.wikia.com/wiki/Galaxy_of_Fear:_Ghost_of_the_Jedi",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "TRUE"
   },
   {
     "id": 74,
-    "title": "Young Jedi Knights 9: Delusions of Grandeur",
+    "title": "Delusions of Grandeur (Young Jedi Knights 9)",
     "author": "Kevin J. Anderson / Rebecca Moesta",
     "year": 1997,
     "canon": "legends",
     "type": "book",
     "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/Young_Jedi_Knights:_Delusions_of_Grandeur",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "TRUE"
   },
   {
     "id": 75,
-    "title": "Junior Jedi Knights 5: Vader's Fortress",
+    "title": "Vader's Fortress (Junior Jedi Knights 5)",
     "author": "Rebecca Moesta",
     "year": 1997,
     "canon": "legends",
     "type": "book",
     "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/Junior_Jedi_Knights:_Vader%27s_Fortress",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "TRUE"
   },
   {
     "id": 76,
-    "title": "Junior Jedi Knights 6: Kenobi's Blade",
+    "title": "Kenobi's Blade (Junior Jedi Knights 6)",
     "author": "Rebecca Moesta",
     "year": 1997,
     "canon": "legends",
     "type": "book",
     "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/Junior_Jedi_Knights:_Kenobi%27s_Blade",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "TRUE"
   },
   {
     "id": 77,
-    "title": "Galaxy of Fear 6: Army of Terror",
+    "title": "Army of Terror (Galaxy of Fear 6)",
     "author": "John Whitman",
     "year": 1997,
     "canon": "legends",
     "type": "book",
     "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/Galaxy_of_Fear:_Army_of_Terror",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "FALSE"
   },
   {
     "id": 78,
@@ -932,20 +1112,20 @@
     "type": "book",
     "era": "Rise of the Empire",
     "url": "http://starwars.wikia.com/wiki/The_Hutt_Gambit",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "FALSE"
   },
   {
     "id": 79,
-    "title": "Young Jedi Knights 10: Jedi Bounty",
+    "title": "Jedi Bounty (Young Jedi Knights 10)",
     "author": "Kevin J. Anderson / Rebecca Moesta",
     "year": 1997,
     "canon": "legends",
     "type": "book",
     "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/Young_Jedi_Knights:_Jedi_Bounty",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "TRUE"
   },
   {
     "id": 80,
@@ -956,20 +1136,20 @@
     "type": "book",
     "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/Specter_of_the_Past",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "FALSE"
   },
   {
     "id": 81,
-    "title": "Galaxy of Fear 7: The Brain Spiders",
+    "title": "The Brain Spiders (Galaxy of Fear 7)",
     "author": "John Whitman",
     "year": 1997,
     "canon": "legends",
     "type": "book",
     "era": "Rebellion",
     "url": "http://starwars.wikia.com/wiki/Galaxy_of_Fear:_The_Brain_Spiders",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "TRUE"
   },
   {
     "id": 82,
@@ -980,32 +1160,104 @@
     "type": "book",
     "era": "Rebellion",
     "url": "http://starwars.wikia.com/wiki/Tales_from_the_Empire",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 335,
+    "title": "A New Hope - The Special Edition",
+    "author": "Dark Horse / Jones / Barreto",
+    "year": 1997,
+    "canon": "legends",
+    "type": "comic",
+    "era": "Rebellion",
+    "url": "http://starwars.wikia.com/wiki/Star_Wars:_A_New_Hope_-_The_Special_Edition",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 336,
+    "title": "The Fall of the Sith Empire (Tales of the Jedi)",
+    "author": "Dark Horse",
+    "year": 1997,
+    "canon": "legends",
+    "type": "comic",
+    "era": "Old Republic",
+    "url": "http://starwars.wikia.com/wiki/Tales_of_the_Jedi:_The_Fall_of_the_Sith_Empire",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 337,
+    "title": "Dark Force Rising",
+    "author": "Dark Horse / Mike Baron",
+    "year": 1997,
+    "canon": "legends",
+    "type": "comic",
+    "era": "New Republic",
+    "url": "http://starwars.wikia.com/wiki/Dark_Force_Rising_(comics)",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 338,
+    "title": "The Last Command",
+    "author": "Dark Horse / Mike Baron",
+    "year": 1997,
+    "canon": "legends",
+    "type": "comic",
+    "era": "New Republic",
+    "url": "http://starwars.wikia.com/wiki/The_Last_Command_(comics)",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 339,
+    "title": "Empire's End",
+    "author": "Dark Horse / Veitch / Balkie",
+    "year": 1997,
+    "canon": "legends",
+    "type": "comic",
+    "era": "New Republic",
+    "url": "http://starwars.wikia.com/wiki/Empire%27s_End",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 340,
+    "title": "Crimson Empire",
+    "author": "Dark Horse / Richardson / Stradley",
+    "year": 1997,
+    "canon": "legends",
+    "type": "comic",
+    "era": "New Republic",
+    "url": "http://starwars.wikia.com/wiki/Crimson_Empire",
+    "added": "FALSE",
+    "youngreader": "FALSE"
   },
   {
     "id": 83,
-    "title": "Young Jedi Knights 11: The Emperor's Plague",
+    "title": "The Emperor's Plague (Young Jedi Knights 11)",
     "author": "Kevin J. Anderson / Rebecca Moesta",
     "year": 1998,
     "canon": "legends",
     "type": "book",
     "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/Young_Jedi_Knights:_The_Emperor%27s_Plague",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "TRUE"
   },
   {
     "id": 84,
-    "title": "Galaxy of Fear 8: The Swarm",
+    "title": "The Swarm (Galaxy of Fear 8)",
     "author": "John Whitman",
     "year": 1998,
     "canon": "legends",
     "type": "book",
     "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/Galaxy_of_Fear:_The_Swarm",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "TRUE"
   },
   {
     "id": 85,
@@ -1016,8 +1268,8 @@
     "type": "book",
     "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/X-Wing:_Wraith_Squadron",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "FALSE"
   },
   {
     "id": 86,
@@ -1028,20 +1280,20 @@
     "type": "book",
     "era": "Rise of the Empire",
     "url": "http://starwars.wikia.com/wiki/Rebel_Dawn",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "FALSE"
   },
   {
     "id": 87,
-    "title": "Galaxy of Fear 9: Spore",
+    "title": "Spore (Galaxy of Fear 9)",
     "author": "John Whitman",
     "year": 1998,
     "canon": "legends",
     "type": "book",
     "era": "Rebellion",
     "url": "http://starwars.wikia.com/wiki/Galaxy_of_Fear:_Spore",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "TRUE"
   },
   {
     "id": 88,
@@ -1052,20 +1304,20 @@
     "type": "book",
     "era": "Rise of the Empire",
     "url": "http://starwars.wikia.com/wiki/Dark_Forces:_Rebel_Agent",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "FALSE"
   },
   {
     "id": 89,
-    "title": "Young Jedi Knights 12: Return to Ord Mantell",
+    "title": "Return to Ord Mantell (Young Jedi Knights 12)",
     "author": "Kevin J. Anderson / Rebecca Moesta",
     "year": 1998,
     "canon": "legends",
     "type": "book",
     "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/Young_Jedi_Knights:_Return_to_Ord_Mantell",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "TRUE"
   },
   {
     "id": 90,
@@ -1076,20 +1328,20 @@
     "type": "book",
     "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/I,_Jedi",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "FALSE"
   },
   {
     "id": 91,
-    "title": "Galaxy of Fear 10: The Doomsday Ship",
+    "title": "The Doomsday Ship (Galaxy of Fear 10)",
     "author": "John Whitman",
     "year": 1998,
     "canon": "legends",
     "type": "book",
     "era": "Rebellion",
     "url": "http://starwars.wikia.com/wiki/Galaxy_of_Fear:_The_Doomsday_Ship",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "TRUE"
   },
   {
     "id": 92,
@@ -1100,20 +1352,20 @@
     "type": "book",
     "era": "Rebellion",
     "url": "http://starwars.wikia.com/wiki/The_Mandalorian_Armor",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "FALSE"
   },
   {
     "id": 93,
-    "title": "Galaxy of Fear 11: Clones",
+    "title": "Clones (Galaxy of Fear 11)",
     "author": "John Whitman",
     "year": 1998,
     "canon": "legends",
     "type": "book",
     "era": "Rebellion",
     "url": "http://starwars.wikia.com/wiki/Galaxy_of_Fear:_Clones",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "TRUE"
   },
   {
     "id": 94,
@@ -1124,20 +1376,20 @@
     "type": "book",
     "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/X-Wing:_Iron_Fist",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "FALSE"
   },
   {
     "id": 95,
-    "title": "Young Jedi Knights 13: Trouble on Cloud City",
+    "title": "Trouble on Cloud City (Young Jedi Knights 13)",
     "author": "Kevin J. Anderson / Rebecca Moesta",
     "year": 1998,
     "canon": "legends",
     "type": "book",
     "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/Young_Jedi_Knights:_Trouble_on_Cloud_City",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "TRUE"
   },
   {
     "id": 96,
@@ -1148,20 +1400,20 @@
     "type": "book",
     "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/Vision_of_the_Future",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "FALSE"
   },
   {
     "id": 97,
-    "title": "Galaxy of Fear 12: The Hunger",
+    "title": "The Hunger (Galaxy of Fear 12)",
     "author": "John Whitman",
     "year": 1998,
     "canon": "legends",
     "type": "book",
     "era": "Rebellion",
     "url": "http://starwars.wikia.com/wiki/Galaxy_of_Fear:_The_Hunger",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "TRUE"
   },
   {
     "id": 98,
@@ -1172,8 +1424,8 @@
     "type": "book",
     "era": "Rise of the Empire",
     "url": "http://starwars.wikia.com/wiki/Dark_Forces:_Jedi_Knight",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "FALSE"
   },
   {
     "id": 99,
@@ -1184,20 +1436,116 @@
     "type": "book",
     "era": "Rebellion",
     "url": "http://starwars.wikia.com/wiki/Slave_Ship",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "FALSE"
   },
   {
     "id": 100,
-    "title": "Young Jedi Knights 14: Crisis at Crystal Reef",
+    "title": "Crisis at Crystal Reef (Young Jedi Knights 14)",
     "author": "Kevin J. Anderson / Rebecca Moesta",
     "year": 1998,
     "canon": "legends",
     "type": "book",
     "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/Young_Jedi_Knights:_Crisis_at_Crystal_Reef",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "TRUE"
+  },
+  {
+    "id": 341,
+    "title": "Manga: A New Hope",
+    "author": "Dark Horse / Tamaki",
+    "year": 1998,
+    "canon": "legends",
+    "type": "comic",
+    "era": "Rebellion",
+    "url": "http://starwars.wikia.com/wiki/Star_Wars_Manga:_A_New_Hope",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 342,
+    "title": "Redemption (Tales of the Jedi)",
+    "author": "Dark Horse / Kevin J. Anderson",
+    "year": 1998,
+    "canon": "legends",
+    "type": "comic",
+    "era": "Old Republic",
+    "url": "http://starwars.wikia.com/wiki/Tales_of_the_Jedi:_Redemption",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 343,
+    "title": "Republic",
+    "author": "Dark Horse",
+    "year": 1998,
+    "canon": "legends",
+    "type": "comic",
+    "era": "Old Republic",
+    "url": "http://starwars.wikia.com/wiki/Star_Wars:_Republic",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 344,
+    "title": "Mara Jade: By the Emperor's Hand",
+    "author": "Dark Horse / Zahn / Stackpole",
+    "year": 1998,
+    "canon": "legends",
+    "type": "comic",
+    "era": "Rebellion",
+    "url": "http://starwars.wikia.com/wiki/Mara_Jade:_By_the_Emperor%27s_Hand",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 345,
+    "title": "Shadows of the Empire: Evolution",
+    "author": "Dark Horse / Steve Perry",
+    "year": 1998,
+    "canon": "legends",
+    "type": "comic",
+    "era": "Rebellion",
+    "url": "http://starwars.wikia.com/wiki/Shadows_of_the_Empire:_Evolution",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 346,
+    "title": "Crimson Empire II: Council of Blood",
+    "author": "Dark Horse / Richardson / Stradley",
+    "year": 1998,
+    "canon": "legends",
+    "type": "comic",
+    "era": "New Republic",
+    "url": "http://starwars.wikia.com/wiki/Crimson_Empire_II:_Council_of_Blood",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 347,
+    "title": "Jedi Academy: Leviathan",
+    "author": "Dark Horse / Kevin J. Anderson",
+    "year": 1998,
+    "canon": "legends",
+    "type": "comic",
+    "era": "New Republic",
+    "url": "http://starwars.wikia.com/wiki/Jedi_Academy:_Leviathan",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 1,
+    "title": "Episode I: The Phantom Menace",
+    "author": "George Lucas",
+    "year": 1999,
+    "canon": "canon",
+    "type": "film",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/Star_Wars:_Episode_I_The_Phantom_Menace",
+    "added": "FALSE",
+    "youngreader": "FALSE"
   },
   {
     "id": 101,
@@ -1208,8 +1556,8 @@
     "type": "book",
     "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/X-Wing:_Solo_Command",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "FALSE"
   },
   {
     "id": 102,
@@ -1220,8 +1568,8 @@
     "type": "book",
     "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/X-Wing:_Isard%27s_Revenge",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "FALSE"
   },
   {
     "id": 103,
@@ -1232,8 +1580,8 @@
     "type": "book",
     "era": "Rise of the Empire",
     "url": "http://starwars.wikia.com/wiki/Star_Wars_Episode_I:_The_Phantom_Menace_(novel)",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "FALSE"
   },
   {
     "id": 104,
@@ -1244,8 +1592,8 @@
     "type": "book",
     "era": "Rise of the Empire",
     "url": "http://starwars.wikia.com/wiki/Star_Wars_Episode_I:_The_Phantom_Menace_(junior_novelization)",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "TRUE"
   },
   {
     "id": 105,
@@ -1256,8 +1604,8 @@
     "type": "book",
     "era": "Rise of the Empire",
     "url": "http://starwars.wikia.com/wiki/Jedi_Apprentice:_The_Rising_Force",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "TRUE"
   },
   {
     "id": 106,
@@ -1268,8 +1616,8 @@
     "type": "book",
     "era": "Rise of the Empire",
     "url": "http://starwars.wikia.com/wiki/Jedi_Apprentice:_The_Dark_Rival",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "TRUE"
   },
   {
     "id": 107,
@@ -1280,8 +1628,8 @@
     "type": "book",
     "era": "Rebellion",
     "url": "http://starwars.wikia.com/wiki/Hard_Merchandise",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "FALSE"
   },
   {
     "id": 108,
@@ -1292,8 +1640,8 @@
     "type": "book",
     "era": "Rise of the Empire",
     "url": "http://starwars.wikia.com/wiki/Jedi_Apprentice:_The_Hidden_Past",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "TRUE"
   },
   {
     "id": 109,
@@ -1304,8 +1652,8 @@
     "type": "book",
     "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/X-Wing:_Starfighters_of_Adumar",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "FALSE"
   },
   {
     "id": 110,
@@ -1316,8 +1664,8 @@
     "type": "book",
     "era": "Rise of the Empire",
     "url": "http://starwars.wikia.com/wiki/Jedi_Apprentice:_The_Mark_of_the_Crown",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "TRUE"
   },
   {
     "id": 111,
@@ -1328,8 +1676,8 @@
     "type": "book",
     "era": "New Jedi Order",
     "url": "http://starwars.wikia.com/wiki/The_New_Jedi_Order:_Vector_Prime",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "FALSE"
   },
   {
     "id": 112,
@@ -1340,8 +1688,8 @@
     "type": "book",
     "era": "Rise of the Empire",
     "url": "http://starwars.wikia.com/wiki/Jedi_Apprentice:_The_Defenders_of_the_Dead",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "TRUE"
   },
   {
     "id": 113,
@@ -1352,8 +1700,92 @@
     "type": "book",
     "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/Tales_from_the_New_Republic",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 348,
+    "title": "Episode I: The Phantom Menace",
+    "author": "Dark Horse / Gilroy / Damaggio",
+    "year": 1999,
+    "canon": "legends",
+    "type": "comic",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/Star_Wars_Episode_I:_The_Phantom_Menace_(comics)",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 349,
+    "title": "Manga: The Phantom Menace",
+    "author": "Dark Horse / Asamiya",
+    "year": 1999,
+    "canon": "legends",
+    "type": "comic",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/Star_Wars_Manga:_The_Phantom_Menace",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 350,
+    "title": "Manga: The Empire Strikes Back",
+    "author": "Dark Horse / Kudo",
+    "year": 1999,
+    "canon": "legends",
+    "type": "comic",
+    "era": "Rebellion",
+    "url": "http://starwars.wikia.com/wiki/Star_Wars_Manga:_The_Empire_Strikes_Back",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 351,
+    "title": "Manga: Return of the Jedi",
+    "author": "Dark Horse / Hiromoto",
+    "year": 1999,
+    "canon": "legends",
+    "type": "comic",
+    "era": "Rebellion",
+    "url": "http://starwars.wikia.com/wiki/Star_Wars_Manga:_Return_of_the_Jedi",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 352,
+    "title": "The Bounty Hunters",
+    "author": "Dark Horse",
+    "year": 1999,
+    "canon": "legends",
+    "type": "comic",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/The_Bounty_Hunters",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 353,
+    "title": "Star Wars: Union",
+    "author": "Dark Horse / Stackpole / Teranishi / Chuckry",
+    "year": 1999,
+    "canon": "legends",
+    "type": "comic",
+    "era": "New Republic",
+    "url": "http://starwars.wikia.com/wiki/Star_Wars:_Union",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 354,
+    "title": "Star Wars Tales",
+    "author": "Dark Horse",
+    "year": 1999,
+    "canon": "legends",
+    "type": "comic",
+    "era": "Rebellion",
+    "url": "http://starwars.wikia.com/wiki/Star_Wars_Tales",
+    "added": "FALSE",
+    "youngreader": "FALSE"
   },
   {
     "id": 114,
@@ -1364,8 +1796,8 @@
     "type": "book",
     "era": "Rise of the Empire",
     "url": "http://starwars.wikia.com/wiki/Jedi_Apprentice:_The_Uncertain_Path",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "TRUE"
   },
   {
     "id": 115,
@@ -1376,8 +1808,8 @@
     "type": "book",
     "era": "New Jedi Order",
     "url": "http://starwars.wikia.com/wiki/The_New_Jedi_Order:_Dark_Tide_I:_Onslaught",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "FALSE"
   },
   {
     "id": 116,
@@ -1388,8 +1820,8 @@
     "type": "book",
     "era": "Rise of the Empire",
     "url": "http://starwars.wikia.com/wiki/Jedi_Apprentice:_The_Captive_Temple",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "TRUE"
   },
   {
     "id": 117,
@@ -1400,8 +1832,8 @@
     "type": "book",
     "era": "Rise of the Empire",
     "url": "http://starwars.wikia.com/wiki/Rogue_Planet",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "FALSE"
   },
   {
     "id": 118,
@@ -1412,8 +1844,8 @@
     "type": "book",
     "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/Jedi_Apprentice:_The_Day_of_Reckoning",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "TRUE"
   },
   {
     "id": 119,
@@ -1424,8 +1856,8 @@
     "type": "book",
     "era": "New Jedi Order",
     "url": "http://starwars.wikia.com/wiki/The_New_Jedi_Order:_Dark_Tide_II:_Ruin",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "FALSE"
   },
   {
     "id": 120,
@@ -1436,8 +1868,8 @@
     "type": "book",
     "era": "New Republic",
     "url": "http://starwars.wikia.com/wiki/The_New_Jedi_Order:_Agents_of_Chaos_I:_Hero%27s_Trial",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "FALSE"
   },
   {
     "id": 121,
@@ -1448,8 +1880,8 @@
     "type": "book",
     "era": "Rise of the Empire",
     "url": "http://starwars.wikia.com/wiki/Jedi_Apprentice:_The_Fight_for_Truth",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "TRUE"
   },
   {
     "id": 122,
@@ -1460,8 +1892,8 @@
     "type": "book",
     "era": "Rise of the Empire",
     "url": "http://starwars.wikia.com/wiki/Jedi_Apprentice:_The_Shattered_Peace",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "TRUE"
   },
   {
     "id": 123,
@@ -1472,8 +1904,8 @@
     "type": "book",
     "era": "New Jedi Order",
     "url": "http://starwars.wikia.com/wiki/The_New_Jedi_Order:_Agents_of_Chaos_II:_Jedi_Eclipse",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "FALSE"
   },
   {
     "id": 124,
@@ -1484,8 +1916,8 @@
     "type": "book",
     "era": "New Jedi Order",
     "url": "http://starwars.wikia.com/wiki/The_New_Jedi_Order:_Balance_Point",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "FALSE"
   },
   {
     "id": 125,
@@ -1496,8 +1928,44 @@
     "type": "book",
     "era": "Rise of the Empire",
     "url": "http://starwars.wikia.com/wiki/Jedi_Apprentice:_The_Deadly_Hunter",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "TRUE"
+  },
+  {
+    "id": 355,
+    "title": "Darth Maul",
+    "author": "Dark Horse / Marz / Duursema / Magyar",
+    "year": 2000,
+    "canon": "legends",
+    "type": "comic",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/Darth_Maul_(comics)",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 356,
+    "title": "Underworld: The Yavin Vassilika",
+    "author": "Dark Horse / Kennedy / Meglia",
+    "year": 2000,
+    "canon": "legends",
+    "type": "comic",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/Underworld:_The_Yavin_Vassilika",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 357,
+    "title": "Chewbacca",
+    "author": "Dark Horse / Darko Macan",
+    "year": 2000,
+    "canon": "legends",
+    "type": "comic",
+    "era": "New Jedi Order",
+    "url": "http://starwars.wikia.com/wiki/Chewbacca_(comics)",
+    "added": "FALSE",
+    "youngreader": "FALSE"
   },
   {
     "id": 126,
@@ -1508,8 +1976,8 @@
     "type": "book",
     "era": "Rise of the Empire",
     "url": "http://starwars.wikia.com/wiki/Darth_Maul:_Shadow_Hunter",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "FALSE"
   },
   {
     "id": 127,
@@ -1520,8 +1988,8 @@
     "type": "book",
     "era": "Rise of the Empire",
     "url": "http://starwars.wikia.com/wiki/Jedi_Apprentice:_The_Evil_Experiment",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "TRUE"
   },
   {
     "id": 128,
@@ -1532,8 +2000,8 @@
     "type": "book",
     "era": "Rise of the Empire",
     "url": "http://starwars.wikia.com/wiki/Jedi_Apprentice:_The_Dangerous_Rescue",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "TRUE"
   },
   {
     "id": 129,
@@ -1544,8 +2012,8 @@
     "type": "book",
     "era": "New Jedi Order",
     "url": "http://starwars.wikia.com/wiki/The_New_Jedi_Order:_Edge_of_Victory_I:_Conquest",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "FALSE"
   },
   {
     "id": 130,
@@ -1556,8 +2024,8 @@
     "type": "book",
     "era": "Rise of the Empire",
     "url": "http://starwars.wikia.com/wiki/Cloak_of_Deception",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "FALSE"
   },
   {
     "id": 131,
@@ -1568,8 +2036,8 @@
     "type": "book",
     "era": "Rise of the Empire",
     "url": "http://starwars.wikia.com/wiki/Jedi_Apprentice_Special_Edition:_Deceptions",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "TRUE"
   },
   {
     "id": 132,
@@ -1580,8 +2048,8 @@
     "type": "book",
     "era": "New Jedi Order",
     "url": "http://starwars.wikia.com/wiki/The_New_Jedi_Order:_Edge_of_Victory_II:_Rebirth",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "FALSE"
   },
   {
     "id": 133,
@@ -1592,8 +2060,8 @@
     "type": "book",
     "era": "Rise of the Empire",
     "url": "http://starwars.wikia.com/wiki/Jedi_Apprentice:_The_Ties_That_Bind",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "TRUE"
   },
   {
     "id": 134,
@@ -1604,8 +2072,8 @@
     "type": "book",
     "era": "Rise of the Empire",
     "url": "http://starwars.wikia.com/wiki/Jedi_Quest:_Path_to_Truth",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "TRUE"
   },
   {
     "id": 135,
@@ -1616,20 +2084,20 @@
     "type": "book",
     "era": "Rise of the Empire",
     "url": "http://starwars.wikia.com/wiki/Jedi_Apprentice:_The_Death_of_Hope",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "TRUE"
   },
   {
     "id": 136,
-    "title": "Star by Star",
+    "title": "Star By Star",
     "author": "Troy Denning",
     "year": 2001,
     "canon": "legends",
     "type": "book",
     "era": "New Jedi Order",
     "url": "http://starwars.wikia.com/wiki/The_New_Jedi_Order:_Star_by_Star",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "FALSE"
   },
   {
     "id": 137,
@@ -1640,8 +2108,56 @@
     "type": "book",
     "era": "Rise of the Empire",
     "url": "http://starwars.wikia.com/wiki/Jedi_Apprentice:_The_Call_to_Vengeance",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "TRUE"
+  },
+  {
+    "id": 358,
+    "title": "Jedi vs. Sith",
+    "author": "Dark Horse / Macan / Bachs / Fernandez",
+    "year": 2001,
+    "canon": "legends",
+    "type": "comic",
+    "era": "Old Republic",
+    "url": "http://starwars.wikia.com/wiki/Star_Wars:_Jedi_vs._Sith",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 359,
+    "title": "Infinities: A New Hope",
+    "author": "Dark Horse / Chris Warner",
+    "year": 2001,
+    "canon": "legends",
+    "type": "comic",
+    "era": "Rebellion",
+    "url": "http://starwars.wikia.com/wiki/Star_Wars_Infinities:_A_New_Hope",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 360,
+    "title": "Tag and Bink",
+    "author": "Dark Horse / Rubio / Marangon",
+    "year": 2001,
+    "canon": "legends",
+    "type": "comic",
+    "era": "Rebellion",
+    "url": "http://starwars.wikia.com/wiki/Tag_and_Bink",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 2,
+    "title": "Episode II: Attack of the Clones",
+    "author": "George Lucas/Jonathan Hales",
+    "year": 2002,
+    "canon": "canon",
+    "type": "film",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/Star_Wars:_Episode_II_Attack_of_the_Clones",
+    "added": "FALSE",
+    "youngreader": "FALSE"
   },
   {
     "id": 138,
@@ -1652,8 +2168,8 @@
     "type": "book",
     "era": "New Jedi Order",
     "url": "http://starwars.wikia.com/wiki/The_New_Jedi_Order:_Dark_Journey",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "FALSE"
   },
   {
     "id": 139,
@@ -1664,8 +2180,8 @@
     "type": "book",
     "era": "Rise of the Empire",
     "url": "http://starwars.wikia.com/wiki/The_Approaching_Storm",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "FALSE"
   },
   {
     "id": 140,
@@ -1676,8 +2192,8 @@
     "type": "book",
     "era": "Rise of the Empire",
     "url": "http://starwars.wikia.com/wiki/Jedi_Apprentice:_The_Only_Witness",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "TRUE"
   },
   {
     "id": 141,
@@ -1688,8 +2204,8 @@
     "type": "book",
     "era": "New Jedi Order",
     "url": "http://starwars.wikia.com/wiki/The_New_Jedi_Order:_Enemy_Lines_I:_Rebel_Dream",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "FALSE"
   },
   {
     "id": 142,
@@ -1700,8 +2216,8 @@
     "type": "book",
     "era": "Rise of the Empire",
     "url": "http://starwars.wikia.com/wiki/Jedi_Apprentice:_The_Threat_Within",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "TRUE"
   },
   {
     "id": 143,
@@ -1712,8 +2228,8 @@
     "type": "book",
     "era": "Rise of the Empire",
     "url": "http://starwars.wikia.com/wiki/Boba_Fett:_The_Fight_to_Survive",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "TRUE"
   },
   {
     "id": 144,
@@ -1724,8 +2240,8 @@
     "type": "book",
     "era": "Rise of the Empire",
     "url": "http://starwars.wikia.com/wiki/Star_Wars_Episode_II:_Attack_of_the_Clones_(junior_novelization)",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "TRUE"
   },
   {
     "id": 145,
@@ -1736,8 +2252,8 @@
     "type": "book",
     "era": "Rise of the Empire",
     "url": "http://starwars.wikia.com/wiki/Star_Wars_Episode_II:_Attack_of_the_Clones_(novel)",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "FALSE"
   },
   {
     "id": 146,
@@ -1748,8 +2264,8 @@
     "type": "book",
     "era": "Rise of the Empire",
     "url": "http://starwars.wikia.com/wiki/Jedi_Apprentice_Special_Edition:_The_Followers",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "TRUE"
   },
   {
     "id": 147,
@@ -1760,8 +2276,8 @@
     "type": "book",
     "era": "Rise of the Empire",
     "url": "http://starwars.wikia.com/wiki/Jedi_Quest:_The_Way_of_the_Apprentice",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "TRUE"
   },
   {
     "id": 148,
@@ -1772,8 +2288,8 @@
     "type": "book",
     "era": "Rise of the Empire",
     "url": "http://starwars.wikia.com/wiki/Jedi_Quest:_The_Trail_of_the_Jedi",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "TRUE"
   },
   {
     "id": 149,
@@ -1784,8 +2300,8 @@
     "type": "book",
     "era": "New Jedi Order",
     "url": "http://starwars.wikia.com/wiki/The_New_Jedi_Order:_Enemy_Lines_II:_Rebel_Stand",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "FALSE"
   },
   {
     "id": 150,
@@ -1796,8 +2312,8 @@
     "type": "book",
     "era": "New Jedi Order",
     "url": "http://starwars.wikia.com/wiki/The_New_Jedi_Order:_Traitor",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "FALSE"
   },
   {
     "id": 151,
@@ -1808,8 +2324,8 @@
     "type": "book",
     "era": "Rise of the Empire",
     "url": "http://starwars.wikia.com/wiki/Jedi_Quest:_The_Dangerous_Games",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "TRUE"
   },
   {
     "id": 152,
@@ -1820,8 +2336,8 @@
     "type": "book",
     "era": "New Jedi Order",
     "url": "http://starwars.wikia.com/wiki/The_New_Jedi_Order:_Destiny%27s_Way",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "FALSE"
   },
   {
     "id": 153,
@@ -1832,8 +2348,8 @@
     "type": "book",
     "era": "Rise of the Empire",
     "url": "http://starwars.wikia.com/wiki/Boba_Fett:_Crossfire",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "TRUE"
   },
   {
     "id": 154,
@@ -1844,7 +2360,2419 @@
     "type": "book",
     "era": "Rise of the Empire",
     "url": "http://starwars.wikia.com/wiki/Jedi_Quest:_The_Master_of_Disguise",
-    "img": 0,
-    "added": false
+    "added": "FALSE",
+    "youngreader": "TRUE"
+  },
+  {
+    "id": 361,
+    "title": "Episode II: Attack of the Clones",
+    "author": "Dark Horse / Gilroy / Duursema / Kryssing",
+    "year": 2002,
+    "canon": "legends",
+    "type": "comic",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/Star_Wars_Episode_II:_Attack_of_the_Clones_(comics)",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 362,
+    "title": "Empire",
+    "author": "Dark Horse",
+    "year": 2002,
+    "canon": "legends",
+    "type": "comic",
+    "era": "Rebellion",
+    "url": "http://starwars.wikia.com/wiki/Star_Wars:_Empire",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 363,
+    "title": "Infinities: The Empire Strikes Back",
+    "author": "Dark Horse / Dave Land",
+    "year": 2002,
+    "canon": "legends",
+    "type": "comic",
+    "era": "Rebellion",
+    "url": "http://starwars.wikia.com/wiki/Star_Wars_Infinities:_The_Empire_Strikes_Back",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 155,
+    "title": "The School of Fear (Jedi Quest 5)",
+    "author": "Jude Watson",
+    "year": 2003,
+    "canon": "legends",
+    "type": "book",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/Jedi_Quest:_The_School_of_Fear",
+    "added": "FALSE",
+    "youngreader": "TRUE"
+  },
+  {
+    "id": 156,
+    "title": "Remnant (Force Heretic 1)",
+    "author": "Shane Dix / Sean Williams",
+    "year": 2003,
+    "canon": "legends",
+    "type": "book",
+    "era": "New Jedi Order",
+    "url": "http://starwars.wikia.com/wiki/The_New_Jedi_Order:_Force_Heretic_I:_Remnant",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 157,
+    "title": "Tatooine Ghost",
+    "author": "Troy Denning",
+    "year": 2003,
+    "canon": "legends",
+    "type": "book",
+    "era": "New Republic",
+    "url": "http://starwars.wikia.com/wiki/Tatooine_Ghost",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 158,
+    "title": "Refugee (Force Heretic 2)",
+    "author": "Sean Williams / Shane Dix",
+    "year": 2003,
+    "canon": "legends",
+    "type": "book",
+    "era": "New Jedi Order",
+    "url": "http://starwars.wikia.com/wiki/The_New_Jedi_Order:_Force_Heretic_II:_Refugee",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 159,
+    "title": "Maze of Deception (Boba Fett 3)",
+    "author": "Elizabeth Hand",
+    "year": 2003,
+    "canon": "legends",
+    "type": "book",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/Boba_Fett:_Maze_of_Deception",
+    "added": "FALSE",
+    "youngreader": "TRUE"
+  },
+  {
+    "id": 160,
+    "title": "The Shadow Trap (Jedi Quest 6)",
+    "author": "Jude Watson",
+    "year": 2003,
+    "canon": "legends",
+    "type": "book",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/Jedi_Quest:_The_Shadow_Trap",
+    "added": "FALSE",
+    "youngreader": "TRUE"
+  },
+  {
+    "id": 161,
+    "title": "Shatterpoint (Clone Wars 1)",
+    "author": "Matthew Stover",
+    "year": 2003,
+    "canon": "legends",
+    "type": "book",
+    "era": "Clone Wars",
+    "url": "http://starwars.wikia.com/wiki/Shatterpoint_(novel)",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 162,
+    "title": "Reunion (Force Heretic 3)",
+    "author": "Sean Williams / Shane Dix",
+    "year": 2003,
+    "canon": "legends",
+    "type": "book",
+    "era": "New Jedi Order",
+    "url": "http://starwars.wikia.com/wiki/The_New_Jedi_Order:_Force_Heretic_III:_Reunion",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 163,
+    "title": "Legacy of the Jedi (Legacy 1)",
+    "author": "Jude Watson",
+    "year": 2003,
+    "canon": "legends",
+    "type": "book",
+    "era": "Clone Wars",
+    "url": "http://starwars.wikia.com/wiki/Legacy_of_the_Jedi",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 164,
+    "title": "The Final Prophecy",
+    "author": "Gregory Keyes",
+    "year": 2003,
+    "canon": "legends",
+    "type": "book",
+    "era": "New Jedi Order",
+    "url": "http://starwars.wikia.com/wiki/The_New_Jedi_Order:_The_Final_Prophecy",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 165,
+    "title": "Hunted (Boba Fett 4)",
+    "author": "Elizabeth Hand",
+    "year": 2003,
+    "canon": "legends",
+    "type": "book",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/Boba_Fett:_Hunted",
+    "added": "FALSE",
+    "youngreader": "TRUE"
+  },
+  {
+    "id": 166,
+    "title": "The Moment of Truth (Jedi Quest 7)",
+    "author": "Jude Watson",
+    "year": 2003,
+    "canon": "legends",
+    "type": "book",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/Jedi_Quest:_The_Moment_of_Truth",
+    "added": "FALSE",
+    "youngreader": "TRUE"
+  },
+  {
+    "id": 167,
+    "title": "The Unifying Force",
+    "author": "James Luceno",
+    "year": 2003,
+    "canon": "legends",
+    "type": "book",
+    "era": "New Jedi Order",
+    "url": "http://starwars.wikia.com/wiki/The_New_Jedi_Order:_The_Unifying_Force",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 168,
+    "title": "The Ruins of Dantooine (Galaxies 1)",
+    "author": "Voronica Whitney-Robinson / Haden Blackman",
+    "year": 2003,
+    "canon": "legends",
+    "type": "book",
+    "era": "Rebellion",
+    "url": "http://starwars.wikia.com/wiki/Star_Wars_Galaxies:_The_Ruins_of_Dantooine",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 301,
+    "title": "Star Wars: Clone Wars (Season 1)",
+    "author": "Genndy Tartakovsky",
+    "year": 2003,
+    "canon": "legends",
+    "type": "tv",
+    "era": "Clone Wars",
+    "url": "http://starwars.wikia.com/wiki/Clone_Wars:_Season_One",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 364,
+    "title": "Jedi",
+    "author": "Dark Horse",
+    "year": 2003,
+    "canon": "legends",
+    "type": "comic",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/Star_Wars:_Jedi",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 365,
+    "title": "Infinities: Return of the Jedi",
+    "author": "Dark Horse / Adam Gallardo",
+    "year": 2003,
+    "canon": "legends",
+    "type": "comic",
+    "era": "Rebellion",
+    "url": "http://starwars.wikia.com/wiki/Star_Wars_Infinities:_Return_of_the_Jedi",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 169,
+    "title": "Survivor's Quest",
+    "author": "Timothy Zahn",
+    "year": 2004,
+    "canon": "legends",
+    "type": "book",
+    "era": "New Republic",
+    "url": "http://starwars.wikia.com/wiki/Survivor%27s_Quest",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 170,
+    "title": "The Changing of the Guard (Jedi Quest 8)",
+    "author": "Jude Watson",
+    "year": 2004,
+    "canon": "legends",
+    "type": "book",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/Jedi_Quest:_The_Changing_of_the_Guard",
+    "added": "FALSE",
+    "youngreader": "TRUE"
+  },
+  {
+    "id": 171,
+    "title": "A New Threat (Boba Fett 5)",
+    "author": "Elizabeth Hand",
+    "year": 2004,
+    "canon": "legends",
+    "type": "book",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/Boba_Fett:_A_New_Threat",
+    "added": "FALSE",
+    "youngreader": "TRUE"
+  },
+  {
+    "id": 172,
+    "title": "The Hive",
+    "author": "Steven Barnes",
+    "year": 2004,
+    "canon": "legends",
+    "type": "book",
+    "era": "Clone Wars",
+    "url": "http://starwars.wikia.com/wiki/The_Hive",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 173,
+    "title": "The Cestus Deception",
+    "author": "Steven Barnes",
+    "year": 2004,
+    "canon": "legends",
+    "type": "book",
+    "era": "Clone Wars",
+    "url": "http://starwars.wikia.com/wiki/The_Cestus_Deception",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 174,
+    "title": "Battle Surgeons (MedStar 1)",
+    "author": "Michael Reaves / Steve Perry",
+    "year": 2004,
+    "canon": "legends",
+    "type": "book",
+    "era": "Clone Wars",
+    "url": "http://starwars.wikia.com/wiki/MedStar_I:_Battle_Surgeons",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 175,
+    "title": "The False Peace (Jedi Quest 9)",
+    "author": "Jude Watson",
+    "year": 2004,
+    "canon": "legends",
+    "type": "book",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/Jedi_Quest:_The_False_Peace",
+    "added": "FALSE",
+    "youngreader": "TRUE"
+  },
+  {
+    "id": 176,
+    "title": "Jedi Healer (MedStar 2)",
+    "author": "Michael Reaves / Steve Perry",
+    "year": 2004,
+    "canon": "legends",
+    "type": "book",
+    "era": "Clone Wars",
+    "url": "http://starwars.wikia.com/wiki/MedStar_II:_Jedi_Healer",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 177,
+    "title": "Star Wars Episode IV: A New Hope (junior novelization)",
+    "author": "Ryder Windham",
+    "year": 2004,
+    "canon": "legends",
+    "type": "book",
+    "era": "Rebellion",
+    "url": "http://starwars.wikia.com/wiki/Star_Wars_Episode_IV:_A_New_Hope_(junior_novelization)",
+    "added": "FALSE",
+    "youngreader": "TRUE"
+  },
+  {
+    "id": 178,
+    "title": "Star Wars Episode V: A New Hope (junior novelization)",
+    "author": "Ryder Windham",
+    "year": 2004,
+    "canon": "legends",
+    "type": "book",
+    "era": "Rebellion",
+    "url": "http://starwars.wikia.com/wiki/Star_Wars_Episode_V:_The_Empire_Strikes_Back_(junior_novelization)",
+    "added": "FALSE",
+    "youngreader": "TRUE"
+  },
+  {
+    "id": 179,
+    "title": "Star Wars Episode VI: A New Hope (junior novelization)",
+    "author": "Ryder Windham",
+    "year": 2004,
+    "canon": "legends",
+    "type": "book",
+    "era": "Rebellion",
+    "url": "http://starwars.wikia.com/wiki/Star_Wars_Episode_VI:_Return_of_the_Jedi_(junior_novelization)",
+    "added": "FALSE",
+    "youngreader": "TRUE"
+  },
+  {
+    "id": 180,
+    "title": "Jedi Trial",
+    "author": "David Sherman / Dan Cragg",
+    "year": 2004,
+    "canon": "legends",
+    "type": "book",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/Jedi_Trial",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 181,
+    "title": "Hard Contact (Republic Commando 1)",
+    "author": "Karen Traviss",
+    "year": 2004,
+    "canon": "legends",
+    "type": "book",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/Republic_Commando:_Hard_Contact",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 182,
+    "title": "The Final Showdown (Jedi Quest 10)",
+    "author": "Jude Watson",
+    "year": 2004,
+    "canon": "legends",
+    "type": "book",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/Jedi_Quest:_The_Final_Showdown",
+    "added": "FALSE",
+    "youngreader": "TRUE"
+  },
+  {
+    "id": 183,
+    "title": "Yoda: Dark Rendezvous",
+    "author": "Sean Stewart",
+    "year": 2004,
+    "canon": "legends",
+    "type": "book",
+    "era": "Clone Wars",
+    "url": "http://starwars.wikia.com/wiki/Yoda:_Dark_Rendezvous",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 184,
+    "title": "Pursuit (Boba Fett 6)",
+    "author": "Elizabeth Hand",
+    "year": 2004,
+    "canon": "legends",
+    "type": "book",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/Boba_Fett:_Pursuit",
+    "added": "FALSE",
+    "youngreader": "TRUE"
+  },
+  {
+    "id": 302,
+    "title": "Star Wars: Clone Wars (Season 2)",
+    "author": "Genndy Tartakovsky",
+    "year": 2004,
+    "canon": "legends",
+    "type": "tv",
+    "era": "Clone Wars",
+    "url": "http://starwars.wikia.com/wiki/Clone_Wars:_Season_Two",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 366,
+    "title": "Clone Wars Adventures",
+    "author": "Dark Horse / Blackman",
+    "year": 2004,
+    "canon": "legends",
+    "type": "comic",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/Star_Wars:_Clone_Wars_Adventures_Volume_1",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 367,
+    "title": "Obsession",
+    "author": "Dark Horse / Blackman",
+    "year": 2004,
+    "canon": "legends",
+    "type": "comic",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/Star_Wars:_Obsession",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 3,
+    "title": "Episode III: Revenge of the Sith",
+    "author": "George Lucas",
+    "year": 2005,
+    "canon": "canon",
+    "type": "film",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/Star_Wars:_Episode_III_Revenge_of_the_Sith",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 185,
+    "title": "Labyrinth of Evil (Dark Lord 1)",
+    "author": "James Luceno",
+    "year": 2005,
+    "canon": "legends",
+    "type": "book",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/Labyrinth_of_Evil",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 186,
+    "title": "Secrets of the Jedi (Legacy 2)",
+    "author": "Jude Watson",
+    "year": 2005,
+    "canon": "legends",
+    "type": "book",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/Secrets_of_the_Jedi",
+    "added": "FALSE",
+    "youngreader": "TRUE"
+  },
+  {
+    "id": 187,
+    "title": "The Last of the Jedi (Last of the Jedi 1)",
+    "author": "Jude Watson",
+    "year": 2005,
+    "canon": "legends",
+    "type": "book",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/The_Last_of_the_Jedi:_The_Desperate_Mission",
+    "added": "FALSE",
+    "youngreader": "TRUE"
+  },
+  {
+    "id": 188,
+    "title": "Star Wars Episode III: Revenge of the Sith (novelization)",
+    "author": "Matthew Stover",
+    "year": 2005,
+    "canon": "legends",
+    "type": "book",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/Star_Wars_Episode_III:_Revenge_of_the_Sith_(novel)",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 189,
+    "title": "Star Wars Episode III: Revenge of the Sith (junior novelization)",
+    "author": "Patricia C. Wrede",
+    "year": 2005,
+    "canon": "legends",
+    "type": "book",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/Star_Wars_Episode_III:_Revenge_of_the_Sith_(junior_novelization)",
+    "added": "FALSE",
+    "youngreader": "TRUE"
+  },
+  {
+    "id": 190,
+    "title": "The Joiner King (Dark Nest 1)",
+    "author": "Troy Denning",
+    "year": 2005,
+    "canon": "legends",
+    "type": "book",
+    "era": "New Jedi Order",
+    "url": "http://starwars.wikia.com/wiki/Dark_Nest_I:_The_Joiner_King",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 191,
+    "title": "Dark Warning (Last of the Jedi 2)",
+    "author": "Jude Watson",
+    "year": 2005,
+    "canon": "legends",
+    "type": "book",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/The_Last_of_the_Jedi:_Dark_Warning",
+    "added": "FALSE",
+    "youngreader": "TRUE"
+  },
+  {
+    "id": 192,
+    "title": "The Unseen Queen (Dark Nest 2)",
+    "author": "Troy Denning",
+    "year": 2005,
+    "canon": "legends",
+    "type": "book",
+    "era": "New Jedi Order",
+    "url": "http://starwars.wikia.com/wiki/Dark_Nest_II:_The_Unseen_Queen",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 193,
+    "title": "The Rise of Darth Vader (Dark Lord 2)",
+    "author": "James Luceno",
+    "year": 2005,
+    "canon": "legends",
+    "type": "book",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/Dark_Lord:_The_Rise_of_Darth_Vader",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 194,
+    "title": "Underworld (Last of the Jedi 3)",
+    "author": "Jude Watson",
+    "year": 2005,
+    "canon": "legends",
+    "type": "book",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/The_Last_of_the_Jedi:_Underworld",
+    "added": "FALSE",
+    "youngreader": "TRUE"
+  },
+  {
+    "id": 195,
+    "title": "The Swarm War (Dark Nest 3)",
+    "author": "Troy Denning",
+    "year": 2005,
+    "canon": "legends",
+    "type": "book",
+    "era": "New Jedi Order",
+    "url": "http://starwars.wikia.com/wiki/Dark_Nest_III:_The_Swarm_War",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 303,
+    "title": "Star Wars: Clone Wars (Season 3)",
+    "author": "Genndy Tartakovsky",
+    "year": 2005,
+    "canon": "legends",
+    "type": "tv",
+    "era": "Clone Wars",
+    "url": "http://starwars.wikia.com/wiki/Clone_Wars:_Season_Three",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 368,
+    "title": "Episode III: Revenge of the Sith",
+    "author": "Dark Horse / Lane / Wheatley",
+    "year": 2005,
+    "canon": "legends",
+    "type": "comic",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/Star_Wars_Episode_III:_Revenge_of_the_Sith_(comics)",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 369,
+    "title": "General Grievous",
+    "author": "Dark Horse / Dixon",
+    "year": 2005,
+    "canon": "legends",
+    "type": "comic",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/General_Grievous_(comics)",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 370,
+    "title": "Purge",
+    "author": "Dark Horse / Ostrander / Wheatley",
+    "year": 2005,
+    "canon": "legends",
+    "type": "comic",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/Star_Wars:_Purge",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 371,
+    "title": "X-Wing: Rogue Leader",
+    "author": "Dark Horse / Blackman",
+    "year": 2005,
+    "canon": "legends",
+    "type": "comic",
+    "era": "Rebellion",
+    "url": "http://starwars.wikia.com/wiki/X-Wing:_Rogue_Leader",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 196,
+    "title": "Outbound Flight",
+    "author": "Timothy Zahn",
+    "year": 2006,
+    "canon": "legends",
+    "type": "book",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/Outbound_Flight_(novel)",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 197,
+    "title": "Triple Zero (Republic Commando 2)",
+    "author": "Karen Traviss",
+    "year": 2006,
+    "canon": "legends",
+    "type": "book",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/Republic_Commando:_Triple_Zero",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 198,
+    "title": "Death on Naboo (Last of the Jedi 4)",
+    "author": "Jude Watson",
+    "year": 2006,
+    "canon": "legends",
+    "type": "book",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/The_Last_of_the_Jedi:_Death_on_Naboo",
+    "added": "FALSE",
+    "youngreader": "TRUE"
+  },
+  {
+    "id": 199,
+    "title": "Betrayal (Legacy of the Force 1)",
+    "author": "Aaron Allston",
+    "year": 2006,
+    "canon": "legends",
+    "type": "book",
+    "era": "Legacy",
+    "url": "http://starwars.wikia.com/wiki/Legacy_of_the_Force:_Betrayal",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 200,
+    "title": "A Tangled Web (Last of the Jedi 5)",
+    "author": "Jude Watson",
+    "year": 2006,
+    "canon": "legends",
+    "type": "book",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/The_Last_of_the_Jedi:_A_Tangled_Web",
+    "added": "FALSE",
+    "youngreader": "TRUE"
+  },
+  {
+    "id": 201,
+    "title": "Bloodlines (Legacy of the Force 2)",
+    "author": "Karen Traviss",
+    "year": 2006,
+    "canon": "legends",
+    "type": "book",
+    "era": "Legacy",
+    "url": "http://starwars.wikia.com/wiki/Legacy_of_the_Force:_Bloodlines",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 202,
+    "title": "Path of Destruction (Darth Bane 1)",
+    "author": "Drew Karpyshyn",
+    "year": 2006,
+    "canon": "legends",
+    "type": "book",
+    "era": "Old Republic",
+    "url": "http://starwars.wikia.com/wiki/Darth_Bane:_Path_of_Destruction",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 203,
+    "title": "Tempest (Legacy of the Force 3)",
+    "author": "Troy Denning",
+    "year": 2006,
+    "canon": "legends",
+    "type": "book",
+    "era": "Legacy",
+    "url": "http://starwars.wikia.com/wiki/Legacy_of_the_Force:_Tempest",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 204,
+    "title": "Return of the Dark Side (Last of the Jedi 6)",
+    "author": "Jude Watson",
+    "year": 2006,
+    "canon": "legends",
+    "type": "book",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/The_Last_of_the_Jedi:_Return_of_the_Dark_Side",
+    "added": "FALSE",
+    "youngreader": "TRUE"
+  },
+  {
+    "id": 372,
+    "title": "Star Wars: Legacy",
+    "author": "Dark Horse / Ostrander",
+    "year": 2006,
+    "canon": "legends",
+    "type": "comic",
+    "era": "Legacy",
+    "url": "http://starwars.wikia.com/wiki/Star_Wars:_Legacy",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 205,
+    "title": "Allegiance",
+    "author": "Timothy Zahn",
+    "year": 2007,
+    "canon": "legends",
+    "type": "book",
+    "era": "Rebellion",
+    "url": "http://starwars.wikia.com/wiki/Allegiance_(novel)",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 206,
+    "title": "Exile (Legacy of the Force 4)",
+    "author": "Aaron Allston",
+    "year": 2007,
+    "canon": "legends",
+    "type": "book",
+    "era": "Legacy",
+    "url": "http://starwars.wikia.com/wiki/Legacy_of_the_Force:_Exile",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 207,
+    "title": "Secret Weapon (Last of the Jedi 7)",
+    "author": "Jude Watson",
+    "year": 2007,
+    "canon": "legends",
+    "type": "book",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/The_Last_of_the_Jedi:_Secret_Weapon",
+    "added": "FALSE",
+    "youngreader": "TRUE"
+  },
+  {
+    "id": 208,
+    "title": "Sacrifice (Legacy of the Force 5)",
+    "author": "Karen Traviss",
+    "year": 2007,
+    "canon": "legends",
+    "type": "book",
+    "era": "Legacy",
+    "url": "http://starwars.wikia.com/wiki/Legacy_of_the_Force:_Sacrifice",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 209,
+    "title": "Inferno (Legacy of the Force 6)",
+    "author": "Troy Denning",
+    "year": 2007,
+    "canon": "legends",
+    "type": "book",
+    "era": "Legacy",
+    "url": "http://starwars.wikia.com/wiki/Legacy_of_the_Force:_Inferno",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 210,
+    "title": "Against the Empire (Last of the Jedi 8)",
+    "author": "Jude Watson",
+    "year": 2007,
+    "canon": "legends",
+    "type": "book",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/The_Last_of_the_Jedi:_Against_the_Empire",
+    "added": "FALSE",
+    "youngreader": "TRUE"
+  },
+  {
+    "id": 211,
+    "title": "The Rise and Fall of Darth Vader",
+    "author": "Ryder Windham",
+    "year": 2007,
+    "canon": "legends",
+    "type": "book",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/The_Rise_and_Fall_of_Darth_Vader",
+    "added": "FALSE",
+    "youngreader": "TRUE"
+  },
+  {
+    "id": 212,
+    "title": "Death Star",
+    "author": "Michael Reaves / Steve Perry",
+    "year": 2007,
+    "canon": "legends",
+    "type": "book",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/Death_Star_(novel)",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 213,
+    "title": "True Colors (Republic Commando 3)",
+    "author": "Karen Traviss",
+    "year": 2007,
+    "canon": "legends",
+    "type": "book",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/Republic_Commando:_True_Colors",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 214,
+    "title": "Fury (Legacy of the Force 7)",
+    "author": "Aaron Allston",
+    "year": 2007,
+    "canon": "legends",
+    "type": "book",
+    "era": "Legacy",
+    "url": "http://starwars.wikia.com/wiki/Legacy_of_the_Force:_Fury",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 215,
+    "title": "Rule of Two (Darth Bane 2)",
+    "author": "Drew Karpyshyn",
+    "year": 2007,
+    "canon": "legends",
+    "type": "book",
+    "era": "Old Republic",
+    "url": "http://starwars.wikia.com/wiki/Darth_Bane:_Rule_of_Two",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 216,
+    "title": "Master of Deception (Last of the Jedi 9)",
+    "author": "Jude Watson",
+    "year": 2008,
+    "canon": "legends",
+    "type": "book",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/The_Last_of_the_Jedi:_Master_of_Deception",
+    "added": "FALSE",
+    "youngreader": "TRUE"
+  },
+  {
+    "id": 217,
+    "title": "Revelation (Legacy of the Force 8)",
+    "author": "Karen Traviss",
+    "year": 2008,
+    "canon": "legends",
+    "type": "book",
+    "era": "Legacy",
+    "url": "http://starwars.wikia.com/wiki/Legacy_of_the_Force:_Revelation",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 218,
+    "title": "Reckoning (Last of the Jedi 10)",
+    "author": "Jude Watson",
+    "year": 2008,
+    "canon": "legends",
+    "type": "book",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/The_Last_of_the_Jedi:_Reckoning",
+    "added": "FALSE",
+    "youngreader": "TRUE"
+  },
+  {
+    "id": 219,
+    "title": "Invincible (Legacy of the Force 9)",
+    "author": "Troy Denning",
+    "year": 2008,
+    "canon": "legends",
+    "type": "book",
+    "era": "Legacy",
+    "url": "http://starwars.wikia.com/wiki/Legacy_of_the_Force:_Invincible",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 220,
+    "title": "Jedi Twilight (Coruscant Nights 1)",
+    "author": "Michael Reaves",
+    "year": 2008,
+    "canon": "legends",
+    "type": "book",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/Coruscant_Nights_I:_Jedi_Twilight",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 221,
+    "title": "Star Wars: The Clone Wars (Clone Wars 1)",
+    "author": "Karen Traviss",
+    "year": 2008,
+    "canon": "legends",
+    "type": "book",
+    "era": "Clone Wars",
+    "url": "http://starwars.wikia.com/wiki/Star_Wars:_The_Clone_Wars_(novel)",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 222,
+    "title": "The Force Unleashed (novel)",
+    "author": "Sean Williams",
+    "year": 2008,
+    "canon": "legends",
+    "type": "book",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/The_Force_Unleashed_(novel)",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 223,
+    "title": "Street of Shadows (Coruscant Nights 2)",
+    "author": "Michael Reaves",
+    "year": 2008,
+    "canon": "legends",
+    "type": "book",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/Coruscant_Nights_II:_Street_of_Shadows",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 224,
+    "title": "The Life and Legend of Obi-Wan Kenobi",
+    "author": "Ryder Windham",
+    "year": 2008,
+    "canon": "legends",
+    "type": "book",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/The_Life_and_Legend_of_Obi-Wan_Kenobi",
+    "added": "FALSE",
+    "youngreader": "TRUE"
+  },
+  {
+    "id": 225,
+    "title": "Order 66 (Republic Commando 4)",
+    "author": "Karen Traviss",
+    "year": 2008,
+    "canon": "legends",
+    "type": "book",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/Order_66:_A_Republic_Commando_Novel",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 226,
+    "title": "Millennium Falcon",
+    "author": "James Luceno",
+    "year": 2008,
+    "canon": "legends",
+    "type": "book",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/Millennium_Falcon_(novel)",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 227,
+    "title": "Target (Rebel Force 1)",
+    "author": "Alex Wheeler",
+    "year": 2008,
+    "canon": "legends",
+    "type": "book",
+    "era": "Rebellion",
+    "url": "http://starwars.wikia.com/wiki/Rebel_Force:_Target",
+    "added": "FALSE",
+    "youngreader": "TRUE"
+  },
+  {
+    "id": 228,
+    "title": "Hostage (Rebel Force 2)",
+    "author": "Alex Wheeler",
+    "year": 2008,
+    "canon": "legends",
+    "type": "book",
+    "era": "Rebellion",
+    "url": "http://starwars.wikia.com/wiki/Rebel_Force:_Hostage",
+    "added": "FALSE",
+    "youngreader": "TRUE"
+  },
+  {
+    "id": 229,
+    "title": "Wild Space (Clone Wars 2)",
+    "author": "Karen Miller",
+    "year": 2008,
+    "canon": "legends",
+    "type": "book",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/The_Clone_Wars:_Wild_Space",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 230,
+    "title": "Luke Skywalker and the Shadows of Mindor",
+    "author": "Matthew Stover",
+    "year": 2008,
+    "canon": "legends",
+    "type": "book",
+    "era": "New Republic",
+    "url": "http://starwars.wikia.com/wiki/Luke_Skywalker_and_the_Shadows_of_Mindor",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 304,
+    "title": "Star Wars: The Clone Wars (Film)",
+    "author": "Dave Filoni",
+    "year": 2008,
+    "canon": "canon",
+    "type": "film",
+    "era": "Clone Wars",
+    "url": "http://starwars.wikia.com/wiki/Star_Wars:_The_Clone_Wars_(film)",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 305,
+    "title": "The Clone Wars (Season 1)",
+    "author": "Catherine Winder / Dave Filoni",
+    "year": 2008,
+    "canon": "canon",
+    "type": "tv",
+    "era": "Clone Wars",
+    "url": "http://starwars.wikia.com/wiki/The_Clone_Wars:_Season_One",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 373,
+    "title": "The Clone Wars",
+    "author": "Dark Horse / Gilroy / Melching",
+    "year": 2008,
+    "canon": "legends",
+    "type": "comic",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/Star_Wars:_The_Clone_Wars_(comics)",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 374,
+    "title": "Dark Times",
+    "author": "Dark Horse / Harrison / Wheatley",
+    "year": 2008,
+    "canon": "legends",
+    "type": "comic",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/Star_Wars:_Dark_Times",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 375,
+    "title": "Rebellion",
+    "author": "Dark Horse",
+    "year": 2008,
+    "canon": "legends",
+    "type": "comic",
+    "era": "Rebellion",
+    "url": "http://starwars.wikia.com/wiki/Star_Wars:_Rebellion_(comics)",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 376,
+    "title": "The Clone Wars webcomics",
+    "author": "StarWars.com",
+    "year": 2008,
+    "canon": "legends",
+    "type": "comic",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/Star_Wars:_The_Clone_Wars_(webcomics)",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 231,
+    "title": "Patterns of Force (Coruscant Nights 3)",
+    "author": "Michael Reaves",
+    "year": 2009,
+    "canon": "legends",
+    "type": "book",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/Coruscant_Nights_III:_Patterns_of_Force",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 232,
+    "title": "Outcast (Fate of the Jedi 1)",
+    "author": "Aaron Allston",
+    "year": 2009,
+    "canon": "legends",
+    "type": "book",
+    "era": "Legacy",
+    "url": "http://starwars.wikia.com/wiki/Fate_of_the_Jedi:_Outcast",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 233,
+    "title": "Renegade (Rebel Force 3)",
+    "author": "Alex Wheeler",
+    "year": 2009,
+    "canon": "legends",
+    "type": "book",
+    "era": "Rebellion",
+    "url": "http://starwars.wikia.com/wiki/Rebel_Force:_Renegade",
+    "added": "FALSE",
+    "youngreader": "TRUE"
+  },
+  {
+    "id": 234,
+    "title": "No Prisoners (Clone Wars 3)",
+    "author": "Karen Traviss",
+    "year": 2009,
+    "canon": "legends",
+    "type": "book",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/The_Clone_Wars:_No_Prisoners",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 235,
+    "title": "Omen (Fate of the Jedi 2)",
+    "author": "Christie Golden",
+    "year": 2009,
+    "canon": "legends",
+    "type": "book",
+    "era": "Legacy",
+    "url": "http://starwars.wikia.com/wiki/Fate_of_the_Jedi:_Omen",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 236,
+    "title": "Abyss (Fate of the Jedi 3)",
+    "author": "Troy Denning",
+    "year": 2009,
+    "canon": "legends",
+    "type": "book",
+    "era": "Legacy",
+    "url": "http://starwars.wikia.com/wiki/Fate_of_the_Jedi:_Abyss",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 237,
+    "title": "Firefight (Rebel Force 4)",
+    "author": "Alex Wheeler",
+    "year": 2009,
+    "canon": "legends",
+    "type": "book",
+    "era": "Rebellion",
+    "url": "http://starwars.wikia.com/wiki/Rebel_Force:_Firefight",
+    "added": "FALSE",
+    "youngreader": "TRUE"
+  },
+  {
+    "id": 238,
+    "title": "Death Troopers",
+    "author": "Joe Schreiber",
+    "year": 2009,
+    "canon": "legends",
+    "type": "book",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/Death_Troopers",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 239,
+    "title": "501st (Republic Commando 5)",
+    "author": "Karen Traviss",
+    "year": 2009,
+    "canon": "legends",
+    "type": "book",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/Imperial_Commando:_501st",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 240,
+    "title": "Dynasty of Evil (Darth Bane 3)",
+    "author": "Drew Karpyshyn",
+    "year": 2009,
+    "canon": "legends",
+    "type": "book",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/Darth_Bane:_Dynasty_of_Evil",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 306,
+    "title": "The Clone Wars (Season 2)",
+    "author": "Catherine Winder / Dave Filoni",
+    "year": 2009,
+    "canon": "canon",
+    "type": "tv",
+    "era": "Clone Wars",
+    "url": "http://starwars.wikia.com/wiki/The_Clone_Wars:_Season_Two",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 377,
+    "title": "Invasion",
+    "author": "Dark Horse / Taylor / Wilson / Dzioba",
+    "year": 2009,
+    "canon": "legends",
+    "type": "comic",
+    "era": "New Jedi Order",
+    "url": "http://starwars.wikia.com/wiki/Star_Wars:_Invasion",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 241,
+    "title": "Trapped (Rebel Force 5)",
+    "author": "Alex Wheeler",
+    "year": 2010,
+    "canon": "legends",
+    "type": "book",
+    "era": "Rebellion",
+    "url": "http://starwars.wikia.com/wiki/Rebel_Force:_Trapped",
+    "added": "FALSE",
+    "youngreader": "TRUE"
+  },
+  {
+    "id": 242,
+    "title": "Crosscurrent (Crosscurrent 1)",
+    "author": "Paul S. Kemp",
+    "year": 2010,
+    "canon": "legends",
+    "type": "book",
+    "era": "Legacy",
+    "url": "http://starwars.wikia.com/wiki/Crosscurrent",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 243,
+    "title": "Stealth (Clone Wars 4)",
+    "author": "Karen Miller",
+    "year": 2010,
+    "canon": "legends",
+    "type": "book",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/Clone_Wars_Gambit:_Stealth",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 244,
+    "title": "Backlash (Fate of the Jedi 4)",
+    "author": "Aaron Allston",
+    "year": 2010,
+    "canon": "legends",
+    "type": "book",
+    "era": "Legacy",
+    "url": "http://starwars.wikia.com/wiki/Fate_of_the_Jedi:_Backlash",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 245,
+    "title": "Uprising (Rebel Force 6)",
+    "author": "Alex Wheeler",
+    "year": 2010,
+    "canon": "legends",
+    "type": "book",
+    "era": "Rebellion",
+    "url": "http://starwars.wikia.com/wiki/Rebel_Force:_Uprising",
+    "added": "FALSE",
+    "youngreader": "TRUE"
+  },
+  {
+    "id": 246,
+    "title": "Allies (Fate of the Jedi 5)",
+    "author": "Christie Golden",
+    "year": 2010,
+    "canon": "legends",
+    "type": "book",
+    "era": "Legacy",
+    "url": "http://starwars.wikia.com/wiki/Fate_of_the_Jedi:_Allies",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 247,
+    "title": "Siege (Clone Wars 5)",
+    "author": "Karen Miller",
+    "year": 2010,
+    "canon": "legends",
+    "type": "book",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/Clone_Wars_Gambit:_Siege",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 248,
+    "title": "Fatal Alliance (Old Republic 1)",
+    "author": "Sean Williams",
+    "year": 2010,
+    "canon": "legends",
+    "type": "book",
+    "era": "Old Republic",
+    "url": "http://starwars.wikia.com/wiki/The_Old_Republic:_Fatal_Alliance",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 249,
+    "title": "The Force Unleashed II (novel)",
+    "author": "Sean Williams",
+    "year": 2010,
+    "canon": "legends",
+    "type": "book",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/The_Force_Unleashed_II_(novel)",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 250,
+    "title": "Vortex (Fate of the Jedi 6)",
+    "author": "Troy Denning",
+    "year": 2010,
+    "canon": "legends",
+    "type": "book",
+    "era": "Legacy",
+    "url": "http://starwars.wikia.com/wiki/Fate_of_the_Jedi:_Vortex",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 251,
+    "title": "Red Harvest",
+    "author": "Joe Schreiber",
+    "year": 2010,
+    "canon": "legends",
+    "type": "book",
+    "era": "Old Republic",
+    "url": "http://starwars.wikia.com/wiki/Red_Harvest_(novel)",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 307,
+    "title": "The Clone Wars (Season 3)",
+    "author": "Catherine Winder / Dave Filoni",
+    "year": 2010,
+    "canon": "canon",
+    "type": "tv",
+    "era": "Clone Wars",
+    "url": "http://starwars.wikia.com/wiki/The_Clone_Wars:_Season_Three",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 378,
+    "title": "The Old Republic",
+    "author": "Dark Horse",
+    "year": 2010,
+    "canon": "legends",
+    "type": "comic",
+    "era": "Old Republic",
+    "url": "http://starwars.wikia.com/wiki/Star_Wars:_The_Old_Republic_(comics)",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 379,
+    "title": "Knight Errant",
+    "author": "Dark Horse / John Jackson Miller",
+    "year": 2010,
+    "canon": "legends",
+    "type": "comic",
+    "era": "Old Republic",
+    "url": "http://starwars.wikia.com/wiki/Star_Wars:_Knight_Errant",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 252,
+    "title": "Knight Errant",
+    "author": "John Jackson Miller",
+    "year": 2011,
+    "canon": "legends",
+    "type": "book",
+    "era": "Old Republic",
+    "url": "http://starwars.wikia.com/wiki/Knight_Errant_(novel)",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 253,
+    "title": "Deceived (Old Republic 2)",
+    "author": "Paul S. Kemp",
+    "year": 2011,
+    "canon": "legends",
+    "type": "book",
+    "era": "Old Republic",
+    "url": "http://starwars.wikia.com/wiki/The_Old_Republic:_Deceived",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 254,
+    "title": "Conviction (Fate of the Jedi 7)",
+    "author": "Aaron Allston",
+    "year": 2011,
+    "canon": "legends",
+    "type": "book",
+    "era": "Legacy",
+    "url": "http://starwars.wikia.com/wiki/Fate_of_the_Jedi:_Conviction",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 255,
+    "title": "Choices of One",
+    "author": "Timothy Zahn",
+    "year": 2011,
+    "canon": "legends",
+    "type": "book",
+    "era": "Rebellion",
+    "url": "http://starwars.wikia.com/wiki/Choices_of_One",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 256,
+    "title": "Ascension (Fate of the Jedi 8)",
+    "author": "Christie Golden",
+    "year": 2011,
+    "canon": "legends",
+    "type": "book",
+    "era": "Legacy",
+    "url": "http://starwars.wikia.com/wiki/Fate_of_the_Jedi:_Ascension",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 257,
+    "title": "Riptide (Crosscurrent 2)",
+    "author": "Paul S. Kemp",
+    "year": 2011,
+    "canon": "legends",
+    "type": "book",
+    "era": "Legacy",
+    "url": "http://starwars.wikia.com/wiki/Riptide_(novel)",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 258,
+    "title": "Revan (Old Republic 3)",
+    "author": "Drew Karpyshyn",
+    "year": 2011,
+    "canon": "legends",
+    "type": "book",
+    "era": "Old Republic",
+    "url": "http://starwars.wikia.com/wiki/The_Old_Republic:_Revan",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 259,
+    "title": "Shadow Games",
+    "author": "Michael Reaves / Maya Kaathryn Bohnhoff",
+    "year": 2011,
+    "canon": "legends",
+    "type": "book",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/Shadow_Games",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 308,
+    "title": "The Clone Wars (Season 4)",
+    "author": "Catherine Winder / Dave Filoni",
+    "year": 2011,
+    "canon": "canon",
+    "type": "tv",
+    "era": "Clone Wars",
+    "url": "http://starwars.wikia.com/wiki/The_Clone_Wars:_Season_Four",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 380,
+    "title": "Darth Vader and the Lost Command",
+    "author": "Dark Horse / Blackman",
+    "year": 2011,
+    "canon": "legends",
+    "type": "comic",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/Darth_Vader_and_the_Lost_Command",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 381,
+    "title": "Crimson Empire III: Empire Lost",
+    "author": "Dark Horse / Richardson / Stradley",
+    "year": 2011,
+    "canon": "legends",
+    "type": "comic",
+    "era": "New Republic",
+    "url": "http://starwars.wikia.com/wiki/Crimson_Empire_III:_Empire_Lost",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 260,
+    "title": "Star Wars: The Wrath of Darth Maul",
+    "author": "Ryder Windham",
+    "year": 2012,
+    "canon": "legends",
+    "type": "book",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/The_Wrath_of_Darth_Maul",
+    "added": "FALSE",
+    "youngreader": "TRUE"
+  },
+  {
+    "id": 261,
+    "title": "Darth Plagueis",
+    "author": "James Luceno",
+    "year": 2012,
+    "canon": "legends",
+    "type": "book",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/Darth_Plagueis_(novel)",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 262,
+    "title": "Apocalypse (Fate of the Jedi 9)",
+    "author": "Troy Denning",
+    "year": 2012,
+    "canon": "legends",
+    "type": "book",
+    "era": "Legacy",
+    "url": "http://starwars.wikia.com/wiki/Fate_of_the_Jedi:_Apocalypse",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 263,
+    "title": "Scourge",
+    "author": "Jeff Grubb",
+    "year": 2012,
+    "canon": "legends",
+    "type": "book",
+    "era": "New Republic",
+    "url": "http://starwars.wikia.com/wiki/Scourge_(novel)",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 264,
+    "title": "Mercy Kill (X-Wing 10)",
+    "author": "Aaron Allston",
+    "year": 2012,
+    "canon": "legends",
+    "type": "book",
+    "era": "Legacy",
+    "url": "http://starwars.wikia.com/wiki/X-Wing:_Mercy_Kill",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 265,
+    "title": "Annihilation (Old Republic 4)",
+    "author": "Drew Karpyshyn",
+    "year": 2012,
+    "canon": "legends",
+    "type": "book",
+    "era": "Old Republic",
+    "url": "http://starwars.wikia.com/wiki/The_Old_Republic:_Annihilation",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 309,
+    "title": "The Clone Wars (Season 5)",
+    "author": "Catherine Winder / Dave Filoni",
+    "year": 2012,
+    "canon": "canon",
+    "type": "tv",
+    "era": "Clone Wars",
+    "url": "http://starwars.wikia.com/wiki/The_Clone_Wars:_Season_Five",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 382,
+    "title": "Dawn of the Jedi",
+    "author": "Dark Horse / Ostrander / Duursema",
+    "year": 2012,
+    "canon": "legends",
+    "type": "comic",
+    "era": "Before the Republic",
+    "url": "http://starwars.wikia.com/wiki/Star_Wars:_Dawn_of_the_Jedi",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 383,
+    "title": "Darth Maul: Death Sentence",
+    "author": "Dark Horse / Taylor / Redondo",
+    "year": 2012,
+    "canon": "legends",
+    "type": "comic",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/Star_Wars:_Darth_Maul%E2%80%94Death_Sentence",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 384,
+    "title": "Darth Vader and the Ghost Prison",
+    "author": "Dark Horse / Blackman",
+    "year": 2012,
+    "canon": "legends",
+    "type": "comic",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/Star_Wars:_Darth_Vader_and_the_Ghost_Prison",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 385,
+    "title": "Agent of the Empire",
+    "author": "Dark Horse / Ostrander",
+    "year": 2012,
+    "canon": "legends",
+    "type": "comic",
+    "era": "Rebellion",
+    "url": "http://starwars.wikia.com/wiki/Agent_of_the_Empire",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 266,
+    "title": "Scoundrels",
+    "author": "Timothy Zahn",
+    "year": 2013,
+    "canon": "legends",
+    "type": "book",
+    "era": "Rebellion",
+    "url": "http://starwars.wikia.com/wiki/Scoundrels",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 267,
+    "title": "The Last Jedi",
+    "author": "Michael Reaves / Maya Kaathryn Bohnhoff",
+    "year": 2013,
+    "canon": "legends",
+    "type": "book",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/The_Last_Jedi_(novel)",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 268,
+    "title": "Dawn of the Jedi: Into the Void",
+    "author": "Tim Lebbon",
+    "year": 2013,
+    "canon": "legends",
+    "type": "book",
+    "era": "Before the Republic",
+    "url": "http://starwars.wikia.com/wiki/Dawn_of_the_Jedi:_Into_the_Void",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 269,
+    "title": "Crucible",
+    "author": "Troy Denning",
+    "year": 2013,
+    "canon": "legends",
+    "type": "book",
+    "era": "Legacy",
+    "url": "http://starwars.wikia.com/wiki/Crucible_(novel)",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 270,
+    "title": "Kenobi",
+    "author": "John Jackson Miller",
+    "year": 2013,
+    "canon": "legends",
+    "type": "book",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/Kenobi_(novel)",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 271,
+    "title": "Razor's Edge (Empire and Rebellion)",
+    "author": "Martha Wells",
+    "year": 2013,
+    "canon": "legends",
+    "type": "book",
+    "era": "Rebellion",
+    "url": "http://starwars.wikia.com/wiki/Empire_and_Rebellion:_Razor%27s_Edge",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 386,
+    "title": "Darth Vader and the Ninth Assassin",
+    "author": "Dark Horse / Siedell",
+    "year": 2013,
+    "canon": "legends",
+    "type": "comic",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/Star_Wars:_Darth_Vader_and_the_Ninth_Assassin",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 387,
+    "title": "Darth Vader and the Cry of Shadows",
+    "author": "Dark Horse / Siedell",
+    "year": 2013,
+    "canon": "legends",
+    "type": "comic",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/Star_Wars:_Darth_Vader_and_the_Cry_of_Shadows",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 388,
+    "title": "Star Wars",
+    "author": "Dark Horse / Brian Wood",
+    "year": 2013,
+    "canon": "legends",
+    "type": "comic",
+    "era": "Rebellion",
+    "url": "http://starwars.wikia.com/wiki/Star_Wars_(Dark_Horse)",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 272,
+    "title": "Maul: Lockdown",
+    "author": "Joe Schreiber",
+    "year": 2014,
+    "canon": "legends",
+    "type": "book",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/Maul:_Lockdown",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 273,
+    "title": "Honor Among Thieves (Empire and Rebellion 2)",
+    "author": "James S.A. Corey",
+    "year": 2014,
+    "canon": "legends",
+    "type": "book",
+    "era": "Rebellion",
+    "url": "http://starwars.wikia.com/wiki/Honor_Among_Thieves",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 274,
+    "title": "A New Dawn",
+    "author": "John Jackson Miller",
+    "year": 2014,
+    "canon": "canon",
+    "type": "book",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/A_New_Dawn",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 275,
+    "title": "Edge of the Galaxy (Rebels: Servants of the Empire 1)",
+    "author": "Jason Fry",
+    "year": 2014,
+    "canon": "canon",
+    "type": "book",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/Servants_of_the_Empire:_Edge_of_the_Galaxy",
+    "added": "FALSE",
+    "youngreader": "TRUE"
+  },
+  {
+    "id": 276,
+    "title": "Tarkin",
+    "author": "James Luceno",
+    "year": 2014,
+    "canon": "canon",
+    "type": "book",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/Tarkin_(novel)",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 310,
+    "title": "The Clone Wars (Season 6)",
+    "author": "Catherine Winder / Dave Filoni",
+    "year": 2014,
+    "canon": "canon",
+    "type": "tv",
+    "era": "Clone Wars",
+    "url": "http://starwars.wikia.com/wiki/The_Clone_Wars:_The_Lost_Missions",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 311,
+    "title": "The Clone Wars (Legacy)",
+    "author": "Catherine Winder / Dave Filoni",
+    "year": 2014,
+    "canon": "canon",
+    "type": "tv",
+    "era": "unreleased",
+    "url": "http://starwars.wikia.com/wiki/The_Clone_Wars_Legacy",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 312,
+    "title": "Rebels: Spark of Rebellion",
+    "author": "Simon Kinberg",
+    "year": 2014,
+    "canon": "canon",
+    "type": "tv",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/Star_Wars_Rebels:_Spark_of_Rebellion",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 313,
+    "title": "Rebels (Season 1)",
+    "author": "Dave Filoni",
+    "year": 2014,
+    "canon": "canon",
+    "type": "tv",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/Star_Wars_Rebels_Season_One",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 7,
+    "title": "Episode VII: The Force Awakens",
+    "author": "Lawrence Kasdan/JJ Abrams/Michael Arndt",
+    "year": 2015,
+    "canon": "canon",
+    "type": "film",
+    "era": "unreleased",
+    "url": "http://starwars.wikia.com/wiki/Star_Wars:_Episode_VII_The_Force_Awakens",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 277,
+    "title": "Heir to the Jedi",
+    "author": "Kevin Hearne",
+    "year": 2015,
+    "canon": "canon",
+    "type": "book",
+    "era": "Rebellion",
+    "url": "http://starwars.wikia.com/wiki/Heir_to_the_Jedi",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 278,
+    "title": "Rebel in the Ranks (Rebels: Servants of the Empire 2)",
+    "author": "Jason Fry",
+    "year": 2015,
+    "canon": "canon",
+    "type": "book",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/Servants_of_the_Empire:_Rebel_in_the_Ranks",
+    "added": "FALSE",
+    "youngreader": "TRUE"
+  },
+  {
+    "id": 279,
+    "title": "Lords of the Sith",
+    "author": "Paul S. Kemp",
+    "year": 2015,
+    "canon": "canon",
+    "type": "book",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/Lords_of_the_Sith",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 280,
+    "title": "Dark Disciple",
+    "author": "Christie Golden",
+    "year": 2015,
+    "canon": "canon",
+    "type": "book",
+    "era": "Clone Wars",
+    "url": "http://starwars.wikia.com/wiki/Dark_Disciple",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 281,
+    "title": "Imperial Justice (Rebels: Servants of the Empire 3)",
+    "author": "Jason Fry",
+    "year": 2015,
+    "canon": "canon",
+    "type": "book",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/Servants_of_the_Empire:_Imperial_Justice",
+    "added": "FALSE",
+    "youngreader": "TRUE"
+  },
+  {
+    "id": 282,
+    "title": "Aftermath (Aftermath 1)",
+    "author": "Chuck Wendig",
+    "year": 2015,
+    "canon": "canon",
+    "type": "book",
+    "era": "Aftermath",
+    "url": "http://starwars.wikia.com/wiki/Aftermath",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 283,
+    "title": "Lost Stars",
+    "author": "Claudia Gray",
+    "year": 2015,
+    "canon": "canon",
+    "type": "book",
+    "era": "Rebellion",
+    "url": "http://starwars.wikia.com/wiki/Lost_Stars",
+    "added": "FALSE",
+    "youngreader": "TRUE"
+  },
+  {
+    "id": 284,
+    "title": "The Weapon of a Jedi",
+    "author": "Jason Fry",
+    "year": 2015,
+    "canon": "canon",
+    "type": "book",
+    "era": "Rebellion",
+    "url": "http://starwars.wikia.com/wiki/The_Weapon_of_a_Jedi:_A_Luke_Skywalker_Adventure",
+    "added": "FALSE",
+    "youngreader": "TRUE"
+  },
+  {
+    "id": 285,
+    "title": "Smuggler's Run",
+    "author": "Greg Rucka",
+    "year": 2015,
+    "canon": "canon",
+    "type": "book",
+    "era": "Rebellion",
+    "url": "http://starwars.wikia.com/wiki/Smuggler%27s_Run:_A_Han_Solo_%26_Chewbacca_Adventure",
+    "added": "FALSE",
+    "youngreader": "TRUE"
+  },
+  {
+    "id": 286,
+    "title": "Moving Target",
+    "author": "Cecil Castellucci / Jason Fry",
+    "year": 2015,
+    "canon": "canon",
+    "type": "book",
+    "era": "Rebellion",
+    "url": "http://starwars.wikia.com/wiki/Moving_Target:_A_Princess_Leia_Adventure",
+    "added": "FALSE",
+    "youngreader": "TRUE"
+  },
+  {
+    "id": 287,
+    "title": "The Secret Academy (Rebels: Servants of the Empire 4)",
+    "author": "Jason Fry",
+    "year": 2015,
+    "canon": "canon",
+    "type": "book",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/Servants_of_the_Empire:_The_Secret_Academy",
+    "added": "FALSE",
+    "youngreader": "TRUE"
+  },
+  {
+    "id": 288,
+    "title": "Battlefront: Twilight Company",
+    "author": "Alexander Freed",
+    "year": 2015,
+    "canon": "canon",
+    "type": "book",
+    "era": "Rebellion",
+    "url": "http://starwars.wikia.com/wiki/Battlefront:_Twilight_Company",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 289,
+    "title": "Before the Awakening",
+    "author": "Greg Rucka",
+    "year": 2015,
+    "canon": "canon",
+    "type": "book",
+    "era": "unreleased",
+    "url": "http://starwars.wikia.com/wiki/Before_the_Awakening",
+    "added": "FALSE",
+    "youngreader": "TRUE"
+  },
+  {
+    "id": 314,
+    "title": "Rebels: The Siege of Lothal",
+    "author": "Henry Gilroy",
+    "year": 2015,
+    "canon": "canon",
+    "type": "tv",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/Star_Wars_Rebels:_The_Siege_of_Lothal",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 315,
+    "title": "Rebels (Season 2)",
+    "author": "Dave Filoni",
+    "year": 2015,
+    "canon": "canon",
+    "type": "tv",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/Star_Wars_Rebels_Season_Two",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 389,
+    "title": "Princess Leia",
+    "author": "Marvel / Waid / Dodson",
+    "year": 2015,
+    "canon": "canon",
+    "type": "comic",
+    "era": "Rebellion",
+    "url": "http://starwars.wikia.com/wiki/Star_Wars:_Princess_Leia",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 390,
+    "title": "Lando",
+    "author": "Marvel / Soule / Maleev",
+    "year": 2015,
+    "canon": "canon",
+    "type": "comic",
+    "era": "Rebellion",
+    "url": "http://starwars.wikia.com/wiki/Star_Wars:_Lando",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 391,
+    "title": "Shattered Empire",
+    "author": "Marvel / Rucka / Checchetto",
+    "year": 2015,
+    "canon": "canon",
+    "type": "comic",
+    "era": "Rebellion",
+    "url": "http://starwars.wikia.com/wiki/Star_Wars:_Shattered_Empire",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 392,
+    "title": "Star Wars",
+    "author": "Marvel / Aaron / Cassaday",
+    "year": 2015,
+    "canon": "canon",
+    "type": "comic",
+    "era": "Rebellion",
+    "url": "http://starwars.wikia.com/wiki/Star_Wars_(Marvel_2015)",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 393,
+    "title": "Darth Vader",
+    "author": "Marvel / Gillen / Larroca",
+    "year": 2015,
+    "canon": "canon",
+    "type": "comic",
+    "era": "Rebellion",
+    "url": "http://starwars.wikia.com/wiki/Star_Wars:_Darth_Vader_(Marvel)",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 394,
+    "title": "Kanan",
+    "author": "Marvel / Weisman / Larraz",
+    "year": 2015,
+    "canon": "canon",
+    "type": "comic",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/Star_Wars:_Kanan",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 395,
+    "title": "Chewbacca",
+    "author": "Marvel / Duggan / Noto",
+    "year": 2015,
+    "canon": "canon",
+    "type": "comic",
+    "era": "Rebellion",
+    "url": "http://starwars.wikia.com/wiki/Star_Wars:_Chewbacca_(Marvel)",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 396,
+    "title": "Vader Down",
+    "author": "Marvel / Aaron / Gillen",
+    "year": 2015,
+    "canon": "canon",
+    "type": "comic",
+    "era": "unreleased",
+    "url": "http://starwars.wikia.com/wiki/Star_Wars:_Vader_Down_(TPB)",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 10,
+    "title": "Rogue One: A Star Wars Story",
+    "author": "John Knoll/Chris Weitz/Gary Whitta",
+    "year": 2016,
+    "canon": "canon",
+    "type": "film",
+    "era": "unreleased",
+    "url": "http://starwars.wikia.com/wiki/Rogue_One",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 290,
+    "title": "Star Wars: The Force Awakens (novel)",
+    "author": "Alan Dean Foster",
+    "year": 2016,
+    "canon": "canon",
+    "type": "book",
+    "era": "unreleased",
+    "url": "http://starwars.wikia.com/wiki/Star_Wars:_The_Force_Awakens_(novel)",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 291,
+    "title": "Star Wars: The Force Awakens (junior novelization)",
+    "author": "Michael Kogge",
+    "year": 2016,
+    "canon": "canon",
+    "type": "book",
+    "era": "unreleased",
+    "url": "http://starwars.wikia.com/wiki/Star_Wars:_The_Force_Awakens_(junior_novelization)",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 292,
+    "title": "New Republic: Bloodline",
+    "author": "Claudia Gray",
+    "year": 2016,
+    "canon": "canon",
+    "type": "book",
+    "era": "unreleased",
+    "url": "http://starwars.wikia.com/wiki/New_Republic:_Bloodline",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 293,
+    "title": "Tales From a Galaxy Far, Far Away",
+    "author": "Edited by Landry Walker",
+    "year": 2016,
+    "canon": "canon",
+    "type": "book",
+    "era": "unreleased",
+    "url": "http://starwars.wikia.com/wiki/Tales_From_a_Galaxy_Far,_Far_Away",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 294,
+    "title": "Life Debt (Aftermath 2)",
+    "author": "Chuck Wendig",
+    "year": 2016,
+    "canon": "canon",
+    "type": "book",
+    "era": "unreleased",
+    "url": "http://starwars.wikia.com/wiki/Aftermath:_Life_Debt",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 316,
+    "title": "Rebels (Season 3)",
+    "author": "Dave Filoni",
+    "year": 2016,
+    "canon": "canon",
+    "type": "tv",
+    "era": "Rise of the Empire",
+    "url": "http://starwars.wikia.com/wiki/Star_Wars_Rebels_Season_Three",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 397,
+    "title": "Obi-Wan & Anakin",
+    "author": "Marvel / Soule / Checchetto",
+    "year": 2016,
+    "canon": "canon",
+    "type": "comic",
+    "era": "unreleased",
+    "url": "http://starwars.wikia.com/wiki/Star_Wars:_Obi-Wan_%26_Anakin",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 398,
+    "title": "C-3PO",
+    "author": "Marvel / Robinson / Harris",
+    "year": 2016,
+    "canon": "canon",
+    "type": "comic",
+    "era": "unreleased",
+    "url": "http://starwars.wikia.com/wiki/Star_Wars:_Journey_to_the_Force_Awakens%E2%80%94C-3PO",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 8,
+    "title": "Episode VIII",
+    "author": "Rian Johnson",
+    "year": 2017,
+    "canon": "canon",
+    "type": "film",
+    "era": "unreleased",
+    "url": "http://starwars.wikia.com/wiki/Star_Wars:_Episode_VIII",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 295,
+    "title": "Empire's End (Aftermath 3)",
+    "author": "Chuck Wendig",
+    "year": 2017,
+    "canon": "canon",
+    "type": "book",
+    "era": "unreleased",
+    "url": "http://starwars.wikia.com/wiki/Aftermath:_Empire%27s_End",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 11,
+    "title": "Untitled Han Solo film",
+    "author": "Jon Kasdan/Lawrence Kasdan",
+    "year": 2018,
+    "canon": "canon",
+    "type": "film",
+    "era": "unreleased",
+    "url": "http://starwars.wikia.com/wiki/Untitled_Han_Solo_Anthology_film",
+    "added": "FALSE",
+    "youngreader": "FALSE"
+  },
+  {
+    "id": 9,
+    "title": "Episode IX",
+    "author": "...",
+    "year": 2019,
+    "canon": "canon",
+    "type": "film",
+    "era": "unreleased",
+    "url": "http://starwars.wikia.com/wiki/Star_Wars:_Episode_IX",
+    "added": "FALSE",
+    "youngreader": "FALSE"
   }
 ]

@@ -178,11 +178,14 @@ input.filter {
 	background-color: #04002c;
 }
 
-.badge {
-	color: #0099cc;
+.era {
+	color: #fff;
 	background-color: #1a1a1a;
-	border: 1px solid #0099cc;
-	display: none;
+}
+
+.itemType {
+	color: #fff;
+	background-color: transparent;
 }
 
 .grip {

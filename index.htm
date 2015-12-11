@@ -129,8 +129,8 @@
 					<div class="item">
 						<div class="grip"><span class="glyphicon glyphicon-menu-hamburger handle" aria-hidden="true"></span></div>
 						<div class="itemContent">
-							<div class="firstRow"><span class="rank">{{$index + 1}}. </span><span class="itemTitle"><a href="{{item.url}}">{{item.title}} </a></span></div>
-							<div class="secondRow"><span class="authorName">{{item.author}} </span><span class="year">({{item.year}})</span> <span class="badge">{{item.era}}</span></div>
+							<div class="firstRow"><span class="rank">{{$index + 1}}. </span><span class="itemTitle"><a href="{{item.url}}">{{item.title}} </a></span><span class="itemType">({{item.type}})</span></div>
+							<div class="secondRow"><span class="authorName">{{item.author}} </span><span class="year">({{item.year}})</span> <span class="badge era" ng-show="visible.era">{{item.era}}</span></div>
 						</div>
 						<div class="addItem"><span style="float: right" class="glyphicon glyphicon-minus" aria-hidden="true" ng-click="removeSingle(item)"></span></div>
 					</div>
@@ -149,7 +149,7 @@
 					<div ng-click="visible.booklegends = !visible.booklegends"><span class="glyphicon glyphicon-book" aria-hidden="true"></span> Books <span data-container="body" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content='In April 2014, Disney reset the Star Wars universe, making books and other properties that had already been published no longer a part of the official, "canon" Star Wars timeline. Those older works now carry the label "Legends."'>(Legends)</span></div>
 					<div ng-click="visible.comiccanon = !visible.comiccanon"><span class="glyphicon glyphicon-comment" aria-hidden="true"></span> Comics (Canon)</div>
 					<div ng-click="visible.comiclegends = !visible.comiclegends"><span class="glyphicon glyphicon-comment" aria-hidden="true"></span> Comics <span data-container="body" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content='In April 2014, Disney reset the Star Wars universe, making books and other properties that had already been published no longer a part of the official, "canon" Star Wars timeline. Those older works now carry the label "Legends."'>(Legends)</span></div>
-					<div id="eraButton"><span class="glyphicon glyphicon-hourglass" aria-hidden="true"></span> Toggle Era</div>
+					<div ng-click="visible.era = !visible.era"><span class="glyphicon glyphicon-hourglass" aria-hidden="true"></span> Toggle Era</div>
 
 				</div>
 				</form>
@@ -158,8 +158,8 @@
 				<li ng-repeat="item in stories | filter: {added: false} | filter:query" class="{{item.type + ' ' + item.canon}} list-group-item choice" ng-show="visible.{{item.type}}{{item.canon}}">
 					<div class="item">
 						<div class="itemContent">
-							<div class="firstRow"><span class="itemTitle"><a href="{{item.url}}">{{item.title}} </a></span></div>
-							<div class="secondRow"><span class="authorName">{{item.author}} </span><span class="year">({{item.year}})</span> <span class="badge">{{item.era}}</span></div>
+							<div class="firstRow"><span class="itemTitle"><a href="{{item.url}}">{{item.title}} </a></span><span class="itemType">({{item.type}})</span></div>
+							<div class="secondRow"><span class="authorName">{{item.author}} </span><span class="year">({{item.year}})</span> <span class="badge era" ng-show="visible.era">{{item.era}}</span></div>
 						</div>
 						<div class="addItem"><span style="float: right" class="glyphicon glyphicon-plus" aria-hidden="true" ng-click="addSingle(item.id)"></span></div>
 					</div>

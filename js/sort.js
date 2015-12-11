@@ -99,6 +99,42 @@ angular.module('swSort', ['ng-sortable'])
     };
 
     $scope.stories = [
+    {
+    "id": 4,
+    "title": "Episode IV: A New Hope",
+    "author": "George Lucas",
+    "year": 1977,
+    "canon": "canon",
+    "type": "film",
+    "era": "Rebellion",
+    "url": "http://starwars.wikia.com/wiki/Star_Wars:_Episode_IV_A_New_Hope",
+    "img": 0,
+    "added": false
+  },
+  {
+    "id": 5,
+    "title": "Episode V: The Empire Strikes Back",
+    "author": "Leigh Brackett/Lawrence Kasdan",
+    "year": 1980,
+    "canon": "canon",
+    "type": "film",
+    "era": "Rebellion",
+    "url": "http://starwars.wikia.com/wiki/Star_Wars:_Episode_V_The_Empire_Strikes_Back",
+    "img": 0,
+    "added": false
+  },
+  {
+    "id": 6,
+    "title": "Episode VI: Return of the Jedi",
+    "author": "Lawrence Kasdan/George Lucas",
+    "year": 1983,
+    "canon": "canon",
+    "type": "film",
+    "era": "Rebellion",
+    "url": "http://starwars.wikia.com/wiki/Star_Wars:_Episode_VI_Return_of_the_Jedi",
+    "img": 0,
+    "added": false
+  },
   {
     "id": 1,
     "title": "Episode I: The Phantom Menace",
@@ -132,42 +168,6 @@ angular.module('swSort', ['ng-sortable'])
     "type": "film",
     "era": "Rise of the Empire",
     "url": "http://starwars.wikia.com/wiki/Star_Wars:_Episode_III_Revenge_of_the_Sith",
-    "img": 0,
-    "added": false
-  },
-  {
-    "id": 4,
-    "title": "Episode IV: A New Hope",
-    "author": "George Lucas",
-    "year": 1977,
-    "canon": "canon",
-    "type": "film",
-    "era": "Rebellion",
-    "url": "http://starwars.wikia.com/wiki/Star_Wars:_Episode_IV_A_New_Hope",
-    "img": 0,
-    "added": false
-  },
-  {
-    "id": 5,
-    "title": "Episode V: The Empire Strikes Back",
-    "author": "Leigh Brackett/Lawrence Kasdan",
-    "year": 1980,
-    "canon": "canon",
-    "type": "film",
-    "era": "Rebellion",
-    "url": "http://starwars.wikia.com/wiki/Star_Wars:_Episode_V_The_Empire_Strikes_Back",
-    "img": 0,
-    "added": false
-  },
-  {
-    "id": 6,
-    "title": "Episode VI: Return of the Jedi",
-    "author": "Lawrence Kasdan/George Lucas",
-    "year": 1983,
-    "canon": "canon",
-    "type": "film",
-    "era": "Rebellion",
-    "url": "http://starwars.wikia.com/wiki/Star_Wars:_Episode_VI_Return_of_the_Jedi",
     "img": 0,
     "added": false
   },
@@ -213,7 +213,7 @@ angular.module('swSort', ['ng-sortable'])
     "author": "John Knoll/Chris Weitz/Gary Whitta",
     "year": 2016,
     "canon": "canon",
-    "type": "book",
+    "type": "film",
     "era": "Rebellion",
     "url": "http://starwars.wikia.com/wiki/Rogue_One",
     "img": 0,
@@ -225,7 +225,7 @@ angular.module('swSort', ['ng-sortable'])
     "author": "Jon Kasdan/Lawrence Kasdan",
     "year": 2018,
     "canon": "canon",
-    "type": "book",
+    "type": "film",
     "era": "unreleased",
     "url": "http://starwars.wikia.com/wiki/Untitled_Han_Solo_Anthology_film",
     "img": 0,
@@ -255,7 +255,8 @@ angular.module('swSort', ['ng-sortable'])
         "bookslegends": false,
         "comicscanon": false,
         "comicslegends": false,
-        "tvcanon": false
+        "tvcanon": false,
+        "era": false
     };
     self = $scope;
 
@@ -279,9 +280,6 @@ var View = {
 
 
 $(document).ready(function(){
-    $("#eraButton").click(function(){
-        $(".badge").toggle();
-    });
     $("#advancedButton").click(function(){
         $("#toggleButtons").toggle();
         var glyph = $("#advancedGlyph").attr("class");
