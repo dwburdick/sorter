@@ -12,7 +12,7 @@ var Model = {
         var saveStr = JSON.stringify(saveIDs);
         sessionStorage.setItem('order', saveStr);
         var urlStr = Base64.encode(saveStr);
-        newUrl = "http://nicetryinternet.com/star-wars-ranker/index.htm?" + urlStr;
+        newUrl = "http://nicetryinternet.com/star-wars-sorter/index.htm?" + urlStr;
         $("#shareUrl").val(newUrl);
         $("#tw-share").html('<a class="twitter-share-button" href="https://twitter.com/share" ' +
             'data-size="default" data-url="' + newUrl + '" ' +
@@ -260,7 +260,7 @@ angular.module('swSort', ['ng-sortable'])
     };
     self = $scope;
 
-    $http.get('http://nicetryinternet.com/star-wars-ranker/js/stories.json').
+    $http.get('http://nicetryinternet.com/star-wars-sorter/js/stories.json').
     success(function(data, status, headers, config) {
         $scope.stories = data;
         Model.loadChoices();
